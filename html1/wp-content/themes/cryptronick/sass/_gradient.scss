@@ -1,0 +1,44 @@
+.theme-gradient {
+    .banner-widget_button{
+        border-width: 0px; 
+    }
+    input[type="submit"],
+    button {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    input[type="submit"],
+    button, 
+    .load_more_item,
+    .woocommerce .widget_price_filter .price_slider_amount button.button,
+    .woocommerce .widget_shopping_cart .buttons a,
+    .cryptronick_404_button a,
+    .woocommerce a.button.alt,
+    .woocommerce .cart .button, .woocommerce .cart input.button,
+    .woocommerce-message .button,
+    .woocommerce #respond input#submit,
+    ul.bpt-products li a.add_to_cart_button,
+    ul.bpt-products li a.button, 
+    ul.bpt-products li .added_to_cart.wc-forward,
+    .woocommerce div.product form.cart .button,
+    .banner-widget_button {
+        border-width: 0;
+        color: #ffffff !important;
+    }
+    input[type="submit"]:hover,
+    button:hover,
+    .load_more_item:hover, 
+    .woocommerce .widget_shopping_cart .buttons a:hover,
+    .woocommerce .widget_price_filter .price_slider_amount button.button:hover, 
+    .woocommerce #respond input#submit:hover,
+    .woocommerce a.button.alt:hover,
+    .woocommerce-message .button:hover,
+    .cryptronick_404_button a:hover,
+    ul.bpt-products li a.add_to_cart_button:hover,
+    ul.bpt-products li a.button:hover, 
+    ul.bpt-products li .added_to_cart.wc-forward:hover,
+    .woocommerce div.product form.cart .button:hover,
+    .banner-widget_button:hover{
+        background-position: 100% !important;
+    } 
+}

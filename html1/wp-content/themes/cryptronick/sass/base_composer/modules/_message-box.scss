@@ -1,0 +1,117 @@
+
+/*-Message box-*/
+.cryptronick_module_message_box{
+    position: relative;
+    padding: 10px 40px 10px 85px;
+    min-height: 40px;
+    border-radius: 70px;
+    .message_title{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .message_text{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .message_icon_wrap{
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 0;
+        width: 60px;
+        height: 60px;
+        -webkit-border-radius: 70px;
+        -moz-border-radius: 70px;
+        border-radius: 70px;
+        margin-top: -30px;
+    }
+    .message_icon{
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        font-style: normal;
+        font-size: 30px;
+        color: #ffffff;
+    }
+    .message_close_button{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 14px;
+        display: block;
+        position: absolute;
+        z-index: 1;
+        right: 20px;
+        top: 50%;
+        cursor: pointer;
+        transform: translateY(-50%);
+        &:before{
+            content: '\f112';
+            font-family: 'flaticon';
+        }
+    }
+    &.type_info{
+        .message_icon_wrap{
+            background-color: #14c7ff;
+        }
+        .message_icon{
+            &:before{
+                content: '\f116';
+                font-family: 'flaticon';
+            }
+        }
+        .message_close_button,
+        .message_title{
+            color: #14c7ff;
+        }
+    }
+    &.type_success{
+        .message_icon_wrap{
+            background-color: #46e1ac;
+        }
+        .message_icon{
+            &:before{
+                content: '\f118';
+                font-family: 'flaticon';
+            }
+        }
+        .message_close_button,
+        .message_title{
+            color: #46e1ac;
+        }
+    }
+    &.type_error{
+        .message_icon_wrap{
+            background-color: #ff144b;
+        }
+        .message_icon{
+            &:before{
+                content: '\f117';
+                font-family: 'flaticon';
+            }
+        }
+        .message_close_button,
+        .message_title{
+            color: #ff144b;
+        }
+    }
+    &.type_warning{
+        .message_icon_wrap{
+            background-color: #ffc514;
+        }
+        .message_icon{
+            transform: translate(-50%, -50%) rotate(180deg);
+            &:before{
+                content: '\f116';
+                font-family: 'flaticon';
+            }
+        }
+        .message_close_button,
+        .message_title{
+            color: #ffc514;
+        }
+    }
+}

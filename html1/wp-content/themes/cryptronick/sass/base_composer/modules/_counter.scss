@@ -1,0 +1,109 @@
+.cryptronick_module_counter{
+    &.counter_alignment_right{
+        text-align: right;
+        .counter_icon_container{
+            margin-left: auto;
+        }
+    }
+    &.counter_alignment_left{
+        text-align: left;
+        .counter_icon_container{
+            margin-right: auto;
+        }
+    }
+    &.counter_alignment_center{
+        text-align: center;
+        .counter_icon_container{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    &.layout_left,
+    &.layout_top_left{
+        .counter_icon_wrapper{
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    &.layout_right,
+    &.layout_top_right{
+        .counter_icon_wrapper{
+            float: right;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    &.layout_left .counter_content_wrapper,
+    &.layout_right .counter_content_wrapper{
+        overflow: hidden;
+    }
+    &.type_bordered{
+        .counter_icon_container{
+            border-style: solid;
+            border-width: 2px;
+            overflow: hidden;
+        }
+    }
+    &.type_fill{
+        .counter_icon_container{
+            overflow: hidden;
+        }
+    }
+    .counter_title{    
+        font-size: 16px;
+        line-height: 1.2;
+        margin-top: 8px;
+    }
+    .counter_value_wrap{
+        font-size: 36px;
+        line-height: 1.2;
+        white-space: nowrap;
+        span{
+            font-weight: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            font-family: inherit;
+            color: inherit;
+        }
+    }
+    .counter_icon{
+        transition: all 0.4s;
+        font-size: 45px;
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: inherit;
+        text-align: center;
+    }
+    .counter_icon_container{
+        transition: all 0.4s;
+        position: relative;
+        z-index: 1;
+        width: 65px;
+        height: 65px;
+    }
+    &.counter_bg_gradient .counter_icon_container{
+        &:before,
+        &:after{
+            content: '';
+            position: absolute;
+            z-index: -2;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            transition: all 0.4s;
+        }
+        &:before{
+            opacity: 1;
+            visibility: visible;
+        }
+        &:after{
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+}

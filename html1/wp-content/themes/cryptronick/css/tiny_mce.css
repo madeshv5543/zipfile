@@ -1,0 +1,36 @@
+/* Tiny mce styles */
+.cryptronick_list_check li,
+.cryptronick_list_check_circle li,
+.cryptronick_list_check_square li,
+.cryptronick_list_angle_right li,
+.cryptronick_list_plus li{
+	padding: 0 0 5px 5px;
+    list-style: none;
+}
+.cryptronick_list_check li:before,
+.cryptronick_list_check_circle li:before,
+.cryptronick_list_check_square li:before,
+.cryptronick_list_angle_right li:before,
+.cryptronick_list_plus li:before{
+	content: "\f00c";
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 1em;
+	line-height: 1em;
+	margin-right: 14px;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.cryptronick_list_check_circle li:before{
+	content: "\f05d";
+}
+.cryptronick_list_check_square li:before{
+	content: "\f046";
+}
+.cryptronick_list_angle_right li:before{
+	content: "\f105";
+}
+.cryptronick_list_plus li:before{
+	content: "\f067";
+}

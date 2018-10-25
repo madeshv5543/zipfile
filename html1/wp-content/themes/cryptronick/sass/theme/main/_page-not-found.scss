@@ -1,0 +1,107 @@
+
+/* page 404 */
+.banner_404{
+    font-size:200px;
+    line-height:1;
+    font-weight:500;
+    text-align:center;
+    margin-bottom:-10px;
+    .banner_404_content{
+        display:inline-block;
+        span,img{
+            float:left;
+        }
+        span{
+            display:inline-block;
+            margin-top:6px;
+        }
+        span:first-child{
+            margin-right:12px;
+        }        
+        span:last-child{
+            margin-left:12px;
+        }
+    }
+}
+
+.wrapper_404_section{
+    margin:140px 0;
+    .container{
+        width: 100%;
+    }
+    .search_form {
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .search_form .search_text,
+    .search_form  {
+        width: 100%;
+        max-width: 350px;
+    }
+    .search_form .search_text{
+        margin-bottom: 0;
+        height:40px;
+    }
+    input[type="submit"].search_submit {
+        font-size: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 50px;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        outline: none;
+        cursor: pointer;
+        z-index: 2;
+        padding: 0;
+    }
+    .search_form:after {
+        content: "\f115";
+        display: inline-block;
+        font-family: flaticon;
+        font-size: 18px;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transform: translate(0, 0);
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 46px;
+        height: 100%;
+        line-height: 40px;
+        text-align: center;
+        z-index: 1;
+        opacity: 0.7;
+    }
+    .banner_404_text{
+        font-size:18px;
+        margin-bottom:45px;
+    }
+}
+.banner_404_title{
+    margin-bottom:10px;
+}
+.cryptronick_404_button{
+    a{
+        border-radius: 30px;
+    }
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.rounded_r3 {
+	border-radius: 3px;
+}
+
+span.highlighter {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+ 

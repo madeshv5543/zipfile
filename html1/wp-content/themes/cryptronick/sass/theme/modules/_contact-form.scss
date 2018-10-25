@@ -1,0 +1,207 @@
+/* Contact Form 7 */
+.wpcf7 input[type="date"], 
+.wpcf7 input[type="email"], 
+.wpcf7 input[type="number"], 
+.wpcf7 input[type="password"], 
+.wpcf7 input[type="search"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="url"], 
+.wpcf7 select, 
+.wpcf7 textarea{
+	width: 100%;
+	font-family: inherit;
+	&::placeholder{
+		color: #7a7a7a;
+	}
+}
+.sign_up{
+	display: flex;
+	justify-content: center;
+	margin-right: -20px;
+}
+.sign_up input[type='submit']{
+	margin-left: 20px;
+	height: 50px;
+}
+.sign_up  input[type="email"]{
+	width: 350px;
+}
+
+.sign_up .ajax-loader{
+	display: none;
+}
+.wpcf7-form-control-wrap{
+	margin-bottom: 25px;
+	display: block;
+}
+div.wpcf7-response-output{
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0.344em 1em;
+	padding-left: 50px;
+	border: none;
+	color: #ffffff;
+	background-color: #255379;
+	position: relative;
+	z-index: 1;
+}
+div.wpcf7-response-output:before{
+	content: "\f05a";
+	position: absolute;
+	top: 50%;
+	left: 17px;
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 18px;
+	margin-top: -9px;
+}
+div.wpcf7-validation-errors{
+	background-color: #c24747;
+}
+div.wpcf7-validation-errors:before{
+	content: "\f057";
+}
+div.wpcf7-mail-sent-ok{
+	background-color: #0fa55d;
+}
+div.wpcf7-mail-sent-ok:before{
+	content: "\f058";
+}
+span.wpcf7-not-valid-tip{
+	padding-top: 5px;
+	color: #d61d1d;
+	font-weight: 400;
+}
+.cryptronick_submit_wrapper{
+	display: inline-block;
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 0;
+	border-radius: 2px;
+	position: relative;
+	z-index: 1;
+	transition: all 400ms;
+    -webkit-transition: all 400ms;
+}
+.cryptronick_submit_wrapper:hover{
+	background: #ffffff;
+}
+.cryptronick_submit_wrapper > i{
+	position: absolute;
+	top: 50%;
+	right: 34px;
+	line-height: 1;
+    margin-top: -0.5em;
+    z-index: -1;
+    transition: all 400ms;
+    -webkit-transition: all 400ms;
+}
+.cryptronick_submit_wrapper input[type="submit"]{
+	margin-bottom: 0;
+	padding-right: 54px;
+	background: transparent;
+}
+div.wpcf7 .cryptronick_submit_wrapper .ajax-loader {
+	display: none !important;
+}
+.form-submit_custom .cryptronick_submit_wrapper {
+	vertical-align: top;
+}
+.form-submit_custom {
+	margin-bottom: 0;
+}
+.form-submit{
+	clear: both;
+}
+.custom_textarea textarea {
+	height: 180px;
+}
+
+.wpcf7-form .wpcf7-form-control-wrap {
+    margin-bottom: 15px;
+}
+.wpb_text_column :last-child .wpcf7-form .wpcf7-form-control-wrap {
+    margin-bottom: 15px;
+}
+.wpcf7-form-control-wrap + .wpcf7-form-control.wpcf7-submit,
+.wpcf7-form .row + p .wpcf7-form-control.wpcf7-submit {
+	margin-top: 20px;
+}
+.wpcf7-form .wpcf7-form-control.wpcf7-submit {
+	font-weight: 500;
+    text-transform: initial;
+}
+/* end Contact Form 7 */
+
+/* Mailchimp */
+#mc_embed_signup {
+	.mc-field-group {
+		width: calc(100% - 160px);
+		margin-right: 20px;
+		float: left;
+		position: relative;
+		z-index: 1;
+		input{
+			width: 100%;
+			padding-bottom: 0;
+			padding-top:0;
+			background-color: rgba(255, 255, 255, 0.1);
+			color: #57616b;
+			border-bottom: 1px solid rgba(0,0,0,.11) !important;
+			height: 40px;
+			&::placeholder{
+				color: #57616b;
+			}
+		}
+	}
+	.button-submit {
+		input {
+			width: 140px;
+			margin-bottom: 0;
+			text-transform: capitalize;
+		}
+	}
+	div.mce_inline_error{
+		margin-bottom: 0 !important;
+		position: absolute;
+		z-index: 1;
+		box-sizing: border-box;
+		width: 100%;
+		box-shadow: 0px 0px 15px 0px rgba(40, 71, 178, 0.15);
+		background: #fff !important;
+		color: #6B0505 !important;
+		border-top: 0 !important;
+		margin-top: 5px !important;
+	}
+}
+.bpt-mailchimp-2 {
+	#mc_embed_signup {
+		.mc-field-group {
+			width: calc(100% - 145px);
+			float: left;
+			position: relative;
+			z-index: 1;
+			margin-right: 5px;
+			input{
+				width: calc(100% - 10px);
+				background-color: transparent;
+				color: #ffffff;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+				&::placeholder{
+					color: #ffffff;
+				}
+			}
+		}
+		.button-submit {
+			input {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

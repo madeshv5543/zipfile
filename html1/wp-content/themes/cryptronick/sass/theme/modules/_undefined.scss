@@ -1,0 +1,79 @@
+/* end  BlendPixelsThemes Icon*/
+.pp_block h2 {
+	margin-bottom: 30px;
+}
+.pp_page .bpt-page-title {
+	display: none;
+}
+.pp_page .bpt-page-title + .site_wrapper > .main_wrapper{
+	padding-top: 40px;
+}
+.gm-style > div:first-child .gmnoprint{
+	opacity: 1 !important;
+	overflow: visible !important;
+	&:before{
+		content: '';
+		position: absolute;
+		z-index: 1;
+		width: 54px;
+		height: 70px;
+		left: -11px;
+		bottom: -14px;
+		background-image: url(../img/map-marker.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+.vc_single_image-wrapper img{
+	border-radius: 10px;
+}
+
+
+//REV SLIDER
+.rev_slider{
+	.tp-caption{
+		a{
+			color:inherit;
+			transition: all .3s ease;
+		}
+		.cryptronick_module_social{
+			a{
+				line-height: 26px !important;
+				transition: all .3s ease !important;
+			}
+		}
+	}
+}
+
+// ADD WAVE REV SLIDER
+.add_wave_rev_slider{
+	.tp-bgimg.defaultimg{
+		&:before{
+			content: "";
+		    display: block;
+		    position: absolute;
+		    bottom: 0;
+		    width: 100%;
+		    background: url(../img/wave_bottom6.svg);
+		    height: 50%;			
+		}
+	}
+}
+@media only screen and (max-width: 1024px){
+	.add_wave_rev_slider{
+		.tp-bgimg.defaultimg{
+			&:before{
+			    height: 25%;			
+			}
+		}
+	}	
+}
+@media only screen and (max-width: 480px) {
+	.add_wave_rev_slider{
+		.tp-bgimg.defaultimg{
+			&:before{
+			    height: 5%;			
+			}
+		}
+	}	
+}

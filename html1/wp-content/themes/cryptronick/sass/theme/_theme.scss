@@ -1,0 +1,56 @@
+/*-------------------------------------
+[Master Stylesheet]
+Project: BPThemes Premium WordPress Theme
+
+[Table of contents]
+1. Base theme
+2. Plugins
+- Isotope
+- Nivo
+- Contact Form 7
+- Slick Slider
+3. Content Area
+4. Footer
+5. Typography
+6. Page Title
+6. Header
+7. Blog
+8. Widgets 
+ 
+------------------ ---------------------*/
+
+@import 'main/base';
+@import 'modules/isotope';
+@import 'modules/nivo';
+@import 'modules/contact-form';
+@import 'modules/slick-slider';
+@import 'main/content-area';
+@import 'main/footer';
+@import 'main/typography';
+@import 'main/page-title';
+@import 'modules/list';
+@import 'main/header';
+@import 'main/mobile-nav';
+@import 'modules/blog';
+@import 'modules/comments';
+@import 'modules/shop';
+@import 'modules/likes';
+@import 'modules/wpml';
+@import 'modules/pagination';
+@import 'modules/load-more';
+@import 'modules/search-header';
+@import 'widgets/main-widgets';
+@import 'widgets/tagcloud';
+@import 'widgets/instagram';
+@import 'widgets/text-widget';
+@import 'widgets/footer-widget-style';
+@import 'widgets/author';
+@import 'widgets/banner';
+@import 'widgets/gallery';
+@import 'main/page-not-found';
+@import 'modules/map';
+@import 'modules/back-top';
+@import 'modules/forms';
+@import 'modules/preloader';
+@import 'modules/undefined';
+@import 'modules/extended-row';

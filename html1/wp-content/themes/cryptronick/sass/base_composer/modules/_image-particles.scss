@@ -1,0 +1,25 @@
+/* image particles */
+.cryptronick_module_image_particles{
+	&.img_alignment_left{
+		.image_particles_data{
+			margin-left: 0;
+			margin-right: auto;
+		}
+	}
+	&.img_alignment_right{
+		.image_particles_data{
+			margin-left: auto;
+			margin-right: 0;
+		}
+	}
+	&.img_alignment_center{
+		.image_particles_data{
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.particles-image{
+		width: 100%;
+		height: 100%;
+	}
+}

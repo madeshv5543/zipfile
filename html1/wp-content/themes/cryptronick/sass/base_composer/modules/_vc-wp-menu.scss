@@ -1,0 +1,79 @@
+/* vc wp menu */
+.vc_wp_custommenu{
+	&.menu-item{
+
+		&-center{
+			.menu{ 
+				text-align: center;
+			}
+		}		
+		&-right{
+			.menu{ 
+				text-align: right;
+			}
+		}		
+		&-left{
+			.menu{ 
+				text-align: left;
+			}
+		}
+
+		&-block{
+			.menu {
+				.menu-item{
+					display: block;
+				}					
+			}
+		}
+	}		
+	.menu{ 
+		.menu-item{
+			display: inline-block;
+			a{
+				opacity: 1;
+			    color: inherit;
+			    padding: 0 16px;
+			    margin: 0px 5px;
+			    position: relative;
+			    transform: translate3d(0, 0, 0);
+			    backface-visibility: hidden;
+			    transition: all 200ms;
+			    &:hover{
+			    	&:before{
+			    		opacity: 1;
+    					margin-top: 7px;
+			    	}
+			    }
+			    &:before{
+			    	position: absolute;
+			    	display: block;
+			    	top: 100%;
+			    	-webkit-border-radius: 50%;
+			    	-moz-border-radius: 50%;
+			    	border-radius: 50%;
+			    	margin-left: -2px;
+			    	left: 50%;
+			    	width: 4px;
+			    	height: 4px;
+			    	border: 0;
+			    	margin-top: 2px;
+			    	content: '';
+			    	opacity: 0;
+			    	-webkit-backface-visibility: hidden;
+			    	-webkit-transition: all 0.5s cubic-bezier(0.25, 1, 0.35, 1) 0s;
+			    	-o-transition: all 0.5s cubic-bezier(0.25, 1, 0.35, 1) 0s;
+			    	-moz-transition: all 0.5s cubic-bezier(0.25, 1, 0.35, 1) 0s;
+			    	transition: all 0.5s cubic-bezier(0.25, 1, 0.35, 1) 0s;
+			    }
+			    
+			}
+		}
+		.menu-item.current-menu-item a:before{
+			width: 4px;
+		}
+		.menu-item.current-menu-item > a:before, .menu-item.current-menu-ancestor > a:before{
+			opacity: 1;
+    		margin-top: 7px;
+		}	
+	}
+}

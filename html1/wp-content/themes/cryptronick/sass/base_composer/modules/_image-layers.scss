@@ -1,0 +1,143 @@
+/*-ImageLayers-*/
+.cryptronick_module_img_layer{
+    position: relative;
+    line-height: 0;
+    max-width: 100%;
+	.img_layer_image_wrapper{
+		position: relative;
+		line-height: 0;
+		display: block;
+		width: inherit;
+		max-width: 100%;
+		height: inherit;
+		max-height: 100%;
+		&:not(:first-child){
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.img_layer_image{
+			transition: all 0.5s;
+		}
+		&.fade_in, 
+		&.slide_big_up,
+		&.slide_big_down,
+		&.slide_big_left,
+		&.slide_big_right,
+		&.slide_up,
+		&.slide_down,
+		&.slide_left,
+		&.slide_right,
+		&.flip_x,
+		&.flip_y,
+		&.zoom_in{
+			.img_layer_image{
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+		&.slide_big_up{
+			.img_layer_image{
+				transform: translateY(100%);
+			}
+		}
+		&.slide_big_down{
+			.img_layer_image{
+				transform: translateY(-100%);
+			}
+		}
+		&.slide_big_left{
+			.img_layer_image{
+				transform: translateX(100%);
+			}
+		}
+		&.slide_big_right{
+			.img_layer_image{
+				transform: translateX(-100%);
+			}
+		}
+		&.slide_up{
+			.img_layer_image{
+				transform: translateY(50%);
+			}
+		}
+		&.slide_down{
+			.img_layer_image{
+				transform: translateY(-50%);
+			}
+		}
+		&.slide_left{
+			.img_layer_image{
+				transform: translateX(50%);
+			}
+		}
+		&.slide_right{
+			.img_layer_image{
+				transform: translateX(-50%);
+			}
+		}
+		&.flip_x{
+			.img_layer_image{
+				transform: rotateX(-100deg);
+			}
+		}
+		&.flip_y{
+			.img_layer_image{
+				transform: rotateY(-100deg);
+			}
+		}
+		&.zoom_in{
+			.img_layer_image{
+				transform: scale3d(0.2,0.2,0.2);
+			}
+		}
+	}
+	&.img_layer_animate{
+		.img_layer_image_wrapper{
+			&.fade_in,
+			&.slide_big_up,
+			&.slide_big_down,
+			&.slide_big_left,
+			&.slide_big_right,
+			&.slide_up,
+			&.slide_down,
+			&.slide_left,
+			&.slide_right,
+			&.flip_x,
+			&.flip_y,
+			&.zoom_in{
+				.img_layer_image{
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+			&.slide_big_up,
+			&.slide_big_down,
+			&.slide_up,
+			&.slide_down{
+				.img_layer_image{
+					transform: translateY(0);
+				}
+			}
+			&.slide_big_left,
+			&.slide_big_right,
+			&.slide_left,
+			&.slide_right{
+				.img_layer_image{
+					transform: translateX(0);
+				}
+			}
+			&.flip_x,
+			&.flip_y{
+				.img_layer_image{
+					transform: rotate(0);
+				}
+			}
+			&.zoom_in{
+				.img_layer_image{
+					transform: scale3d(1,1,1);
+				}
+			}
+		}
+	}
+}

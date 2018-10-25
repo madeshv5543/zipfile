@@ -1,0 +1,78 @@
+/* T Y P O G R A P H Y */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding:0;
+	margin:0;
+	word-wrap:break-word;
+}
+
+ h1 a,
+ h2 a,
+ h3 a,
+ h4 a,
+ h5 a,
+ h6 a {
+ 	font-size: inherit !important;
+ }
+
+.align-left{
+	text-align: left;
+}
+.align-center{
+	text-align: center;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.alignleft {
+	margin: 0 30px 20px 0;
+	float: left;
+}
+
+.alignright {
+	margin: 0 0 20px 30px;
+	float: right;
+}
+
+.aligncenter {
+	float: none;
+	text-align: center;
+	display: block;
+    margin: 0 auto;
+}
+
+.large-text {
+	font-size: 24px;
+}
+
+.small-text {
+	line-height: 24px;
+	font-size: 16px;
+}
+/* Dropcap */
+.dropcap {
+	display:inline-block;
+	float:left;
+	font-size:2.25em;
+	line-height: inherit;
+	margin:5px 20px 15px 0;
+	width:auto;
+	height:auto;
+	text-transform:uppercase;
+	font-weight: 500;
+	border: 1px solid #eeeeee;
+	border-radius: 9px;
+	min-width: 48px;
+	min-height: 48px;
+	line-height: 48px;
+	text-align:center;
+	&.alt{
+		color: #ffffff;
+	}
+}

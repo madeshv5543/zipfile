@@ -1,0 +1,160 @@
+/* cryptronick_process_bar */
+.cryptronick_process_bar{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.cryptronick_process_bar__count-container{
+    position: relative;
+    margin-bottom: 35px;
+}
+.cryptronick_process_bar__count-container:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #dddddd;
+}
+.cryptronick_process_bar + .cryptronick_process_bar .cryptronick_process_bar__count-container:before{
+    left: -30px;
+}
+.cryptronick_process_bar__count{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px;
+}
+.cryptronick_process_bar__icon_icon_size_mini .cryptronick_process_bar__count{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 30px;
+}
+.cryptronick_process_bar__icon_icon_size_mini .cryptronick_process_bar__count{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+}
+.cryptronick_process_bar__icon_icon_size_large .cryptronick_process_bar__count{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 35px;
+}
+.cryptronick_process_bar__icon_icon_size_huge .cryptronick_process_bar__count{
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 60px;
+}
+.cryptronick_process_bar__count:before,
+.cryptronick_process_bar__count:after{
+    content: '';
+    position: absolute;
+    top: -12.535%;
+    left: -12.535%;
+    width: 125.7%;
+    height: 125.7%;
+    border-radius: 50%;
+    background: inherit;
+    z-index: -1;
+    -webkit-transform: scale(0.7954);
+        -ms-transform: scale(0.7954);
+            transform: scale(0.7954);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+    text-replace: none;
+}
+.cryptronick_process_bar__count:after{
+    background: #f9ebeb;
+    z-index: -2;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+}
+.cryptronick_process_bar:hover .cryptronick_process_bar__count:before{
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+}
+.cryptronick_process_bar:hover .cryptronick_process_bar__count:after{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.cryptronick_process_bar__title{
+    padding-bottom: 0.5em;
+}
+.cryptronick_process_bar__link{
+    margin-top: 10px;
+}
+.cryptronick_process_bar__link a {
+    position: relative;
+    padding-right: 25px;
+}
+.cryptronick_process_bar__link a:hover{
+    color: inherit !important;
+}
+.cryptronick_process_bar__link a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 13px;
+    height: 1px;
+}
+.cryptronick_process_bar__link a:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 13px;
+    height: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.cryptronick_process_bar__link a:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(50% - 2px);
+    right: 0;
+    width: 4px;
+    height: 4px;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+.cryptronick_process_bar__title a {
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+}
+.cryptronick_process_bar__text{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+@media only screen and (max-width: 768px){
+    .cryptronick_process_bar + .cryptronick_process_bar .cryptronick_process_bar__count-container:before{
+        left: 0;
+    }
+}
+/* end cryptronick_process_bar */

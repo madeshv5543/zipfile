@@ -1,0 +1,53 @@
+.bpt-iconpicker .iconpicker-popover {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	list-style: none;
+	font-size: 14px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	background-clip: padding-box;
+}
+
+.bpt-iconpicker .iconpicker-popover .arrow {
+	display: none !important;
+}
+
+.bpt-iconpicker .iconpicker-item {
+	/* Override some unfortunate WP default admin mobile styles */
+	width: 14px !important;
+	height: 14px !important;
+	padding: 14px !important;
+	font-size: 14px !important;
+	line-height: 1 !important;
+	box-shadow: 0 0 0 1px #ddd !important;
+}
+
+.bpt-iconpicker input[type="search"] {
+	width: 100%;
+}
+
+.bpt-iconpicker .iconpicker-popover.popover {
+	width: 253px;
+}
+
+.bpt-iconpicker .iconpicker-component i {
+	display: none;
+}
+.redux-main label.color-transparency-check {
+	margin-top: 10px !important;
+}
+.check-list-width .vc_checkbox-label{
+	display: inline-block;
+	width: 170px;
+	padding: 4px 0;
+}

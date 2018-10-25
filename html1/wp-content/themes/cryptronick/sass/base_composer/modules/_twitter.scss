@@ -1,0 +1,49 @@
+/* cryptronick_twitter */
+.cryptronick_twitter a:hover{
+    color: inherit !important;
+}
+.cryptronick_twitter .twitter_icon{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1da1f2;
+    float: right;
+    font-size: 1.4em;
+    padding-top: 0.1em;
+}
+.cryptronick_twitter .twitt_time,
+.cryptronick_twitter .twitt_title{
+    opacity: 0.6;
+}
+.cryptronick_twitter .twitt_title{
+    font-style: italic;
+}
+.cryptronick_twitter .twitter_icon:before{
+    content: "\f099";
+}
+.cryptronick_twitter .twitt_time{
+    float: right;
+}
+.cryptronick_twitter .twitter_acc{
+    text-transform: uppercase;
+}
+.cryptronick_twitter .twitter_footer{
+    font-size: 0.92em;
+}
+.cryptronick_twitter .twitter_separator{
+    display: block;
+    width: 30px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin: 15px 0;
+}
+.cryptronick_twitter .twitter_item + .twitter_item{
+    padding-top: 30px;
+}
+.cryptronick_twitter .twitter_heading{
+    margin-bottom: 15px;
+}
+/* end cryptronick_twitter */

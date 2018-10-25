@@ -1,0 +1,129 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 30/05/2018 16:19
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-left-arrow:before { content: "\f100"; }
+.flaticon-down-arrow:before { content: "\f101"; }
+.flaticon-right-arrow:before { content: "\f102"; }
+.flaticon-vector:before { content: "\f103"; }
+.flaticon-search:before { content: "\f104"; }
+.flaticon-luxury:before { content: "\f105"; }
+.flaticon-folder:before { content: "\f106"; }
+.flaticon-business:before { content: "\f107"; }
+.flaticon-commerce:before { content: "\f108"; }
+.flaticon-money-8:before { content: "\f109"; }
+.flaticon-graphic-1:before { content: "\f10a"; }
+.flaticon-gestures:before { content: "\f10b"; }
+.flaticon-mark-1:before { content: "\f10c"; }
+.flaticon-symbol:before { content: "\f10d"; }
+.flaticon-share:before { content: "\f10e"; }
+.flaticon-interface:before { content: "\f10f"; }
+.flaticon-circle-1:before { content: "\f110"; }
+.flaticon-pin:before { content: "\f111"; }
+.flaticon-close:before { content: "\f112"; }
+.flaticon-school:before { content: "\f113"; }
+.flaticon-coins-5:before { content: "\f114"; }
+.flaticon-tool:before { content: "\f115"; }
+.flaticon-circle:before { content: "\f116"; }
+.flaticon-close-cross-circular-interface-button:before { content: "\f117"; }
+.flaticon-mark:before { content: "\f118"; }
+.flaticon-money-7:before { content: "\f119"; }
+.flaticon-money-6:before { content: "\f11a"; }
+.flaticon-money-5:before { content: "\f11b"; }
+.flaticon-money-4:before { content: "\f11c"; }
+.flaticon-money-3:before { content: "\f11d"; }
+.flaticon-graphene:before { content: "\f11e"; }
+.flaticon-hologram:before { content: "\f11f"; }
+.flaticon-technology:before { content: "\f120"; }
+.flaticon-computer:before { content: "\f121"; }
+.flaticon-chip:before { content: "\f122"; }
+.flaticon-coins-4:before { content: "\f123"; }
+.flaticon-coins-3:before { content: "\f124"; }
+.flaticon-money-2:before { content: "\f125"; }
+.flaticon-coins-2:before { content: "\f126"; }
+.flaticon-money-1:before { content: "\f127"; }
+.flaticon-mobile:before { content: "\f128"; }
+.flaticon-coins-1:before { content: "\f129"; }
+.flaticon-graphic:before { content: "\f12a"; }
+.flaticon-coins:before { content: "\f12b"; }
+.flaticon-download:before { content: "\f12c"; }
+    
+    $font-Flaticon-left-arrow: "\f100";
+    $font-Flaticon-down-arrow: "\f101";
+    $font-Flaticon-right-arrow: "\f102";
+    $font-Flaticon-vector: "\f103";
+    $font-Flaticon-search: "\f104";
+    $font-Flaticon-luxury: "\f105";
+    $font-Flaticon-folder: "\f106";
+    $font-Flaticon-business: "\f107";
+    $font-Flaticon-commerce: "\f108";
+    $font-Flaticon-money-8: "\f109";
+    $font-Flaticon-graphic-1: "\f10a";
+    $font-Flaticon-gestures: "\f10b";
+    $font-Flaticon-mark-1: "\f10c";
+    $font-Flaticon-symbol: "\f10d";
+    $font-Flaticon-share: "\f10e";
+    $font-Flaticon-interface: "\f10f";
+    $font-Flaticon-circle-1: "\f110";
+    $font-Flaticon-pin: "\f111";
+    $font-Flaticon-close: "\f112";
+    $font-Flaticon-school: "\f113";
+    $font-Flaticon-coins-5: "\f114";
+    $font-Flaticon-tool: "\f115";
+    $font-Flaticon-circle: "\f116";
+    $font-Flaticon-close-cross-circular-interface-button: "\f117";
+    $font-Flaticon-mark: "\f118";
+    $font-Flaticon-money-7: "\f119";
+    $font-Flaticon-money-6: "\f11a";
+    $font-Flaticon-money-5: "\f11b";
+    $font-Flaticon-money-4: "\f11c";
+    $font-Flaticon-money-3: "\f11d";
+    $font-Flaticon-graphene: "\f11e";
+    $font-Flaticon-hologram: "\f11f";
+    $font-Flaticon-technology: "\f120";
+    $font-Flaticon-computer: "\f121";
+    $font-Flaticon-chip: "\f122";
+    $font-Flaticon-coins-4: "\f123";
+    $font-Flaticon-coins-3: "\f124";
+    $font-Flaticon-money-2: "\f125";
+    $font-Flaticon-coins-2: "\f126";
+    $font-Flaticon-money-1: "\f127";
+    $font-Flaticon-mobile: "\f128";
+    $font-Flaticon-coins-1: "\f129";
+    $font-Flaticon-graphic: "\f12a";
+    $font-Flaticon-coins: "\f12b";
+    $font-Flaticon-download: "\f12c";

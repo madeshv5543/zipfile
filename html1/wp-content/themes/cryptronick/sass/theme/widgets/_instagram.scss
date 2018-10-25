@@ -1,0 +1,20 @@
+/* Instagram */
+.widget #sb_instagram {
+	padding: 10px 0 0 0 !important;
+}
+
+.widget #sbi_images {
+	margin: 0 0 0 -9px !important;
+	padding: 0 !important;
+	width: calc(100% + 9px) !important;
+}
+
+.widget #sb_instagram #sbi_images .sbi_item {
+	padding: 0 0 9px 9px !important;
+	border: none !important;
+	margin: 0 !important;
+}
+
+.widget #sb_instagram .sbi_photo_wrap a {
+	position: relative;
+}

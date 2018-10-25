@@ -1,0 +1,5845 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bptThemes WP\n"
+"POT-Creation-Date: 2018-06-20 22:01+0300\n"
+"PO-Revision-Date: 2016-03-23 22:56+0200\n"
+"Last-Translator: \n"
+"Language-Team: bptThemes <help@bptthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: core/tgm\n"
+
+#: 404.php:10
+msgid "Woops! Page Cannot Be Found!"
+msgstr ""
+
+#: 404.php:11
+msgid "Either Something Went Wrong or the Page Doesn't Exist Anymore."
+msgstr ""
+
+#: 404.php:16 search.php:68
+msgid "Take me home"
+msgstr ""
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:16
+msgid "Comment"
+msgstr ""
+
+#: comments.php:16
+msgid "Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "You must be logged in to post a comment."
+msgstr ""
+
+#: comments.php:44
+msgid "Leave a Comment!"
+msgstr ""
+
+#: comments.php:47
+msgid "Post comment"
+msgstr ""
+
+#: comments.php:48
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:48
+msgid "Log out?"
+msgstr ""
+
+#: core/class/single-post.php:326 search.php:47
+msgid "by"
+msgstr ""
+
+#: core/class/single-post.php:335
+msgid "comment"
+msgstr ""
+
+#: core/class/single-post.php:335
+msgid "comments"
+msgstr ""
+
+#: core/class/single-post.php:479
+msgid "In Socials:"
+msgstr ""
+
+#: core/class/theme-helper.php:246 core/vc/modules/bpt_blog_posts.php:89
+#: core/vc/modules/bpt_blog_posts.php:130 core/vc/templates/bpt_blog_posts.php:96
+msgid "Load More"
+msgstr ""
+
+#: core/class/theme-likes.php:33
+msgid "Not permitted"
+msgstr ""
+
+#: core/class/walker-comment.php:42
+msgid "Pingback:"
+msgstr ""
+
+#: core/class/walker-comment.php:42
+msgid "(Edit)"
+msgstr ""
+
+#: core/class/walker-comment.php:61 image.php:86
+msgid "Edit"
+msgstr ""
+
+#: core/class/walker-comment.php:66
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: core/class/walker-comment.php:70
+msgid "Reply"
+msgstr ""
+
+#: core/metabox_config.php:12
+msgid "Team Options"
+msgstr ""
+
+#: core/metabox_config.php:17
+msgid "Info Name Department"
+msgstr ""
+
+#: core/metabox_config.php:23
+msgid "Member Department"
+msgstr ""
+
+#: core/metabox_config.php:29 core/metabox_config.php:83
+msgid "Info"
+msgstr ""
+
+#: core/metabox_config.php:34 core/metabox_config.php:41 core/metabox_config.php:88
+#: core/metabox_config.php:95 core/vc/modules/bpt_flip_box.php:123
+#: core/vc/modules/bpt_flip_box.php:195
+#: core/vc/modules/bpt_time_line_horizontal.php:31
+#: core/vc/modules/bpt_time_line_vertical.php:32
+msgid "Description"
+msgstr ""
+
+#: core/metabox_config.php:37 core/metabox_config.php:91
+#: woocommerce/woocommerce-init.php:243
+msgid "Name"
+msgstr ""
+
+#: core/metabox_config.php:45 core/metabox_config.php:99
+msgid "Url"
+msgstr ""
+
+#: core/metabox_config.php:51
+msgid "Icons"
+msgstr ""
+
+#: core/metabox_config.php:57
+msgid "Select an icon"
+msgstr ""
+
+#: core/metabox_config.php:68
+msgid "Portfolio Options"
+msgstr ""
+
+#: core/metabox_config.php:74
+msgid "Show Featured image on single"
+msgstr ""
+
+#: core/metabox_config.php:79
+msgid "Show Title on single"
+msgstr ""
+
+#: core/metabox_config.php:105
+msgid "Show Tags"
+msgstr ""
+
+#: core/metabox_config.php:109 core/metabox_config.php:121
+#: core/metabox_config.php:456 core/metabox_config.php:511
+#: core/metabox_config.php:606 core/metabox_config.php:712
+#: core/metabox_config.php:781 core/metabox_config.php:1007
+msgid "default"
+msgstr ""
+
+#: core/metabox_config.php:110 core/metabox_config.php:122
+#: core/metabox_config.php:782 core/metabox_config.php:1008
+msgid "yes"
+msgstr ""
+
+#: core/metabox_config.php:111 core/metabox_config.php:123
+#: core/metabox_config.php:783 core/metabox_config.php:1009
+msgid "no"
+msgstr ""
+
+#: core/metabox_config.php:117
+msgid "Show Share Links"
+msgstr ""
+
+#: core/metabox_config.php:136
+msgid "Related Portfolio"
+msgstr ""
+
+#: core/metabox_config.php:142
+msgid "Display items carousel for this portfolio post"
+msgstr ""
+
+#: core/metabox_config.php:148 core/metabox_config.php:372
+msgid "Show related"
+msgstr ""
+
+#: core/metabox_config.php:153 core/metabox_config.php:377
+#: core/vc/modules/bpt_demo_item.php:20 core/vc/modules/bpt_double_headings.php:24
+#: core/vc/modules/bpt_flip_box.php:110 core/vc/modules/bpt_flip_box.php:182
+#: core/vc/modules/bpt_message_box.php:61 core/vc/modules/bpt_soc_icons.php:81
+#: core/vc/modules/bpt_time_line_vertical.php:26
+#: core/vc/modules/bpt_video_popup.php:20
+msgid "Title"
+msgstr ""
+
+#: core/metabox_config.php:166 core/metabox_config.php:390
+msgid "Categories"
+msgstr ""
+
+#: core/metabox_config.php:180 core/metabox_config.php:404
+msgid "Columns"
+msgstr ""
+
+#: core/metabox_config.php:184 core/metabox_config.php:408
+#: core/vc/modules/bpt_blog_posts.php:183 core/vc/modules/bpt_team.php:38
+msgid "One"
+msgstr ""
+
+#: core/metabox_config.php:185 core/metabox_config.php:409
+#: core/vc/modules/bpt_blog_posts.php:184 core/vc/modules/bpt_team.php:39
+msgid "Two"
+msgstr ""
+
+#: core/metabox_config.php:186 core/metabox_config.php:410
+#: core/vc/modules/bpt_blog_posts.php:185 core/vc/modules/bpt_team.php:40
+msgid "Three"
+msgstr ""
+
+#: core/metabox_config.php:187 core/metabox_config.php:411
+#: core/vc/modules/bpt_blog_posts.php:186 core/vc/modules/bpt_team.php:41
+msgid "Four"
+msgstr ""
+
+#: core/metabox_config.php:200 core/metabox_config.php:424
+msgid "Number of Related Items"
+msgstr ""
+
+#: core/metabox_config.php:222
+msgid "Post Format Layout"
+msgstr ""
+
+#: core/metabox_config.php:228
+msgid "You can use only featured image for this post-format"
+msgstr ""
+
+#: core/metabox_config.php:241
+msgid "Gallery images"
+msgstr ""
+
+#: core/metabox_config.php:255 core/metabox_config.php:272
+msgid "oEmbed"
+msgstr ""
+
+#: core/metabox_config.php:257 core/metabox_config.php:274
+msgid "enter URL"
+msgstr ""
+
+#: core/metabox_config.php:289
+msgid "Quote Author"
+msgstr ""
+
+#: core/metabox_config.php:301
+msgid "Author Image"
+msgstr ""
+
+#: core/metabox_config.php:314
+msgid "Quote Content"
+msgstr ""
+
+#: core/metabox_config.php:327
+msgid "Link URL"
+msgstr ""
+
+#: core/metabox_config.php:339
+msgid "Link Text"
+msgstr ""
+
+#: core/metabox_config.php:360
+msgid "Related Blog Post"
+msgstr ""
+
+#: core/metabox_config.php:366
+msgid "Display items carousel for this blog post"
+msgstr ""
+
+#: core/metabox_config.php:447
+msgid "Page Layout"
+msgstr ""
+
+#: core/metabox_config.php:452 core/redux-config.php:2123
+msgid "Page Sidebar Layout"
+msgstr ""
+
+#: core/metabox_config.php:457 core/vc/init.php:132
+#: core/vc/modules/bpt_blog_posts.php:87 core/vc/modules/bpt_button.php:67
+#: core/vc/modules/bpt_button.php:93 core/vc/modules/bpt_button.php:130
+#: core/vc/modules/bpt_counter.php:120 core/vc/modules/bpt_info_box.php:179
+#: core/vc/modules/bpt_pricing_table.php:82
+msgid "None"
+msgstr ""
+
+#: core/metabox_config.php:458 core/redux-config.php:1272
+#: core/redux-config.php:1516 core/redux-config.php:1579 core/vc/init.php:143
+#: core/vc/init.php:314 core/vc/modules/bpt_blog_posts.php:104
+#: core/vc/modules/bpt_button.php:54 core/vc/modules/bpt_button.php:176
+#: core/vc/modules/bpt_carousel.php:134 core/vc/modules/bpt_counter.php:73
+#: core/vc/modules/bpt_counter.php:95 core/vc/modules/bpt_double_headings.php:38
+#: core/vc/modules/bpt_flip_box.php:283 core/vc/modules/bpt_info_box.php:57
+#: core/vc/modules/bpt_info_box.php:79 core/vc/modules/bpt_soc_icons.php:171
+#: core/vc/modules/bpt_team.php:53 core/vc/modules/bpt_testimonials.php:52
+#: core/vc/modules/bpt_testimonials.php:233
+#: core/vc/modules/bpt_time_line_horizontal.php:174
+#: core/vc/modules/bpt_video_popup.php:29 core/vc/modules/bpt_video_popup.php:41
+msgid "Left"
+msgstr ""
+
+#: core/metabox_config.php:459 core/redux-config.php:1274
+#: core/redux-config.php:1518 core/redux-config.php:1581 core/vc/init.php:144
+#: core/vc/init.php:315 core/vc/modules/bpt_blog_posts.php:105
+#: core/vc/modules/bpt_button.php:55 core/vc/modules/bpt_button.php:177
+#: core/vc/modules/bpt_carousel.php:135 core/vc/modules/bpt_counter.php:76
+#: core/vc/modules/bpt_counter.php:96 core/vc/modules/bpt_double_headings.php:39
+#: core/vc/modules/bpt_flip_box.php:284 core/vc/modules/bpt_info_box.php:60
+#: core/vc/modules/bpt_info_box.php:80 core/vc/modules/bpt_soc_icons.php:172
+#: core/vc/modules/bpt_team.php:54 core/vc/modules/bpt_testimonials.php:53
+#: core/vc/modules/bpt_testimonials.php:234
+#: core/vc/modules/bpt_time_line_horizontal.php:175
+#: core/vc/modules/bpt_video_popup.php:30 core/vc/modules/bpt_video_popup.php:42
+msgid "Right"
+msgstr ""
+
+#: core/metabox_config.php:465 core/redux-config.php:2143
+msgid "Page Sidebar"
+msgstr ""
+
+#: core/metabox_config.php:478 core/redux-config.php:2150
+msgid "Page Sidebar Width"
+msgstr ""
+
+#: core/metabox_config.php:502 core/metabox_config.php:507
+msgid "Page Colors"
+msgstr ""
+
+#: core/metabox_config.php:512 core/metabox_config.php:607
+#: core/metabox_config.php:713
+msgid "custom"
+msgstr ""
+
+#: core/metabox_config.php:518 core/redux-config.php:2196
+msgid "General Theme Color"
+msgstr ""
+
+#: core/metabox_config.php:535 core/redux-config.php:2204
+msgid "Use Theme Gradient?"
+msgstr ""
+
+#: core/metabox_config.php:545
+msgid "Theme Gradient From"
+msgstr ""
+
+#: core/metabox_config.php:561
+msgid "Theme Gradient To"
+msgstr ""
+
+#: core/metabox_config.php:575 core/redux-config.php:2221
+msgid "Body Background Color"
+msgstr ""
+
+#: core/metabox_config.php:597
+msgid "Logo Options"
+msgstr ""
+
+#: core/metabox_config.php:602 core/redux-config.php:166 core/redux-config.php:315
+#: core/redux-config.php:359 core/redux-config.php:979 core/redux-config.php:1158
+msgid "Logo"
+msgstr ""
+
+#: core/metabox_config.php:613 core/redux-config.php:174
+msgid "Header Logo"
+msgstr ""
+
+#: core/metabox_config.php:625 core/redux-config.php:179
+msgid "Enable Logo Height"
+msgstr ""
+
+#: core/metabox_config.php:634 core/redux-config.php:187
+msgid "Set Logo Height"
+msgstr ""
+
+#: core/metabox_config.php:648 core/redux-config.php:198
+msgid "Don't limit maximum height"
+msgstr ""
+
+#: core/metabox_config.php:660 core/redux-config.php:207
+msgid "Set Sticky Logo Height"
+msgstr ""
+
+#: core/metabox_config.php:674 core/redux-config.php:221
+msgid "Sticky Logo"
+msgstr ""
+
+#: core/metabox_config.php:685 core/redux-config.php:226
+msgid "Mobile Logo"
+msgstr ""
+
+#: core/metabox_config.php:703
+msgid "Header Layout and Color"
+msgstr ""
+
+#: core/metabox_config.php:708 core/redux-config.php:795
+msgid "Header Settings"
+msgstr ""
+
+#: core/metabox_config.php:714
+msgid "hide"
+msgstr ""
+
+#: core/metabox_config.php:723 core/redux-config.php:814
+msgid "Enable Active Menu Item Marker"
+msgstr ""
+
+#: core/metabox_config.php:734 core/redux-config.php:868
+msgid "Sticky Header"
+msgstr ""
+
+#: core/metabox_config.php:752 core/redux-config.php:232
+msgid "Header Builder"
+msgstr ""
+
+#: core/metabox_config.php:757 core/redux-config.php:159
+msgid "Header"
+msgstr ""
+
+#: core/metabox_config.php:772
+msgid "Page Title Options"
+msgstr ""
+
+#: core/metabox_config.php:777 core/redux-config.php:1240
+msgid "Show Page Title"
+msgstr ""
+
+#: core/metabox_config.php:790 core/redux-config.php:1253
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: core/metabox_config.php:799
+msgid "Vertical Alignment"
+msgstr ""
+
+#: core/metabox_config.php:803
+msgid "top"
+msgstr ""
+
+#: core/metabox_config.php:804
+msgid "middle"
+msgstr ""
+
+#: core/metabox_config.php:805
+msgid "bottom"
+msgstr ""
+
+#: core/metabox_config.php:816
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: core/metabox_config.php:820 core/metabox_config.php:1443
+#: core/vc/modules/bpt_countdown.php:160
+msgid "left"
+msgstr ""
+
+#: core/metabox_config.php:821 core/metabox_config.php:1444
+#: core/vc/modules/bpt_countdown.php:161
+msgid "center"
+msgstr ""
+
+#: core/metabox_config.php:822 core/metabox_config.php:1445
+#: core/vc/modules/bpt_countdown.php:162
+msgid "right"
+msgstr ""
+
+#: core/metabox_config.php:833
+msgid "Font Color"
+msgstr ""
+
+#: core/metabox_config.php:847 core/metabox_config.php:1270
+#: core/vc/modules/bpt_blog_posts.php:919 core/vc/modules/bpt_button.php:440
+#: core/vc/modules/bpt_coins_list.php:120 core/vc/modules/bpt_counter.php:403
+#: core/vc/modules/bpt_flip_box.php:73 core/vc/modules/bpt_flip_box.php:152
+#: core/vc/modules/bpt_ico_progress.php:38 core/vc/modules/bpt_info_box.php:536
+#: core/vc/modules/bpt_info_box.php:680 core/vc/modules/bpt_pricing_table.php:315
+#: core/vc/modules/bpt_soc_icons.php:123 core/vc/modules/bpt_team.php:478
+#: core/vc/modules/bpt_video_popup.php:108
+msgid "Background Color"
+msgstr ""
+
+#: core/metabox_config.php:861 core/redux-config.php:1295
+#: core/redux-config.php:1303
+msgid "Page Title Background Image"
+msgstr ""
+
+#: core/metabox_config.php:873 core/metabox_config.php:1338
+msgid "Background Repeat"
+msgstr ""
+
+#: core/metabox_config.php:877 core/metabox_config.php:1342
+msgid "no-repeat"
+msgstr ""
+
+#: core/metabox_config.php:878 core/metabox_config.php:1343
+msgid "repeat"
+msgstr ""
+
+#: core/metabox_config.php:879 core/metabox_config.php:1344
+msgid "repeat-x"
+msgstr ""
+
+#: core/metabox_config.php:880 core/metabox_config.php:1345
+msgid "repeat-y"
+msgstr ""
+
+#: core/metabox_config.php:881 core/metabox_config.php:896
+#: core/metabox_config.php:915 core/metabox_config.php:1346
+#: core/metabox_config.php:1361 core/metabox_config.php:1380
+msgid "inherit"
+msgstr ""
+
+#: core/metabox_config.php:892 core/metabox_config.php:1357
+#: core/vc/modules/bpt_soc_icons.php:154
+msgid "Background Size"
+msgstr ""
+
+#: core/metabox_config.php:897 core/metabox_config.php:1362
+msgid "cover"
+msgstr ""
+
+#: core/metabox_config.php:898 core/metabox_config.php:1363
+msgid "contain"
+msgstr ""
+
+#: core/metabox_config.php:909 core/metabox_config.php:1374
+msgid "Background Attachment"
+msgstr ""
+
+#: core/metabox_config.php:913 core/metabox_config.php:1378
+msgid "fixed"
+msgstr ""
+
+#: core/metabox_config.php:914 core/metabox_config.php:1379
+msgid "scroll"
+msgstr ""
+
+#: core/metabox_config.php:926 core/metabox_config.php:1391
+msgid "Background Position"
+msgstr ""
+
+#: core/metabox_config.php:930 core/metabox_config.php:1395
+msgid "left top"
+msgstr ""
+
+#: core/metabox_config.php:931 core/metabox_config.php:1396
+msgid "left center"
+msgstr ""
+
+#: core/metabox_config.php:932 core/metabox_config.php:1397
+msgid "left bottom"
+msgstr ""
+
+#: core/metabox_config.php:933 core/metabox_config.php:1398
+msgid "center top"
+msgstr ""
+
+#: core/metabox_config.php:934 core/metabox_config.php:1399
+msgid "center center"
+msgstr ""
+
+#: core/metabox_config.php:935 core/metabox_config.php:1400
+msgid "center bottom"
+msgstr ""
+
+#: core/metabox_config.php:936 core/metabox_config.php:1401
+msgid "right top"
+msgstr ""
+
+#: core/metabox_config.php:937 core/metabox_config.php:1402
+msgid "right center"
+msgstr ""
+
+#: core/metabox_config.php:938 core/metabox_config.php:1403
+msgid "right bottom"
+msgstr ""
+
+#: core/metabox_config.php:949 core/metabox_config.php:963
+#: core/vc/modules/bpt_spacing.php:20
+msgid "Height"
+msgstr ""
+
+#: core/metabox_config.php:978
+msgid "Offset to content"
+msgstr ""
+
+#: core/metabox_config.php:998
+msgid "Footer Options"
+msgstr ""
+
+#: core/metabox_config.php:1003 core/redux-config.php:1444
+msgid "Show Footer"
+msgstr ""
+
+#: core/metabox_config.php:1015 core/redux-config.php:1457
+msgid "Footer Content Type"
+msgstr ""
+
+#: core/metabox_config.php:1019
+msgid "Widgets"
+msgstr ""
+
+#: core/metabox_config.php:1020
+msgid "Page"
+msgstr ""
+
+#: core/metabox_config.php:1049 core/redux-config.php:1474
+msgid "Footer Column"
+msgstr ""
+
+#: core/metabox_config.php:1068
+msgid "Footer Column 1"
+msgstr ""
+
+#: core/metabox_config.php:1081
+msgid "Footer Column 2"
+msgstr ""
+
+#: core/metabox_config.php:1095
+msgid "Footer Column 3"
+msgstr ""
+
+#: core/metabox_config.php:1110
+msgid "Footer Column 4"
+msgstr ""
+
+#: core/metabox_config.php:1126 core/metabox_config.php:1147
+#: core/redux-config.php:1487 core/redux-config.php:1501
+msgid "Footer Column Layout"
+msgstr ""
+
+#: core/metabox_config.php:1167 core/redux-config.php:1514
+msgid "Footer Title Text Align"
+msgstr ""
+
+#: core/metabox_config.php:1185
+msgid "Padding Top (px)"
+msgstr ""
+
+#: core/metabox_config.php:1198
+msgid "Padding Bottom (px)"
+msgstr ""
+
+#: core/metabox_config.php:1211
+msgid "Padding Left (px)"
+msgstr ""
+
+#: core/metabox_config.php:1224
+msgid "Padding Right (px)"
+msgstr ""
+
+#: core/metabox_config.php:1238 core/redux-config.php:1375
+msgid "Full Width Footer"
+msgstr ""
+
+#: core/metabox_config.php:1248 core/redux-config.php:1381
+msgid "Add Wave"
+msgstr ""
+
+#: core/metabox_config.php:1257 core/redux-config.php:1389
+msgid "Set Wave Height"
+msgstr ""
+
+#: core/metabox_config.php:1284
+msgid "Footer Text Color"
+msgstr ""
+
+#: core/metabox_config.php:1298
+msgid "Footer Heading Color"
+msgstr ""
+
+#: core/metabox_config.php:1312
+msgid "Footer Menu color"
+msgstr ""
+
+#: core/metabox_config.php:1326 core/redux-config.php:1424
+msgid "Footer Background Image"
+msgstr ""
+
+#: core/metabox_config.php:1416 core/redux-config.php:1557
+msgid "Show Copyright"
+msgstr ""
+
+#: core/metabox_config.php:1426 core/redux-config.php:1563
+msgid "Copyright Editor"
+msgstr ""
+
+#: core/metabox_config.php:1439 core/redux-config.php:1577
+msgid "Copyright Title Text Align"
+msgstr ""
+
+#: core/metabox_config.php:1457
+msgid "Copyright Padding Top (px)"
+msgstr ""
+
+#: core/metabox_config.php:1471
+msgid "Copyright Padding Bottom (px)"
+msgstr ""
+
+#: core/metabox_config.php:1485
+msgid "Copyright Padding Left (px)"
+msgstr ""
+
+#: core/metabox_config.php:1499
+msgid "Copyright Padding Right (px)"
+msgstr ""
+
+#: core/metabox_config.php:1513 core/redux-config.php:1603
+msgid "Copyright Background Color"
+msgstr ""
+
+#: core/metabox_config.php:1528 core/redux-config.php:1611
+msgid "Copyright Text Color"
+msgstr ""
+
+#: core/metabox_config.php:1544
+msgid "Set Copyright Top Border?"
+msgstr ""
+
+#: core/metabox_config.php:1555 core/redux-config.php:1626
+msgid "Copyright Border Color"
+msgstr ""
+
+#: core/metabox_config.php:1571
+msgid "Copyright Border Opacity"
+msgstr ""
+
+#: core/metabox_config.php:1594
+msgid "Shortcode Above Content"
+msgstr ""
+
+#: core/metabox_config.php:1599
+msgid "Shortcode"
+msgstr ""
+
+#: core/redux-config.php:13 core/vc/modules/bpt_button.php:387
+#: core/vc/modules/bpt_counter.php:53 core/vc/modules/bpt_counter.php:390
+#: core/vc/modules/bpt_ico_progress.php:30 core/vc/modules/bpt_info_box.php:31
+#: core/vc/modules/bpt_info_box.php:523 core/vc/modules/bpt_info_box.php:667
+#: core/vc/modules/bpt_pricing_table.php:262
+#: core/vc/modules/bpt_pricing_table.php:581 core/vc/modules/bpt_team.php:465
+#: core/vc/modules/bpt_testimonials.php:25 core/vc/modules/bpt_video_popup.php:95
+#: functions.php:84 functions.php:139
+msgid "Default"
+msgstr ""
+
+#: core/redux-config.php:39 core/redux-config.php:40
+msgid "Theme Options"
+msgstr ""
+
+#: core/redux-config.php:74
+msgid "General"
+msgstr ""
+
+#: core/redux-config.php:82 core/vc/modules/bpt_blog_posts.php:537
+#: core/vc/modules/bpt_carousel.php:212 core/vc/modules/bpt_carousel.php:219
+#: core/vc/modules/bpt_carousel.php:231 core/vc/modules/bpt_carousel.php:243
+#: core/vc/modules/bpt_carousel.php:256 core/vc/modules/bpt_carousel.php:268
+#: core/vc/modules/bpt_carousel.php:280 core/vc/modules/bpt_carousel.php:292
+#: core/vc/modules/bpt_carousel.php:304 core/vc/modules/bpt_carousel.php:316
+#: core/vc/modules/bpt_clients.php:131 core/vc/modules/bpt_team.php:319
+#: core/vc/modules/bpt_testimonials.php:271
+#: core/vc/modules/bpt_time_line_horizontal.php:212
+msgid "Responsive"
+msgstr ""
+
+#: core/redux-config.php:88
+msgid "Page Comments"
+msgstr ""
+
+#: core/redux-config.php:94
+msgid "Preloader"
+msgstr ""
+
+#: core/redux-config.php:100
+msgid "Preloader Background"
+msgstr ""
+
+#: core/redux-config.php:101
+msgid "Set Preloader Background"
+msgstr ""
+
+#: core/redux-config.php:109
+msgid "Preloader Color Circle 1"
+msgstr ""
+
+#: core/redux-config.php:117
+msgid "Preloader Color Circle 2"
+msgstr ""
+
+#: core/redux-config.php:125
+msgid "Preloader Color Circle 3"
+msgstr ""
+
+#: core/redux-config.php:133
+msgid "Back to Top"
+msgstr ""
+
+#: core/redux-config.php:139 core/redux-config.php:148
+msgid "Custom JS"
+msgstr ""
+
+#: core/redux-config.php:140
+msgid "Paste your JS code here."
+msgstr ""
+
+#: core/redux-config.php:149
+msgid "Code to be added inside HEAD tag"
+msgstr ""
+
+#: core/redux-config.php:242
+msgid "Preset"
+msgstr ""
+
+#: core/redux-config.php:243
+msgid "This allows you to set default header layout."
+msgstr ""
+
+#: core/redux-config.php:267
+msgid "Header default preset"
+msgstr ""
+
+#: core/redux-config.php:270
+msgid ""
+"Please choose preset to use this in all Pages. \n"
+"                    You also can choose for every page your custom header "
+"present in page's option select(page metabox)."
+msgstr ""
+
+#: core/redux-config.php:276
+msgid "Custom Preset"
+msgstr ""
+
+#: core/redux-config.php:281
+msgid "Bottom Header Order"
+msgstr ""
+
+#: core/redux-config.php:282
+msgid "Organize the layout of the bottom header"
+msgstr ""
+
+#: core/redux-config.php:287 core/redux-config.php:331 core/redux-config.php:963
+#: core/redux-config.php:1146
+msgid "HTML 1"
+msgstr ""
+
+#: core/redux-config.php:288 core/redux-config.php:332 core/redux-config.php:964
+#: core/redux-config.php:1147
+msgid "HTML 2"
+msgstr ""
+
+#: core/redux-config.php:289 core/redux-config.php:333 core/redux-config.php:965
+#: core/redux-config.php:1148
+msgid "HTML 3"
+msgstr ""
+
+#: core/redux-config.php:290 core/redux-config.php:334 core/redux-config.php:966
+#: core/redux-config.php:1149
+msgid "HTML 4"
+msgstr ""
+
+#: core/redux-config.php:291 core/redux-config.php:335 core/redux-config.php:967
+#: core/redux-config.php:1150
+msgid "HTML 5"
+msgstr ""
+
+#: core/redux-config.php:292 core/redux-config.php:336 core/redux-config.php:968
+#: core/redux-config.php:1151
+msgid "HTML 6"
+msgstr ""
+
+#: core/redux-config.php:293 core/redux-config.php:337 core/redux-config.php:969
+#: core/redux-config.php:1161 templates/header/section-page_title.php:114
+msgid "Search"
+msgstr ""
+
+#: core/redux-config.php:294 core/redux-config.php:338 core/redux-config.php:970
+#: core/redux-config.php:1152
+msgid "WPML"
+msgstr ""
+
+#: core/redux-config.php:295 core/redux-config.php:296 core/redux-config.php:297
+#: core/redux-config.php:298 core/redux-config.php:299 core/redux-config.php:300
+#: core/redux-config.php:339 core/redux-config.php:340 core/redux-config.php:341
+#: core/redux-config.php:342 core/redux-config.php:343 core/redux-config.php:344
+#: core/redux-config.php:971 core/redux-config.php:972 core/redux-config.php:973
+#: core/redux-config.php:974 core/redux-config.php:975 core/redux-config.php:976
+msgid "|"
+msgstr ""
+
+#: core/redux-config.php:301 core/redux-config.php:345
+msgid "Spacer 1"
+msgstr ""
+
+#: core/redux-config.php:302 core/redux-config.php:346
+msgid "Spacer 2"
+msgstr ""
+
+#: core/redux-config.php:303 core/redux-config.php:347
+msgid "Spacer 3"
+msgstr ""
+
+#: core/redux-config.php:304 core/redux-config.php:348
+msgid "Spacer 4"
+msgstr ""
+
+#: core/redux-config.php:305 core/redux-config.php:349
+msgid "Spacer 5"
+msgstr ""
+
+#: core/redux-config.php:306 core/redux-config.php:350
+msgid "Spacer 6"
+msgstr ""
+
+#: core/redux-config.php:307 core/redux-config.php:351
+msgid "Spacer 7"
+msgstr ""
+
+#: core/redux-config.php:308 core/redux-config.php:352
+msgid "Spacer 8"
+msgstr ""
+
+#: core/redux-config.php:309 core/redux-config.php:353
+msgid "Cart"
+msgstr ""
+
+#: core/redux-config.php:320 core/redux-config.php:364 core/redux-config.php:983
+#: core/redux-config.php:1155
+msgid "Menu"
+msgstr ""
+
+#: core/redux-config.php:379
+msgid "Header Spacer 1 Width"
+msgstr ""
+
+#: core/redux-config.php:391
+msgid "Header Spacer 2 Width"
+msgstr ""
+
+#: core/redux-config.php:403
+msgid "Header Spacer 3 Width"
+msgstr ""
+
+#: core/redux-config.php:415
+msgid "Header Spacer 4 Width"
+msgstr ""
+
+#: core/redux-config.php:427
+msgid "Header Spacer 5 Width"
+msgstr ""
+
+#: core/redux-config.php:439
+msgid "Header Spacer 6 Width"
+msgstr ""
+
+#: core/redux-config.php:451
+msgid "Header Spacer 7 Width"
+msgstr ""
+
+#: core/redux-config.php:463
+msgid "Header Spacer 8 Width"
+msgstr ""
+
+#: core/redux-config.php:475 core/redux-config.php:1003 core/redux-config.php:1172
+msgid "HTML Element 1 Editor"
+msgstr ""
+
+#: core/redux-config.php:482 core/redux-config.php:1013 core/redux-config.php:1182
+msgid "HTML Element 2 Editor"
+msgstr ""
+
+#: core/redux-config.php:489 core/redux-config.php:1023 core/redux-config.php:1192
+msgid "HTML Element 3 Editor"
+msgstr ""
+
+#: core/redux-config.php:496 core/redux-config.php:1033 core/redux-config.php:1202
+msgid "HTML Element 4 Editor"
+msgstr ""
+
+#: core/redux-config.php:502 core/redux-config.php:1043 core/redux-config.php:1212
+msgid "HTML Element 5 Editor"
+msgstr ""
+
+#: core/redux-config.php:509 core/redux-config.php:1053 core/redux-config.php:1222
+msgid "HTML Element 6 Editor"
+msgstr ""
+
+#: core/redux-config.php:515
+msgid "Header Top Options"
+msgstr ""
+
+#: core/redux-config.php:521
+msgid "Full Width Top Header"
+msgstr ""
+
+#: core/redux-config.php:522
+msgid "Set header content in full width top layout"
+msgstr ""
+
+#: core/redux-config.php:530
+msgid "Header Top Height"
+msgstr ""
+
+#: core/redux-config.php:540
+msgid "Header Top Background Image"
+msgstr ""
+
+#: core/redux-config.php:545
+msgid "Header Top Background"
+msgstr ""
+
+#: core/redux-config.php:556
+msgid "Header Top Text Color"
+msgstr ""
+
+#: core/redux-config.php:557
+msgid "Set Top header text color"
+msgstr ""
+
+#: core/redux-config.php:568
+msgid "Set Header Top Bottom Border"
+msgstr ""
+
+#: core/redux-config.php:576
+msgid "Header Top Border Width"
+msgstr ""
+
+#: core/redux-config.php:589
+msgid "Header Top Border Color"
+msgstr ""
+
+#: core/redux-config.php:608
+msgid "Header Middle Options"
+msgstr ""
+
+#: core/redux-config.php:614
+msgid "Full Width Middle Header"
+msgstr ""
+
+#: core/redux-config.php:615
+msgid "Set header content in full width middle layout"
+msgstr ""
+
+#: core/redux-config.php:623
+msgid "Header Middle Height"
+msgstr ""
+
+#: core/redux-config.php:633
+msgid "Header Middle Background Image"
+msgstr ""
+
+#: core/redux-config.php:638
+msgid "Header Middle Background"
+msgstr ""
+
+#: core/redux-config.php:649
+msgid "Header Middle Text Color"
+msgstr ""
+
+#: core/redux-config.php:650
+msgid "Set Middle header text color"
+msgstr ""
+
+#: core/redux-config.php:661
+msgid "Set Header Middle Bottom Border"
+msgstr ""
+
+#: core/redux-config.php:669
+msgid "Header Middle Border Width"
+msgstr ""
+
+#: core/redux-config.php:682
+msgid "Header Middle Border Color"
+msgstr ""
+
+#: core/redux-config.php:702
+msgid "Header Bottom Options"
+msgstr ""
+
+#: core/redux-config.php:708
+msgid "Full Width Bottom Header"
+msgstr ""
+
+#: core/redux-config.php:709
+msgid "Set header content in full width bottom layout"
+msgstr ""
+
+#: core/redux-config.php:717
+msgid "Header Bottom Height"
+msgstr ""
+
+#: core/redux-config.php:727
+msgid "Header Bottom Background Image"
+msgstr ""
+
+#: core/redux-config.php:732
+msgid "Header Bottom Background"
+msgstr ""
+
+#: core/redux-config.php:743
+msgid "Header Bottom Text Color"
+msgstr ""
+
+#: core/redux-config.php:744
+msgid "Set Bottom header text color"
+msgstr ""
+
+#: core/redux-config.php:755
+msgid "Set Header Bottom Border"
+msgstr ""
+
+#: core/redux-config.php:763
+msgid "Header Bottom Border Width"
+msgstr ""
+
+#: core/redux-config.php:776
+msgid "Header Bottom Border Color"
+msgstr ""
+
+#: core/redux-config.php:801
+msgid "Header Bottom Shadow"
+msgstr ""
+
+#: core/redux-config.php:807
+msgid "Header Above Content"
+msgstr ""
+
+#: core/redux-config.php:808
+msgid "Set the header to display above the slider or page content"
+msgstr ""
+
+#: core/redux-config.php:820
+msgid "Sub Menu Background"
+msgstr ""
+
+#: core/redux-config.php:821 core/redux-config.php:1105
+msgid "Set sub menu background color"
+msgstr ""
+
+#: core/redux-config.php:832
+msgid "Sub Menu Text Color"
+msgstr ""
+
+#: core/redux-config.php:833 core/redux-config.php:1118
+msgid "Set sub menu header text color"
+msgstr ""
+
+#: core/redux-config.php:840
+msgid "Show Header mobile in the resolution"
+msgstr ""
+
+#: core/redux-config.php:860
+msgid "Header Sticky"
+msgstr ""
+
+#: core/redux-config.php:874
+msgid "Sticky Settings"
+msgstr ""
+
+#: core/redux-config.php:883
+msgid "Sticky Header Height"
+msgstr ""
+
+#: core/redux-config.php:893
+msgid "Sticky Header Background"
+msgstr ""
+
+#: core/redux-config.php:894
+msgid "Set sticky header background color"
+msgstr ""
+
+#: core/redux-config.php:905
+msgid "Sticky Header Text Color"
+msgstr ""
+
+#: core/redux-config.php:906
+msgid "Set sticky header text color"
+msgstr ""
+
+#: core/redux-config.php:913
+msgid "Sticky Appearance Style"
+msgstr ""
+
+#: core/redux-config.php:915
+msgid "Classic"
+msgstr ""
+
+#: core/redux-config.php:916
+msgid "Appearance only on scroll top"
+msgstr ""
+
+#: core/redux-config.php:923
+msgid "Sticky Header Appearance From Top of Page"
+msgstr ""
+
+#: core/redux-config.php:925
+msgid "Auto"
+msgstr ""
+
+#: core/redux-config.php:926 core/vc/modules/bpt_blog_posts.php:682
+#: core/vc/modules/bpt_blog_posts.php:690 core/vc/modules/bpt_blog_posts.php:697
+#: core/vc/modules/bpt_blog_posts.php:704 core/vc/modules/bpt_blog_posts.php:720
+#: core/vc/modules/bpt_blog_posts.php:726 core/vc/modules/bpt_blog_posts.php:735
+#: core/vc/modules/bpt_blog_posts.php:748 core/vc/modules/bpt_blog_posts.php:760
+#: core/vc/modules/bpt_blog_posts.php:774 core/vc/modules/bpt_blog_posts.php:788
+#: core/vc/modules/bpt_blog_posts.php:796 core/vc/modules/bpt_blog_posts.php:804
+#: core/vc/modules/bpt_blog_posts.php:820 core/vc/modules/bpt_blog_posts.php:826
+#: core/vc/modules/bpt_blog_posts.php:835 core/vc/modules/bpt_blog_posts.php:848
+#: core/vc/modules/bpt_blog_posts.php:860 core/vc/modules/bpt_blog_posts.php:874
+#: core/vc/modules/bpt_blog_posts.php:881 core/vc/modules/bpt_blog_posts.php:890
+#: core/vc/modules/bpt_blog_posts.php:905 core/vc/modules/bpt_blog_posts.php:913
+#: core/vc/modules/bpt_blog_posts.php:926 core/vc/modules/bpt_blog_posts.php:934
+#: core/vc/modules/bpt_blog_posts.php:947 core/vc/modules/bpt_blog_posts.php:955
+#: core/vc/modules/bpt_blog_posts.php:968 core/vc/modules/bpt_button.php:379
+#: core/vc/modules/bpt_button.php:391 core/vc/modules/bpt_button.php:398
+#: core/vc/modules/bpt_button.php:418 core/vc/modules/bpt_button.php:433
+#: core/vc/modules/bpt_button.php:442 core/vc/modules/bpt_button.php:462
+#: core/vc/modules/bpt_button.php:477 core/vc/modules/bpt_button.php:486
+#: core/vc/modules/bpt_button.php:505 core/vc/modules/bpt_button.php:519
+#: core/vc/modules/bpt_button.php:528 core/vc/modules/bpt_button.php:547
+#: core/vc/modules/bpt_button.php:561 core/vc/modules/bpt_button.php:570
+#: core/vc/modules/bpt_button.php:590 core/vc/modules/bpt_button.php:601
+#: core/vc/modules/bpt_button.php:614 core/vc/modules/bpt_button.php:633
+#: core/vc/modules/bpt_button.php:647 core/vc/modules/bpt_button.php:656
+#: core/vc/modules/bpt_button.php:675 core/vc/modules/bpt_button.php:689
+#: core/vc/modules/bpt_countdown.php:122 core/vc/modules/bpt_message_box.php:29
+msgid "Custom"
+msgstr ""
+
+#: core/redux-config.php:935
+msgid "Set the distance from the top of the page"
+msgstr ""
+
+#: core/redux-config.php:946
+msgid "Sticky Header Bottom Shadow"
+msgstr ""
+
+#: core/redux-config.php:952
+msgid "Custom Sticky Header "
+msgstr ""
+
+#: core/redux-config.php:958
+msgid "Sticky Header Order"
+msgstr ""
+
+#: core/redux-config.php:959
+msgid "Organize the layout of the sticky header"
+msgstr ""
+
+#: core/redux-config.php:993
+msgid "Full Width Sticky Header"
+msgstr ""
+
+#: core/redux-config.php:1068
+msgid "Header Mobile"
+msgstr ""
+
+#: core/redux-config.php:1076
+msgid "Custom Mobile Header "
+msgstr ""
+
+#: core/redux-config.php:1082
+msgid "Mobile Header Background"
+msgstr ""
+
+#: core/redux-config.php:1083
+msgid "Set mobile header background color"
+msgstr ""
+
+#: core/redux-config.php:1095
+msgid "Mobile Header Text Color"
+msgstr ""
+
+#: core/redux-config.php:1096
+msgid "Set mobile header text color"
+msgstr ""
+
+#: core/redux-config.php:1104
+msgid "Mobile Sub Menu Background"
+msgstr ""
+
+#: core/redux-config.php:1117
+msgid "Mobile Sub Menu Text Color"
+msgstr ""
+
+#: core/redux-config.php:1128
+msgid "Mobile Height"
+msgstr ""
+
+#: core/redux-config.php:1141
+msgid "Mobile Header Order"
+msgstr ""
+
+#: core/redux-config.php:1142
+msgid "Organize the layout of the mobile header"
+msgstr ""
+
+#: core/redux-config.php:1232
+msgid "Page Title"
+msgstr ""
+
+#: core/redux-config.php:1246
+msgid "Page Title Settings"
+msgstr ""
+
+#: core/redux-config.php:1259
+msgid "Vertical Align"
+msgstr ""
+
+#: core/redux-config.php:1261 core/vc/modules/bpt_counter.php:70
+#: core/vc/modules/bpt_double_headings.php:49 core/vc/modules/bpt_info_box.php:54
+#: core/vc/modules/bpt_video_popup.php:31
+msgid "Top"
+msgstr ""
+
+#: core/redux-config.php:1262
+msgid "Middle"
+msgstr ""
+
+#: core/redux-config.php:1263 core/vc/modules/bpt_double_headings.php:50
+#: core/vc/modules/bpt_video_popup.php:32
+msgid "Bottom"
+msgstr ""
+
+#: core/redux-config.php:1270
+msgid "Page Title Text Align?"
+msgstr ""
+
+#: core/redux-config.php:1273 core/redux-config.php:1517 core/redux-config.php:1580
+#: core/vc/init.php:313 core/vc/modules/bpt_blog_posts.php:103
+#: core/vc/modules/bpt_button.php:56 core/vc/modules/bpt_carousel.php:136
+#: core/vc/modules/bpt_counter.php:97 core/vc/modules/bpt_double_headings.php:40
+#: core/vc/modules/bpt_info_box.php:81 core/vc/modules/bpt_soc_icons.php:173
+#: core/vc/modules/bpt_team.php:55 core/vc/modules/bpt_testimonials.php:51
+#: core/vc/modules/bpt_testimonials.php:235
+#: core/vc/modules/bpt_time_line_horizontal.php:176
+#: core/vc/modules/bpt_video_popup.php:43
+msgid "Center"
+msgstr ""
+
+#: core/redux-config.php:1281
+msgid "Page Title Font Color"
+msgstr ""
+
+#: core/redux-config.php:1288
+msgid "Page Title Background Color"
+msgstr ""
+
+#: core/redux-config.php:1317
+msgid "Page Title Height"
+msgstr ""
+
+#: core/redux-config.php:1334
+msgid "Page Title Padding"
+msgstr ""
+
+#: core/redux-config.php:1350
+msgid "Page Title Bottom Margin"
+msgstr ""
+
+#: core/redux-config.php:1367
+msgid "Footer"
+msgstr ""
+
+#: core/redux-config.php:1400
+msgid "Footer Background Color"
+msgstr ""
+
+#: core/redux-config.php:1407
+msgid "Footer Text color"
+msgstr ""
+
+#: core/redux-config.php:1414
+msgid "Footer Heading color"
+msgstr ""
+
+#: core/redux-config.php:1436
+msgid "Footer Content"
+msgstr ""
+
+#: core/redux-config.php:1450
+msgid "Footer Settings"
+msgstr ""
+
+#: core/redux-config.php:1467
+msgid "Footer Page Select"
+msgstr ""
+
+#: core/redux-config.php:1531
+msgid "Footer Padding (px)"
+msgstr ""
+
+#: core/redux-config.php:1549
+msgid "Copyright"
+msgstr ""
+
+#: core/redux-config.php:1591
+msgid "Copyright Padding (px)"
+msgstr ""
+
+#: core/redux-config.php:1619
+msgid "Set Copyright Top Border"
+msgstr ""
+
+#: core/redux-config.php:1643
+msgid "Blog"
+msgstr ""
+
+#: core/redux-config.php:1651
+msgid "Show Blog Post Title"
+msgstr ""
+
+#: core/redux-config.php:1658 core/redux-config.php:1915
+#: templates/breadcrumbs.php:39 templates/header/section-page_title.php:125
+msgid "Archive"
+msgstr ""
+
+#: core/redux-config.php:1666
+msgid "Blog Archive Sidebar Layout"
+msgstr ""
+
+#: core/redux-config.php:1686
+msgid "Blog Archive Sidebar"
+msgstr ""
+
+#: core/redux-config.php:1693
+msgid "Blog Archive Sidebar Width"
+msgstr ""
+
+#: core/redux-config.php:1704 core/redux-config.php:1950
+msgid "Columns in Archive"
+msgstr ""
+
+#: core/redux-config.php:1716 core/redux-config.php:1853
+msgid "Show Likes?"
+msgstr ""
+
+#: core/redux-config.php:1722
+msgid "Show Share?"
+msgstr ""
+
+#: core/redux-config.php:1728 core/vc/modules/bpt_blog_posts.php:205
+msgid "Hide Media?"
+msgstr ""
+
+#: core/redux-config.php:1734 core/vc/modules/bpt_blog_posts.php:212
+msgid "Hide Title?"
+msgstr ""
+
+#: core/redux-config.php:1740 core/vc/modules/bpt_blog_posts.php:219
+msgid "Hide Content?"
+msgstr ""
+
+#: core/redux-config.php:1746
+msgid "Cut Off Text in Blog Listing"
+msgstr ""
+
+#: core/redux-config.php:1752
+msgid "Number of character to show after trim."
+msgstr ""
+
+#: core/redux-config.php:1759
+msgid "Hide Read More Button?"
+msgstr ""
+
+#: core/redux-config.php:1765 core/redux-config.php:1871 core/redux-config.php:2063
+#: core/vc/modules/bpt_blog_posts.php:226
+msgid "Hide all post-meta?"
+msgstr ""
+
+#: core/redux-config.php:1771 core/redux-config.php:1877
+#: core/vc/modules/bpt_blog_posts.php:233
+msgid "Hide post-meta author?"
+msgstr ""
+
+#: core/redux-config.php:1778 core/redux-config.php:1884
+#: core/vc/modules/bpt_blog_posts.php:245
+msgid "Hide post-meta comments?"
+msgstr ""
+
+#: core/redux-config.php:1785 core/redux-config.php:1891
+#: core/vc/modules/bpt_blog_posts.php:256
+msgid "Hide post-meta categories?"
+msgstr ""
+
+#: core/redux-config.php:1792 core/redux-config.php:1898
+#: core/vc/modules/bpt_blog_posts.php:267
+msgid "Hide post-meta date?"
+msgstr ""
+
+#: core/redux-config.php:1801 core/redux-config.php:2004
+msgid "Single"
+msgstr ""
+
+#: core/redux-config.php:1809
+msgid "Blog Single Sidebar Layout"
+msgstr ""
+
+#: core/redux-config.php:1829
+msgid "Blog Single Sidebar"
+msgstr ""
+
+#: core/redux-config.php:1836
+msgid "Blog Single Sidebar Width"
+msgstr ""
+
+#: core/redux-config.php:1847 core/redux-config.php:2039 single.php:122
+msgid "Related Posts"
+msgstr ""
+
+#: core/redux-config.php:1859
+msgid "Share on Single Post?"
+msgstr ""
+
+#: core/redux-config.php:1865
+msgid "Show Author Info?"
+msgstr ""
+
+#: core/redux-config.php:1908
+msgid "Portfolio"
+msgstr ""
+
+#: core/redux-config.php:1923
+msgid "Portfolio Archive Sidebar Layout"
+msgstr ""
+
+#: core/redux-config.php:1943
+msgid "Portfolio Archive Sidebar"
+msgstr ""
+
+#: core/redux-config.php:1962
+msgid "Portfolio Slug"
+msgstr ""
+
+#: core/redux-config.php:1968
+msgid "Show Filter?"
+msgstr ""
+
+#: core/redux-config.php:1976
+msgid "Select Categories"
+msgstr ""
+
+#: core/redux-config.php:1985
+msgid "Show Title?"
+msgstr ""
+
+#: core/redux-config.php:1991
+msgid "Show Content?"
+msgstr ""
+
+#: core/redux-config.php:1997
+msgid "Show Categories?"
+msgstr ""
+
+#: core/redux-config.php:2012
+msgid "Portfolio Single Sidebar Layout"
+msgstr ""
+
+#: core/redux-config.php:2032
+msgid "Portfolio Single Sidebar"
+msgstr ""
+
+#: core/redux-config.php:2045
+msgid "Shaw Tags"
+msgstr ""
+
+#: core/redux-config.php:2051
+msgid "Show Share"
+msgstr ""
+
+#: core/redux-config.php:2057
+msgid "Show post-meta likes?"
+msgstr ""
+
+#: core/redux-config.php:2069
+msgid "Show post-meta author?"
+msgstr ""
+
+#: core/redux-config.php:2076
+msgid "Show post-meta comments?"
+msgstr ""
+
+#: core/redux-config.php:2083
+msgid "Show post-meta categories?"
+msgstr ""
+
+#: core/redux-config.php:2090
+msgid "Show post-meta date?"
+msgstr ""
+
+#: core/redux-config.php:2099 core/vc/modules/bpt_team.php:13
+msgid "Team"
+msgstr ""
+
+#: core/redux-config.php:2107
+msgid "Team Slug"
+msgstr ""
+
+#: core/redux-config.php:2115
+msgid "Sidebars"
+msgstr ""
+
+#: core/redux-config.php:2162 core/redux-config.php:2172
+msgid "Sidebar Generator"
+msgstr ""
+
+#: core/redux-config.php:2171
+msgid "Add Sidebar"
+msgstr ""
+
+#: core/redux-config.php:2181
+msgid "Color Options"
+msgstr ""
+
+#: core/redux-config.php:2188 core/vc/modules/bpt_ico_progress_bar.php:106
+#: core/vc/modules/bpt_ico_progress_bar.php:113
+#: core/vc/modules/bpt_ico_progress_bar.php:125
+#: core/vc/modules/bpt_ico_progress_bar.php:137
+#: core/vc/modules/bpt_ico_progress_bar.php:144
+#: core/vc/modules/bpt_ico_progress_bar.php:151
+#: core/vc/modules/bpt_ico_progress_bar.php:163
+#: core/vc/modules/bpt_ico_progress_bar.php:175 core/vc/modules/bpt_team.php:452
+#: core/vc/modules/bpt_team.php:473 core/vc/modules/bpt_team.php:486
+#: core/vc/modules/bpt_team.php:500 core/vc/modules/bpt_team.php:513
+#: core/vc/modules/bpt_team.php:526 core/vc/modules/bpt_team.php:539
+#: core/vc/modules/bpt_team.php:552 core/vc/modules/bpt_team.php:560
+#: core/vc/modules/bpt_team.php:568 core/vc/modules/bpt_team.php:581
+#: core/vc/modules/bpt_team.php:593 core/vc/modules/bpt_team.php:601
+#: core/vc/modules/bpt_team.php:609 core/vc/modules/bpt_team.php:622
+#: core/vc/modules/bpt_team.php:634 core/vc/modules/bpt_team.php:642
+#: core/vc/modules/bpt_team.php:650 core/vc/modules/bpt_team.php:663
+#: core/vc/modules/bpt_team.php:675
+msgid "Colors"
+msgstr ""
+
+#: core/redux-config.php:2210
+msgid "Theme Gradient"
+msgstr ""
+
+#: core/redux-config.php:2230 core/vc/modules/bpt_button.php:240
+#: core/vc/modules/bpt_button.php:256 core/vc/modules/bpt_button.php:265
+#: core/vc/modules/bpt_button.php:275 core/vc/modules/bpt_message_box.php:87
+#: core/vc/modules/bpt_message_box.php:108 core/vc/modules/bpt_message_box.php:123
+#: core/vc/modules/bpt_message_box.php:136 core/vc/modules/bpt_message_box.php:156
+#: core/vc/modules/bpt_message_box.php:164 core/vc/modules/bpt_message_box.php:182
+#: core/vc/modules/bpt_message_box.php:190 core/vc/modules/bpt_message_box.php:211
+#: core/vc/modules/bpt_message_box.php:226 core/vc/modules/bpt_message_box.php:239
+#: core/vc/modules/bpt_message_box.php:259 core/vc/modules/bpt_message_box.php:267
+#: core/vc/modules/bpt_message_box.php:285
+#: core/vc/modules/bpt_pricing_table.php:687
+#: core/vc/modules/bpt_pricing_table.php:697
+#: core/vc/modules/bpt_pricing_table.php:707
+#: core/vc/modules/bpt_pricing_table.php:716
+#: core/vc/modules/bpt_pricing_table.php:732
+#: core/vc/modules/bpt_pricing_table.php:740
+#: core/vc/modules/bpt_pricing_table.php:754
+#: core/vc/modules/bpt_pricing_table.php:762
+#: core/vc/modules/bpt_pricing_table.php:772
+#: core/vc/modules/bpt_pricing_table.php:780
+#: core/vc/modules/bpt_pricing_table.php:794
+#: core/vc/modules/bpt_testimonials.php:405
+#: core/vc/modules/bpt_testimonials.php:422
+#: core/vc/modules/bpt_testimonials.php:433
+#: core/vc/modules/bpt_testimonials.php:442
+#: core/vc/modules/bpt_testimonials.php:458
+#: core/vc/modules/bpt_testimonials.php:466
+#: core/vc/modules/bpt_testimonials.php:480
+#: core/vc/modules/bpt_testimonials.php:488
+#: core/vc/modules/bpt_testimonials.php:505
+#: core/vc/modules/bpt_testimonials.php:516
+#: core/vc/modules/bpt_testimonials.php:525
+#: core/vc/modules/bpt_testimonials.php:541
+#: core/vc/modules/bpt_testimonials.php:549
+#: core/vc/modules/bpt_testimonials.php:563
+#: core/vc/modules/bpt_testimonials.php:571
+#: core/vc/modules/bpt_testimonials.php:588
+#: core/vc/modules/bpt_testimonials.php:599
+#: core/vc/modules/bpt_testimonials.php:608
+#: core/vc/modules/bpt_testimonials.php:624
+#: core/vc/modules/bpt_testimonials.php:632
+#: core/vc/modules/bpt_testimonials.php:646
+msgid "Typography"
+msgstr ""
+
+#: core/redux-config.php:2238
+msgid "Menu Font"
+msgstr ""
+
+#: core/redux-config.php:2259
+msgid "Main Font"
+msgstr ""
+
+#: core/redux-config.php:2281
+msgid "Headers Font"
+msgstr ""
+
+#: core/redux-config.php:2303 core/vc/modules/bpt_blog_posts.php:673
+msgid "H1"
+msgstr ""
+
+#: core/redux-config.php:2324 core/vc/modules/bpt_blog_posts.php:674
+#: core/vc/modules/bpt_counter.php:491 core/vc/modules/bpt_info_box.php:772
+#: core/vc/modules/bpt_info_box.php:865 core/vc/modules/bpt_info_box.php:948
+#: core/vc/modules/bpt_message_box.php:101 core/vc/modules/bpt_message_box.php:204
+#: core/vc/modules/bpt_testimonials.php:415
+#: core/vc/modules/bpt_testimonials.php:498
+#: core/vc/modules/bpt_testimonials.php:581
+msgid "H2"
+msgstr ""
+
+#: core/redux-config.php:2345 core/vc/modules/bpt_blog_posts.php:675
+#: core/vc/modules/bpt_counter.php:492 core/vc/modules/bpt_info_box.php:773
+#: core/vc/modules/bpt_info_box.php:866 core/vc/modules/bpt_info_box.php:949
+#: core/vc/modules/bpt_message_box.php:102 core/vc/modules/bpt_message_box.php:205
+#: core/vc/modules/bpt_testimonials.php:416
+#: core/vc/modules/bpt_testimonials.php:499
+#: core/vc/modules/bpt_testimonials.php:582
+msgid "H3"
+msgstr ""
+
+#: core/redux-config.php:2366 core/vc/modules/bpt_blog_posts.php:676
+#: core/vc/modules/bpt_counter.php:493 core/vc/modules/bpt_info_box.php:774
+#: core/vc/modules/bpt_info_box.php:867 core/vc/modules/bpt_info_box.php:950
+#: core/vc/modules/bpt_message_box.php:103 core/vc/modules/bpt_message_box.php:206
+#: core/vc/modules/bpt_testimonials.php:417
+#: core/vc/modules/bpt_testimonials.php:500
+#: core/vc/modules/bpt_testimonials.php:583
+msgid "H4"
+msgstr ""
+
+#: core/redux-config.php:2387 core/vc/modules/bpt_blog_posts.php:677
+#: core/vc/modules/bpt_counter.php:494 core/vc/modules/bpt_info_box.php:775
+#: core/vc/modules/bpt_info_box.php:868 core/vc/modules/bpt_info_box.php:951
+#: core/vc/modules/bpt_message_box.php:104 core/vc/modules/bpt_message_box.php:207
+#: core/vc/modules/bpt_testimonials.php:418
+#: core/vc/modules/bpt_testimonials.php:501
+#: core/vc/modules/bpt_testimonials.php:584
+msgid "H5"
+msgstr ""
+
+#: core/redux-config.php:2408 core/vc/modules/bpt_blog_posts.php:678
+#: core/vc/modules/bpt_counter.php:495 core/vc/modules/bpt_info_box.php:776
+#: core/vc/modules/bpt_info_box.php:869 core/vc/modules/bpt_info_box.php:952
+#: core/vc/modules/bpt_message_box.php:105 core/vc/modules/bpt_message_box.php:208
+#: core/vc/modules/bpt_testimonials.php:419
+#: core/vc/modules/bpt_testimonials.php:502
+#: core/vc/modules/bpt_testimonials.php:585
+msgid "H6"
+msgstr ""
+
+#: core/redux-config.php:2432 templates/header/section-page_title.php:122
+msgid "Shop"
+msgstr ""
+
+#: core/redux-config.php:2440
+msgid "Shop Catalog Sidebar Layout"
+msgstr ""
+
+#: core/redux-config.php:2460
+msgid "Shop Catalog Sidebar"
+msgstr ""
+
+#: core/redux-config.php:2467
+msgid "Shop Sidebar Width"
+msgstr ""
+
+#: core/redux-config.php:2478
+msgid "Shop Single Sidebar Layout"
+msgstr ""
+
+#: core/redux-config.php:2498
+msgid "Shop Single Sidebar"
+msgstr ""
+
+#: core/redux-config.php:2505
+msgid "Shop Single Sidebar Width"
+msgstr ""
+
+#: core/redux-config.php:2516
+msgid "Shop Column"
+msgstr ""
+
+#: core/redux-config.php:2528
+msgid "Products per page"
+msgstr ""
+
+#: core/redux-config.php:2534
+msgid "Related products column"
+msgstr ""
+
+#: core/redux-config.php:2546
+msgid "Related products per page"
+msgstr ""
+
+#: core/registrator/css-js.php:29
+msgid "Like"
+msgstr ""
+
+#: core/registrator/css-js.php:30
+msgid "Unlike"
+msgstr ""
+
+#: core/registrator/misc.php:15
+msgid "Main menu"
+msgstr ""
+
+#: core/registrator/misc.php:16
+msgid "Top Header Menu"
+msgstr ""
+
+#: core/registrator/misc.php:17
+msgid "Footer Menu"
+msgstr ""
+
+#: core/registrator/sidebars.php:9
+msgid ""
+"Add the widgets appearance for Custom Sidebar. Drag the widget from the "
+"available list on the left, configure widgets options and click Save button. "
+"Select the sidebar on the posts or pages in just few clicks."
+msgstr ""
+
+#: core/registrator/sidebars.php:25
+msgid "Column Footer 1"
+msgstr ""
+
+#: core/registrator/sidebars.php:27 core/registrator/sidebars.php:39
+#: core/registrator/sidebars.php:51 core/registrator/sidebars.php:63
+msgid ""
+"Display and style the footer area with multiple widgets. Simply drag the widgets "
+"from the left, make the adjustments to the widget according the needs. Preview "
+"the front end."
+msgstr ""
+
+#: core/registrator/sidebars.php:37
+msgid "Column Footer 2"
+msgstr ""
+
+#: core/registrator/sidebars.php:49
+msgid "Column Footer 3"
+msgstr ""
+
+#: core/registrator/sidebars.php:61
+msgid "Column Footer 4"
+msgstr ""
+
+#: core/tinymce-icon.php:169
+msgid "Insert Icon"
+msgstr ""
+
+#: core/vc/custom_types/checkbox_custom.php:8 core/vc/modules/bpt_carousel.php:37
+msgid "Yes"
+msgstr ""
+
+#: core/vc/init.php:112 core/vc/init.php:123 core/vc/modules/bpt_counter.php:508
+#: core/vc/modules/bpt_counter.php:588
+msgid "Light"
+msgstr ""
+
+#: core/vc/init.php:113 core/vc/init.php:124
+msgid "Dark"
+msgstr ""
+
+#: core/vc/init.php:133
+msgid "Chevron"
+msgstr ""
+
+#: core/vc/init.php:134
+msgid "Plus"
+msgstr ""
+
+#: core/vc/init.php:135
+msgid "Triangle"
+msgstr ""
+
+#: core/vc/init.php:151
+msgid "Element width"
+msgstr ""
+
+#: core/vc/init.php:168
+msgid "Select separator width (percentage or px)."
+msgstr ""
+
+#: core/vc/init.php:175
+msgid "Add Extended Background Animation"
+msgstr ""
+
+#: core/vc/init.php:176 core/vc/init.php:184
+msgid "Extended Animation"
+msgstr ""
+
+#: core/vc/init.php:181 core/vc/modules/bpt_clients.php:18
+#: core/vc/modules/bpt_image_layers.php:25 core/vc/modules/bpt_soc_icons.php:20
+#: core/vc/modules/bpt_testimonials.php:65
+msgid "Values"
+msgstr ""
+
+#: core/vc/init.php:183 core/vc/modules/bpt_clients.php:20
+#: core/vc/modules/bpt_testimonials.php:67
+msgid "Enter values for graph - thumbnail, quote, author name and author status."
+msgstr ""
+
+#: core/vc/init.php:191 core/vc/modules/bpt_earth.php:21
+msgid "Sphere"
+msgstr ""
+
+#: core/vc/init.php:192
+msgid "Particles"
+msgstr ""
+
+#: core/vc/init.php:198
+msgid "Figure Color"
+msgstr ""
+
+#: core/vc/init.php:201 core/vc/modules/bpt_earth.php:24
+msgid "Select sphere color"
+msgstr ""
+
+#: core/vc/init.php:206
+msgid "Vertical position"
+msgstr ""
+
+#: core/vc/init.php:209
+msgid "Enter vertical position from top in %."
+msgstr ""
+
+#: core/vc/init.php:218
+msgid "Horizontal position"
+msgstr ""
+
+#: core/vc/init.php:221
+msgid "Enter horizontal position from left in %."
+msgstr ""
+
+#: core/vc/init.php:230
+msgid "Sphere Size"
+msgstr ""
+
+#: core/vc/init.php:233
+msgid "Set size of sphere in pixels."
+msgstr ""
+
+#: core/vc/init.php:241 core/vc/modules/bpt_earth.php:36
+msgid "Add Inside Second Sphere"
+msgstr ""
+
+#: core/vc/init.php:250
+msgid "Position Top"
+msgstr ""
+
+#: core/vc/init.php:253
+msgid "Set canvas vertical position from top to top of canvas."
+msgstr ""
+
+#: core/vc/init.php:262
+msgid "Position Left"
+msgstr ""
+
+#: core/vc/init.php:265
+msgid "Set canvas vertical position from left to left side of canvas."
+msgstr ""
+
+#: core/vc/init.php:274
+msgid "Width in Percent"
+msgstr ""
+
+#: core/vc/init.php:277 core/vc/init.php:289
+msgid "Set canvas width in percent."
+msgstr ""
+
+#: core/vc/init.php:286
+msgid "Height in Percent"
+msgstr ""
+
+#: core/vc/init.php:310 core/vc/modules/bpt_button.php:50
+#: core/vc/modules/bpt_counter.php:92 core/vc/modules/bpt_double_headings.php:34
+#: core/vc/modules/bpt_info_box.php:76 core/vc/modules/bpt_testimonials.php:48
+msgid "Alignment"
+msgstr ""
+
+#: core/vc/init.php:316 core/vc/modules/bpt_button.php:57
+msgid "Block"
+msgstr ""
+
+#: core/vc/init.php:318
+msgid "Select menu item alignment."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:13
+msgid "Blog Posts"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:14
+msgid "Display the blog posts"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:15 core/vc/modules/bpt_button.php:14
+#: core/vc/modules/bpt_carousel.php:14 core/vc/modules/bpt_clients.php:11
+#: core/vc/modules/bpt_coins_list.php:24 core/vc/modules/bpt_countdown.php:15
+#: core/vc/modules/bpt_counter.php:13 core/vc/modules/bpt_custom_text.php:14
+#: core/vc/modules/bpt_demo_item.php:13 core/vc/modules/bpt_double_headings.php:17
+#: core/vc/modules/bpt_earth.php:13 core/vc/modules/bpt_flip_box.php:16
+#: core/vc/modules/bpt_ico_progress.php:14
+#: core/vc/modules/bpt_ico_progress_bar.php:13
+#: core/vc/modules/bpt_image_layers.php:11 core/vc/modules/bpt_info_box.php:19
+#: core/vc/modules/bpt_message_box.php:15 core/vc/modules/bpt_pricing_table.php:14
+#: core/vc/modules/bpt_soc_icons.php:13 core/vc/modules/bpt_spacing.php:13
+#: core/vc/modules/bpt_team.php:15 core/vc/modules/bpt_testimonials.php:13
+#: core/vc/modules/bpt_time_line_horizontal.php:13
+#: core/vc/modules/bpt_time_line_vertical.php:13
+#: core/vc/modules/bpt_video_popup.php:15
+msgid "BPT Modules"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:20
+msgid "Blog Title"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:26
+msgid "Blog Subtitle"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:32 core/vc/modules/bpt_coins_list.php:30
+#: core/vc/modules/bpt_coins_list.php:87 core/vc/modules/bpt_coins_list.php:100
+#: core/vc/modules/bpt_coins_list.php:114 core/vc/modules/bpt_coins_list.php:128
+#: core/vc/modules/bpt_countdown.php:94 core/vc/modules/bpt_countdown.php:110
+#: core/vc/modules/bpt_countdown.php:125 core/vc/modules/bpt_countdown.php:137
+#: core/vc/modules/bpt_countdown.php:145 core/vc/modules/bpt_countdown.php:153
+#: core/vc/modules/bpt_countdown.php:165 core/vc/modules/bpt_countdown.php:173
+#: core/vc/modules/bpt_countdown.php:182 core/vc/modules/bpt_countdown.php:191
+msgid "Style"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:37
+msgid "Standard"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:40
+msgid "Tiny Thumbnail"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:43
+msgid "Medium Thumbnail"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:46
+msgid "Image Overlay"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:49
+msgid "News Column"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:55
+msgid "Min Height"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:59
+msgid ""
+"Add a minimum height to the post item so you can have a row without any content "
+"but still display it at a certain height."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:67
+msgid "Layout"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:72
+msgid "Grid"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:75
+msgid "Masonry"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:78 core/vc/modules/bpt_blog_posts.php:410
+#: core/vc/modules/bpt_blog_posts.php:422 core/vc/modules/bpt_blog_posts.php:429
+#: core/vc/modules/bpt_blog_posts.php:441 core/vc/modules/bpt_blog_posts.php:466
+#: core/vc/modules/bpt_blog_posts.php:478 core/vc/modules/bpt_blog_posts.php:491
+#: core/vc/modules/bpt_blog_posts.php:506 core/vc/modules/bpt_blog_posts.php:515
+#: core/vc/modules/bpt_blog_posts.php:527 core/vc/modules/bpt_blog_posts.php:539
+#: core/vc/modules/bpt_blog_posts.php:555 core/vc/modules/bpt_blog_posts.php:562
+#: core/vc/modules/bpt_blog_posts.php:574 core/vc/modules/bpt_blog_posts.php:586
+#: core/vc/modules/bpt_blog_posts.php:599 core/vc/modules/bpt_blog_posts.php:611
+#: core/vc/modules/bpt_blog_posts.php:623 core/vc/modules/bpt_blog_posts.php:635
+#: core/vc/modules/bpt_blog_posts.php:647 core/vc/modules/bpt_blog_posts.php:659
+#: core/vc/modules/bpt_carousel.php:9 core/vc/modules/bpt_clients.php:95
+#: core/vc/modules/bpt_clients.php:103 core/vc/modules/bpt_clients.php:114
+#: core/vc/modules/bpt_clients.php:126 core/vc/modules/bpt_clients.php:133
+#: core/vc/modules/bpt_clients.php:149 core/vc/modules/bpt_clients.php:156
+#: core/vc/modules/bpt_clients.php:168 core/vc/modules/bpt_clients.php:180
+#: core/vc/modules/bpt_clients.php:193 core/vc/modules/bpt_clients.php:205
+#: core/vc/modules/bpt_clients.php:217 core/vc/modules/bpt_clients.php:229
+#: core/vc/modules/bpt_clients.php:241 core/vc/modules/bpt_clients.php:253
+#: core/vc/modules/bpt_team.php:132 core/vc/modules/bpt_team.php:139
+#: core/vc/modules/bpt_team.php:150 core/vc/modules/bpt_team.php:162
+#: core/vc/modules/bpt_team.php:173 core/vc/modules/bpt_team.php:184
+#: core/vc/modules/bpt_team.php:191 core/vc/modules/bpt_team.php:203
+#: core/vc/modules/bpt_team.php:227 core/vc/modules/bpt_team.php:239
+#: core/vc/modules/bpt_team.php:252 core/vc/modules/bpt_team.php:267
+#: core/vc/modules/bpt_team.php:275 core/vc/modules/bpt_team.php:287
+#: core/vc/modules/bpt_team.php:298 core/vc/modules/bpt_team.php:313
+#: core/vc/modules/bpt_team.php:321 core/vc/modules/bpt_team.php:337
+#: core/vc/modules/bpt_team.php:344 core/vc/modules/bpt_team.php:356
+#: core/vc/modules/bpt_team.php:368 core/vc/modules/bpt_team.php:381
+#: core/vc/modules/bpt_team.php:393 core/vc/modules/bpt_team.php:405
+#: core/vc/modules/bpt_team.php:417 core/vc/modules/bpt_team.php:429
+#: core/vc/modules/bpt_team.php:441 core/vc/modules/bpt_testimonials.php:133
+#: core/vc/modules/bpt_testimonials.php:141
+#: core/vc/modules/bpt_testimonials.php:152
+#: core/vc/modules/bpt_testimonials.php:164
+#: core/vc/modules/bpt_testimonials.php:171
+#: core/vc/modules/bpt_testimonials.php:183
+#: core/vc/modules/bpt_testimonials.php:208
+#: core/vc/modules/bpt_testimonials.php:220
+#: core/vc/modules/bpt_testimonials.php:243
+#: core/vc/modules/bpt_testimonials.php:250
+#: core/vc/modules/bpt_testimonials.php:265
+#: core/vc/modules/bpt_testimonials.php:273
+#: core/vc/modules/bpt_testimonials.php:289
+#: core/vc/modules/bpt_testimonials.php:296
+#: core/vc/modules/bpt_testimonials.php:308
+#: core/vc/modules/bpt_testimonials.php:320
+#: core/vc/modules/bpt_testimonials.php:333
+#: core/vc/modules/bpt_testimonials.php:345
+#: core/vc/modules/bpt_testimonials.php:357
+#: core/vc/modules/bpt_testimonials.php:369
+#: core/vc/modules/bpt_testimonials.php:381
+#: core/vc/modules/bpt_testimonials.php:393
+#: core/vc/modules/bpt_time_line_horizontal.php:69
+#: core/vc/modules/bpt_time_line_horizontal.php:85
+#: core/vc/modules/bpt_time_line_horizontal.php:93
+#: core/vc/modules/bpt_time_line_horizontal.php:101
+#: core/vc/modules/bpt_time_line_horizontal.php:113
+#: core/vc/modules/bpt_time_line_horizontal.php:120
+#: core/vc/modules/bpt_time_line_horizontal.php:128
+#: core/vc/modules/bpt_time_line_horizontal.php:149
+#: core/vc/modules/bpt_time_line_horizontal.php:161
+#: core/vc/modules/bpt_time_line_horizontal.php:184
+#: core/vc/modules/bpt_time_line_horizontal.php:191
+#: core/vc/modules/bpt_time_line_horizontal.php:206
+#: core/vc/modules/bpt_time_line_horizontal.php:214
+#: core/vc/modules/bpt_time_line_horizontal.php:222
+#: core/vc/modules/bpt_time_line_horizontal.php:229
+#: core/vc/modules/bpt_time_line_horizontal.php:241
+#: core/vc/modules/bpt_time_line_horizontal.php:253
+#: core/vc/modules/bpt_time_line_horizontal.php:266
+#: core/vc/modules/bpt_time_line_horizontal.php:278
+#: core/vc/modules/bpt_time_line_horizontal.php:290
+#: core/vc/modules/bpt_time_line_horizontal.php:302
+#: core/vc/modules/bpt_time_line_horizontal.php:314
+#: core/vc/modules/bpt_time_line_horizontal.php:326
+msgid "Carousel"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:84 core/vc/modules/bpt_carousel.php:80
+#: core/vc/modules/bpt_carousel.php:88 core/vc/modules/bpt_carousel.php:109
+#: core/vc/modules/bpt_carousel.php:121 core/vc/modules/bpt_carousel.php:144
+#: core/vc/modules/bpt_carousel.php:151 core/vc/modules/bpt_carousel.php:166
+#: core/vc/modules/bpt_carousel.php:174 core/vc/modules/bpt_carousel.php:182
+#: core/vc/modules/bpt_carousel.php:189 core/vc/modules/bpt_carousel.php:204
+msgid "Navigation"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:88
+msgid "Pagination"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:91
+msgid "Select Type of Navigation"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:100
+msgid "Navigation's Alignment"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:107
+msgid "Select Navigation's Alignment."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:116
+msgid "Items on load"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:120
+msgid "Items load by load more button."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:128
+msgid "Button Name"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:139
+msgid "Full Width"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:150 core/vc/modules/bpt_button.php:370
+#: core/vc/modules/bpt_carousel.php:325 core/vc/modules/bpt_clients.php:86
+#: core/vc/modules/bpt_counter.php:103 core/vc/modules/bpt_custom_text.php:29
+#: core/vc/modules/bpt_demo_item.php:72 core/vc/modules/bpt_double_headings.php:56
+#: core/vc/modules/bpt_flip_box.php:50 core/vc/modules/bpt_ico_progress.php:113
+#: core/vc/modules/bpt_ico_progress_bar.php:58
+#: core/vc/modules/bpt_image_layers.php:101 core/vc/modules/bpt_info_box.php:87
+#: core/vc/modules/bpt_message_box.php:78 core/vc/modules/bpt_pricing_table.php:64
+#: core/vc/modules/bpt_soc_icons.php:195 core/vc/modules/bpt_team.php:123
+#: core/vc/modules/bpt_testimonials.php:59
+#: core/vc/modules/bpt_time_line_horizontal.php:60
+#: core/vc/modules/bpt_time_line_vertical.php:65
+#: core/vc/modules/bpt_video_popup.php:68
+msgid "Extra Class"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:152 core/vc/modules/bpt_button.php:372
+#: core/vc/modules/bpt_carousel.php:327 core/vc/modules/bpt_clients.php:88
+#: core/vc/modules/bpt_counter.php:105 core/vc/modules/bpt_custom_text.php:31
+#: core/vc/modules/bpt_demo_item.php:74 core/vc/modules/bpt_double_headings.php:58
+#: core/vc/modules/bpt_flip_box.php:52 core/vc/modules/bpt_ico_progress.php:115
+#: core/vc/modules/bpt_ico_progress_bar.php:60
+#: core/vc/modules/bpt_image_layers.php:103 core/vc/modules/bpt_info_box.php:89
+#: core/vc/modules/bpt_message_box.php:80 core/vc/modules/bpt_pricing_table.php:66
+#: core/vc/modules/bpt_soc_icons.php:197 core/vc/modules/bpt_team.php:125
+#: core/vc/modules/bpt_testimonials.php:61
+#: core/vc/modules/bpt_time_line_horizontal.php:62
+#: core/vc/modules/bpt_time_line_vertical.php:67
+#: core/vc/modules/bpt_video_popup.php:70
+msgid ""
+"If you wish to style particular content element differently, then use this field "
+"to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:157
+msgid "Blog Items"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:166 core/vc/modules/bpt_team.php:29
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:167 core/vc/modules/bpt_blog_posts.php:176
+#: core/vc/modules/bpt_blog_posts.php:191 core/vc/modules/bpt_blog_posts.php:201
+#: core/vc/modules/bpt_blog_posts.php:208 core/vc/modules/bpt_blog_posts.php:215
+#: core/vc/modules/bpt_blog_posts.php:222 core/vc/modules/bpt_blog_posts.php:229
+#: core/vc/modules/bpt_blog_posts.php:236 core/vc/modules/bpt_blog_posts.php:248
+#: core/vc/modules/bpt_blog_posts.php:259 core/vc/modules/bpt_blog_posts.php:270
+#: core/vc/modules/bpt_blog_posts.php:281 core/vc/modules/bpt_blog_posts.php:289
+#: core/vc/modules/bpt_blog_posts.php:296 core/vc/modules/bpt_blog_posts.php:315
+#: core/vc/modules/bpt_blog_posts.php:337 core/vc/modules/bpt_blog_posts.php:350
+#: core/vc/modules/bpt_blog_posts.php:358 core/vc/modules/bpt_blog_posts.php:365
+#: core/vc/modules/bpt_blog_posts.php:379 core/vc/modules/bpt_blog_posts.php:390
+#: core/vc/modules/bpt_blog_posts.php:397 core/vc/modules/bpt_info_box.php:97
+#: core/vc/modules/bpt_info_box.php:104 core/vc/modules/bpt_info_box.php:110
+#: core/vc/modules/bpt_info_box.php:116 core/vc/modules/bpt_info_box.php:124
+#: core/vc/modules/bpt_info_box.php:136 core/vc/modules/bpt_info_box.php:146
+#: core/vc/modules/bpt_info_box.php:158 core/vc/modules/bpt_pricing_table.php:223
+#: core/vc/modules/bpt_pricing_table.php:231
+#: core/vc/modules/bpt_pricing_table.php:238
+#: core/vc/modules/bpt_pricing_table.php:247
+#: core/vc/modules/bpt_pricing_table.php:254
+#: core/vc/modules/bpt_pricing_table.php:266
+#: core/vc/modules/bpt_pricing_table.php:273
+#: core/vc/modules/bpt_pricing_table.php:293
+#: core/vc/modules/bpt_pricing_table.php:308
+#: core/vc/modules/bpt_pricing_table.php:317
+#: core/vc/modules/bpt_pricing_table.php:337
+#: core/vc/modules/bpt_pricing_table.php:352
+#: core/vc/modules/bpt_pricing_table.php:361
+#: core/vc/modules/bpt_pricing_table.php:380
+#: core/vc/modules/bpt_pricing_table.php:394
+#: core/vc/modules/bpt_pricing_table.php:403
+#: core/vc/modules/bpt_pricing_table.php:422
+#: core/vc/modules/bpt_pricing_table.php:436
+#: core/vc/modules/bpt_pricing_table.php:445
+#: core/vc/modules/bpt_pricing_table.php:465
+#: core/vc/modules/bpt_pricing_table.php:476
+#: core/vc/modules/bpt_pricing_table.php:489
+#: core/vc/modules/bpt_pricing_table.php:508
+#: core/vc/modules/bpt_pricing_table.php:522
+#: core/vc/modules/bpt_pricing_table.php:531
+#: core/vc/modules/bpt_pricing_table.php:550
+#: core/vc/modules/bpt_pricing_table.php:564
+msgid "Content"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:172
+msgid "Layout Settings"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:174 core/vc/modules/bpt_blog_posts.php:199
+#: core/vc/modules/bpt_button.php:122 core/vc/modules/bpt_button.php:134
+#: core/vc/modules/bpt_button.php:140 core/vc/modules/bpt_button.php:149
+#: core/vc/modules/bpt_button.php:159 core/vc/modules/bpt_button.php:169
+#: core/vc/modules/bpt_button.php:180 core/vc/modules/bpt_button.php:190
+#: core/vc/modules/bpt_button.php:199 core/vc/modules/bpt_button.php:215
+#: core/vc/modules/bpt_button.php:230 core/vc/modules/bpt_counter.php:112
+#: core/vc/modules/bpt_counter.php:125 core/vc/modules/bpt_counter.php:135
+#: core/vc/modules/bpt_counter.php:143 core/vc/modules/bpt_counter.php:157
+#: core/vc/modules/bpt_counter.php:161 core/vc/modules/bpt_counter.php:176
+#: core/vc/modules/bpt_counter.php:188 core/vc/modules/bpt_counter.php:196
+#: core/vc/modules/bpt_counter.php:209 core/vc/modules/bpt_counter.php:222
+#: core/vc/modules/bpt_counter.php:234 core/vc/modules/bpt_counter.php:252
+#: core/vc/modules/bpt_counter.php:265 core/vc/modules/bpt_flip_box.php:267
+#: core/vc/modules/bpt_info_box.php:171 core/vc/modules/bpt_info_box.php:184
+#: core/vc/modules/bpt_info_box.php:194 core/vc/modules/bpt_info_box.php:202
+#: core/vc/modules/bpt_info_box.php:217 core/vc/modules/bpt_info_box.php:221
+#: core/vc/modules/bpt_info_box.php:236 core/vc/modules/bpt_info_box.php:248
+#: core/vc/modules/bpt_info_box.php:256 core/vc/modules/bpt_info_box.php:269
+#: core/vc/modules/bpt_info_box.php:282 core/vc/modules/bpt_info_box.php:294
+#: core/vc/modules/bpt_info_box.php:312 core/vc/modules/bpt_info_box.php:326
+#: core/vc/modules/bpt_info_box.php:334 core/vc/modules/bpt_info_box.php:345
+#: core/vc/modules/bpt_info_box.php:356 core/vc/modules/bpt_info_box.php:377
+#: core/vc/modules/bpt_message_box.php:34 core/vc/modules/bpt_pricing_table.php:74
+#: core/vc/modules/bpt_pricing_table.php:87
+#: core/vc/modules/bpt_pricing_table.php:97
+#: core/vc/modules/bpt_pricing_table.php:105
+#: core/vc/modules/bpt_pricing_table.php:119
+#: core/vc/modules/bpt_pricing_table.php:123
+#: core/vc/modules/bpt_pricing_table.php:138
+#: core/vc/modules/bpt_pricing_table.php:150
+#: core/vc/modules/bpt_pricing_table.php:158
+#: core/vc/modules/bpt_pricing_table.php:171
+#: core/vc/modules/bpt_pricing_table.php:184
+#: core/vc/modules/bpt_pricing_table.php:196
+#: core/vc/modules/bpt_pricing_table.php:214 core/vc/modules/bpt_soc_icons.php:61
+msgid "Icon"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:180
+msgid "Number of Columns"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:188
+msgid "Select Number of Columns"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:197
+msgid "Content Elements"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:278
+msgid "Hide Likes?"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:286
+msgid "Hide Post Share?"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:293
+msgid "Add Divider to the post-meta?"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:301
+msgid "Divider Style"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:304 core/vc/modules/bpt_button.php:87
+msgid "Solid"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:305 core/vc/modules/bpt_button.php:88
+msgid "Dashed"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:306 core/vc/modules/bpt_button.php:89
+msgid "Dotted"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:307 core/vc/modules/bpt_button.php:90
+msgid "Double"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:308 core/vc/modules/bpt_button.php:91
+msgid "Inset"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:309 core/vc/modules/bpt_button.php:92
+msgid "Outset"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:319
+msgid "Divider Width"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:322 core/vc/modules/bpt_button.php:68
+#: core/vc/modules/bpt_button.php:101
+msgid "1px"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:323 core/vc/modules/bpt_button.php:69
+#: core/vc/modules/bpt_button.php:102
+msgid "2px"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:324 core/vc/modules/bpt_button.php:70
+#: core/vc/modules/bpt_button.php:103
+msgid "3px"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:325 core/vc/modules/bpt_button.php:71
+#: core/vc/modules/bpt_button.php:104
+msgid "4px"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:326 core/vc/modules/bpt_button.php:72
+#: core/vc/modules/bpt_button.php:105
+msgid "5px"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:327 core/vc/modules/bpt_button.php:106
+msgid "6px"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:328 core/vc/modules/bpt_button.php:107
+msgid "7px"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:329 core/vc/modules/bpt_button.php:108
+msgid "8px"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:330 core/vc/modules/bpt_button.php:109
+msgid "9px"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:331 core/vc/modules/bpt_button.php:73
+#: core/vc/modules/bpt_button.php:110
+msgid "10px"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:342
+msgid "Divider Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:355
+msgid "Content Trim"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:362
+msgid "Hide post read more link?"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:370
+msgid "Read More Text"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:374
+msgid "Enter read more text."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:385
+msgid "Content Letter Count"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:388
+msgid "Enter content letter count."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:394
+msgid "Crop Images for Posts List?"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:396
+msgid ""
+"For correctly work uploaded image size should be larger than 700px height and "
+"width."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:403 core/vc/modules/bpt_clients.php:107
+#: core/vc/modules/bpt_team.php:143 core/vc/modules/bpt_testimonials.php:145
+#: core/vc/modules/bpt_time_line_horizontal.php:98
+msgid "Autoplay"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:414 core/vc/modules/bpt_clients.php:118
+#: core/vc/modules/bpt_team.php:154 core/vc/modules/bpt_testimonials.php:156
+#: core/vc/modules/bpt_time_line_horizontal.php:105
+msgid "Autoplay Speed"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:427 core/vc/modules/bpt_carousel.php:78
+#: core/vc/modules/bpt_team.php:189 core/vc/modules/bpt_testimonials.php:169
+#: core/vc/modules/bpt_time_line_horizontal.php:118
+msgid "Pagination Controls"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:438 core/vc/modules/bpt_carousel.php:85
+#: core/vc/modules/bpt_team.php:200 core/vc/modules/bpt_testimonials.php:180
+#: core/vc/modules/bpt_time_line_horizontal.php:125
+msgid "Add Pagination control"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:450 core/vc/modules/bpt_carousel.php:93
+#: core/vc/modules/bpt_team.php:211 core/vc/modules/bpt_testimonials.php:192
+#: core/vc/modules/bpt_time_line_horizontal.php:133
+msgid "Pagination Type"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:455 core/vc/modules/bpt_carousel.php:98
+#: core/vc/modules/bpt_team.php:216 core/vc/modules/bpt_testimonials.php:197
+#: core/vc/modules/bpt_time_line_horizontal.php:138
+msgid "Circle"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:458 core/vc/modules/bpt_carousel.php:101
+#: core/vc/modules/bpt_team.php:219 core/vc/modules/bpt_testimonials.php:200
+#: core/vc/modules/bpt_time_line_horizontal.php:141
+msgid "Square"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:461 core/vc/modules/bpt_carousel.php:104
+#: core/vc/modules/bpt_team.php:222 core/vc/modules/bpt_testimonials.php:203
+#: core/vc/modules/bpt_time_line_horizontal.php:144
+msgid "Line"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:464 core/vc/modules/bpt_carousel.php:107
+#: core/vc/modules/bpt_team.php:225 core/vc/modules/bpt_testimonials.php:206
+#: core/vc/modules/bpt_time_line_horizontal.php:147
+msgid "Line - Circle"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:475 core/vc/modules/bpt_carousel.php:118
+#: core/vc/modules/bpt_team.php:236 core/vc/modules/bpt_testimonials.php:217
+#: core/vc/modules/bpt_time_line_horizontal.php:158
+msgid "Pagination Top Offset"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:480 core/vc/modules/bpt_carousel.php:123
+#: core/vc/modules/bpt_team.php:241 core/vc/modules/bpt_testimonials.php:222
+#: core/vc/modules/bpt_time_line_horizontal.php:163
+msgid "Enter pagination top offset in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:488 core/vc/modules/bpt_carousel.php:148
+#: core/vc/modules/bpt_team.php:249 core/vc/modules/bpt_testimonials.php:247
+#: core/vc/modules/bpt_time_line_horizontal.php:188
+msgid "Custom Pagination Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:499 core/vc/modules/bpt_carousel.php:159
+#: core/vc/modules/bpt_team.php:260 core/vc/modules/bpt_testimonials.php:258
+#: core/vc/modules/bpt_time_line_horizontal.php:199
+msgid "Pagination Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:513
+msgid "Navigation Controls"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:524
+msgid "Add Navigation control"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:548 core/vc/modules/bpt_carousel.php:209
+#: core/vc/modules/bpt_clients.php:142 core/vc/modules/bpt_team.php:330
+#: core/vc/modules/bpt_testimonials.php:282
+#: core/vc/modules/bpt_time_line_horizontal.php:219
+msgid "Customize Responsive"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:560 core/vc/modules/bpt_carousel.php:217
+#: core/vc/modules/bpt_clients.php:154 core/vc/modules/bpt_team.php:342
+#: core/vc/modules/bpt_testimonials.php:294
+#: core/vc/modules/bpt_time_line_horizontal.php:227
+msgid "Medium Desktop"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:571 core/vc/modules/bpt_blog_posts.php:608
+#: core/vc/modules/bpt_blog_posts.php:644 core/vc/modules/bpt_carousel.php:228
+#: core/vc/modules/bpt_carousel.php:265 core/vc/modules/bpt_carousel.php:301
+#: core/vc/modules/bpt_clients.php:165 core/vc/modules/bpt_clients.php:202
+#: core/vc/modules/bpt_clients.php:238 core/vc/modules/bpt_team.php:353
+#: core/vc/modules/bpt_team.php:390 core/vc/modules/bpt_team.php:426
+#: core/vc/modules/bpt_testimonials.php:305
+#: core/vc/modules/bpt_testimonials.php:342
+#: core/vc/modules/bpt_testimonials.php:378
+#: core/vc/modules/bpt_time_line_horizontal.php:238
+#: core/vc/modules/bpt_time_line_horizontal.php:275
+#: core/vc/modules/bpt_time_line_horizontal.php:311
+msgid "Screen resolution"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:583 core/vc/modules/bpt_blog_posts.php:620
+#: core/vc/modules/bpt_blog_posts.php:656 core/vc/modules/bpt_carousel.php:240
+#: core/vc/modules/bpt_carousel.php:277 core/vc/modules/bpt_carousel.php:313
+#: core/vc/modules/bpt_clients.php:177 core/vc/modules/bpt_clients.php:214
+#: core/vc/modules/bpt_clients.php:250 core/vc/modules/bpt_team.php:365
+#: core/vc/modules/bpt_team.php:402 core/vc/modules/bpt_team.php:438
+#: core/vc/modules/bpt_testimonials.php:317
+#: core/vc/modules/bpt_testimonials.php:354
+#: core/vc/modules/bpt_testimonials.php:390
+#: core/vc/modules/bpt_time_line_horizontal.php:250
+#: core/vc/modules/bpt_time_line_horizontal.php:287
+#: core/vc/modules/bpt_time_line_horizontal.php:323
+msgid "Slides to show"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:597 core/vc/modules/bpt_carousel.php:254
+#: core/vc/modules/bpt_clients.php:191 core/vc/modules/bpt_double_headings.php:124
+#: core/vc/modules/bpt_team.php:379 core/vc/modules/bpt_testimonials.php:331
+#: core/vc/modules/bpt_time_line_horizontal.php:264
+msgid "Tablets"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:633 core/vc/modules/bpt_carousel.php:290
+#: core/vc/modules/bpt_clients.php:227 core/vc/modules/bpt_team.php:415
+#: core/vc/modules/bpt_testimonials.php:367
+#: core/vc/modules/bpt_time_line_horizontal.php:300
+msgid "Mobile Phones"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:670
+msgid "Heading tag"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:680
+msgid "Select Type Heading tag."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:686
+msgid "Heading margin bottom"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:695
+msgid "Blog Headings Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:702
+msgid "Custom font family for Blog Headings"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:712 core/vc/modules/bpt_blog_posts.php:812
+#: core/vc/modules/bpt_button.php:248 core/vc/modules/bpt_countdown.php:102
+#: core/vc/modules/bpt_counter.php:542 core/vc/modules/bpt_counter.php:622
+#: core/vc/modules/bpt_custom_text.php:117
+#: core/vc/modules/bpt_double_headings.php:159
+#: core/vc/modules/bpt_double_headings.php:226 core/vc/modules/bpt_info_box.php:817
+#: core/vc/modules/bpt_info_box.php:900 core/vc/modules/bpt_info_box.php:983
+#: core/vc/modules/bpt_info_box.php:1060 core/vc/modules/bpt_message_box.php:148
+#: core/vc/modules/bpt_message_box.php:251
+#: core/vc/modules/bpt_pricing_table.php:724
+#: core/vc/modules/bpt_testimonials.php:450
+#: core/vc/modules/bpt_testimonials.php:533
+#: core/vc/modules/bpt_testimonials.php:616 core/vc/modules/bpt_video_popup.php:178
+msgid "Select font family."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:713 core/vc/modules/bpt_blog_posts.php:813
+#: core/vc/modules/bpt_button.php:249 core/vc/modules/bpt_countdown.php:103
+#: core/vc/modules/bpt_counter.php:543 core/vc/modules/bpt_counter.php:623
+#: core/vc/modules/bpt_custom_text.php:118
+#: core/vc/modules/bpt_double_headings.php:160
+#: core/vc/modules/bpt_double_headings.php:227 core/vc/modules/bpt_info_box.php:818
+#: core/vc/modules/bpt_info_box.php:901 core/vc/modules/bpt_info_box.php:984
+#: core/vc/modules/bpt_info_box.php:1061 core/vc/modules/bpt_message_box.php:149
+#: core/vc/modules/bpt_message_box.php:252
+#: core/vc/modules/bpt_pricing_table.php:725
+#: core/vc/modules/bpt_testimonials.php:451
+#: core/vc/modules/bpt_testimonials.php:534
+#: core/vc/modules/bpt_testimonials.php:617 core/vc/modules/bpt_video_popup.php:179
+msgid "Select font styling."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:724
+msgid "Custom font size for Blog Headings"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:731
+msgid "Heading Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:734
+msgid "Enter heading font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:744
+msgid "Heading Line Height"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:747
+msgid "Enter heading line-height in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:757
+msgid "Use Custom Heading Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:759 core/vc/modules/bpt_blog_posts.php:859
+#: core/vc/modules/bpt_counter.php:557 core/vc/modules/bpt_counter.php:637
+#: core/vc/modules/bpt_info_box.php:832 core/vc/modules/bpt_info_box.php:915
+#: core/vc/modules/bpt_info_box.php:998 core/vc/modules/bpt_info_box.php:1075
+#: core/vc/modules/bpt_message_box.php:163 core/vc/modules/bpt_message_box.php:266
+#: core/vc/modules/bpt_pricing_table.php:739
+#: core/vc/modules/bpt_pricing_table.php:779
+#: core/vc/modules/bpt_testimonials.php:465
+#: core/vc/modules/bpt_testimonials.php:548
+#: core/vc/modules/bpt_testimonials.php:631
+msgid "Select custom color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:766
+msgid "Custom Headings Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:769
+msgid "Select custom headings color."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:780
+msgid "Custom Hover Headings Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:783
+msgid "Select custom hover headings color."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:795
+msgid "Blog Content Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:802
+msgid "Custom font family for Blog Content"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:824
+msgid "Custom font size for Blog Content"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:831 core/vc/modules/bpt_info_box.php:962
+msgid "Content Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:834
+msgid "Enter content font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:844
+msgid "Content Line Height"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:847
+msgid "Enter content line-height in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:857 core/vc/modules/bpt_info_box.php:996
+msgid "Use Custom Content Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:866
+msgid "Custom Content Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:869
+msgid "Select custom content color."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:880
+msgid "Blog Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:887
+msgid "Use Custom Main Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:889
+msgid "Custom blog font size and font color."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:897
+msgid "Custom Main Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:900
+msgid "Select custom main color."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:910
+msgid "Add Background Posts"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:912
+msgid "Custom blog posts background"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:931
+msgid "Add Mask Image"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:933
+msgid "Custom blog image"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:940
+msgid "Mask Image Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:952
+msgid "Add Hover Mask"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:954
+msgid "Custom blog hover mask"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:961
+msgid "Mask Hover Image Color"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:973
+msgid "Blog Post Paddings"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:975 core/vc/modules/bpt_blog_posts.php:983
+#: core/vc/modules/bpt_blog_posts.php:992 core/vc/modules/bpt_blog_posts.php:1001
+#: core/vc/modules/bpt_blog_posts.php:1010 core/vc/modules/bpt_button.php:284
+#: core/vc/modules/bpt_button.php:292 core/vc/modules/bpt_button.php:301
+#: core/vc/modules/bpt_button.php:310 core/vc/modules/bpt_button.php:319
+#: core/vc/modules/bpt_button.php:328 core/vc/modules/bpt_button.php:335
+#: core/vc/modules/bpt_button.php:344 core/vc/modules/bpt_button.php:353
+#: core/vc/modules/bpt_button.php:362 core/vc/modules/bpt_spacing.php:10
+#: core/vc/modules/bpt_spacing.php:16
+msgid "Spacing"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:980
+msgid "Blog Post Left Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:984 core/vc/modules/bpt_button.php:293
+msgid "Enter button left padding in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:989
+msgid "Blog Post Right Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:993 core/vc/modules/bpt_button.php:302
+msgid "Enter button right padding in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:998
+msgid "Blog Post Top Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:1002 core/vc/modules/bpt_button.php:311
+msgid "Enter button top padding in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:1007
+msgid "Blog Post Bottom Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_blog_posts.php:1011 core/vc/modules/bpt_button.php:320
+msgid "Enter button bottom padding in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:11
+msgid "Button"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:17
+msgid "Add custom button"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:22 core/vc/modules/bpt_message_box.php:67
+msgid "Text"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:24
+msgid "Button text"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:30 core/vc/modules/bpt_clients.php:43
+#: core/vc/modules/bpt_demo_item.php:61 core/vc/modules/bpt_flip_box.php:245
+#: core/vc/modules/bpt_image_layers.php:95 core/vc/modules/bpt_info_box.php:133
+#: core/vc/modules/bpt_soc_icons.php:74
+msgid "Link"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:32 core/vc/modules/bpt_image_layers.php:97
+#: core/vc/modules/bpt_pricing_table.php:255
+msgid "Add link to button."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:37 core/vc/modules/bpt_countdown.php:115
+msgid "Size"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:40
+msgid "Normal"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:41
+msgid "Mini"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:42 core/vc/modules/bpt_countdown.php:118
+msgid "Small"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:43 core/vc/modules/bpt_countdown.php:120
+msgid "Large"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:45
+msgid "Select button display size."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:53 core/vc/modules/bpt_video_popup.php:44
+msgid "Inline"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:59
+msgid "Select button alignment."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:64
+msgid "Button Border Radius"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:74
+msgid "15px"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:75
+msgid "20px"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:76
+msgid "25px"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:77
+msgid "30px"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:78
+msgid "35px"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:84
+msgid "Button Border Style"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:98
+msgid "Button Border Width"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:120 core/vc/modules/bpt_counter.php:110
+#: core/vc/modules/bpt_info_box.php:169 core/vc/modules/bpt_pricing_table.php:72
+msgid "Icon Type"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:131 core/vc/modules/bpt_counter.php:121
+#: core/vc/modules/bpt_info_box.php:180 core/vc/modules/bpt_pricing_table.php:83
+msgid "Font"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:132 core/vc/modules/bpt_button.php:154
+#: core/vc/modules/bpt_counter.php:122 core/vc/modules/bpt_counter.php:180
+#: core/vc/modules/bpt_demo_item.php:31 core/vc/modules/bpt_flip_box.php:67
+#: core/vc/modules/bpt_flip_box.php:146 core/vc/modules/bpt_info_box.php:181
+#: core/vc/modules/bpt_info_box.php:240 core/vc/modules/bpt_pricing_table.php:84
+#: core/vc/modules/bpt_pricing_table.php:142
+#: core/vc/modules/bpt_pricing_table.php:584
+#: core/vc/modules/bpt_pricing_table.php:672
+msgid "Image"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:135
+msgid "Use an existing font icon or upload a custom image."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:148 core/vc/modules/bpt_counter.php:152
+#: core/vc/modules/bpt_counter.php:171 core/vc/modules/bpt_flip_box.php:275
+#: core/vc/modules/bpt_info_box.php:212 core/vc/modules/bpt_info_box.php:231
+#: core/vc/modules/bpt_message_box.php:43 core/vc/modules/bpt_pricing_table.php:114
+#: core/vc/modules/bpt_pricing_table.php:133 core/vc/modules/bpt_soc_icons.php:70
+msgid "Select icon from library."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:157 core/vc/modules/bpt_counter.php:183
+#: core/vc/modules/bpt_demo_item.php:34 core/vc/modules/bpt_flip_box.php:86
+#: core/vc/modules/bpt_flip_box.php:104 core/vc/modules/bpt_flip_box.php:165
+#: core/vc/modules/bpt_info_box.php:243 core/vc/modules/bpt_pricing_table.php:145
+#: core/vc/modules/bpt_pricing_table.php:675
+msgid "Select image from media library."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:163
+msgid "Image Width"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:166
+msgid "Enter image width in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:173 core/vc/modules/bpt_flip_box.php:280
+msgid "Icon Position"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:185 core/vc/modules/bpt_soc_icons.php:147
+msgid "Icon Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:188
+msgid "Enter icon font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:196
+msgid "Use Custom Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:198 core/vc/modules/bpt_counter.php:233
+#: core/vc/modules/bpt_counter.php:337 core/vc/modules/bpt_info_box.php:293
+#: core/vc/modules/bpt_info_box.php:469 core/vc/modules/bpt_pricing_table.php:195
+msgid "Select custom colors"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:207 core/vc/modules/bpt_counter.php:244
+#: core/vc/modules/bpt_info_box.php:304 core/vc/modules/bpt_pricing_table.php:206
+#: core/vc/modules/bpt_soc_icons.php:101
+msgid "Icon Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:210 core/vc/modules/bpt_counter.php:247
+#: core/vc/modules/bpt_info_box.php:307 core/vc/modules/bpt_pricing_table.php:209
+msgid "Select icon color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:222
+msgid "Hover Icon Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:225 core/vc/modules/bpt_counter.php:260
+#: core/vc/modules/bpt_info_box.php:321
+msgid "Select icon hover color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:237
+msgid "Custom font family for button"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:239 core/vc/modules/bpt_countdown.php:93
+#: core/vc/modules/bpt_counter.php:533 core/vc/modules/bpt_counter.php:613
+#: core/vc/modules/bpt_custom_text.php:108
+#: core/vc/modules/bpt_double_headings.php:150
+#: core/vc/modules/bpt_double_headings.php:217 core/vc/modules/bpt_info_box.php:808
+#: core/vc/modules/bpt_info_box.php:891 core/vc/modules/bpt_info_box.php:974
+#: core/vc/modules/bpt_info_box.php:1047 core/vc/modules/bpt_message_box.php:135
+#: core/vc/modules/bpt_message_box.php:238
+#: core/vc/modules/bpt_pricing_table.php:715
+#: core/vc/modules/bpt_testimonials.php:441
+#: core/vc/modules/bpt_testimonials.php:524
+#: core/vc/modules/bpt_testimonials.php:607 core/vc/modules/bpt_video_popup.php:169
+msgid "Customize font family"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:261 core/vc/modules/bpt_info_box.php:1031
+msgid "Button Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:264
+msgid "Enter button font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:271
+msgid "Button Font Weight"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:274
+msgid "Enter button font-weight."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:282
+msgid "Button Paddings"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:289
+msgid "Button Left Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:298
+msgid "Button Right Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:307
+msgid "Button Top Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:316
+msgid "Button Bottom Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:326
+msgid "Button Margins"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:332
+msgid "Button Left Margin"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:336
+msgid "Enter button left margin in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:341
+msgid "Button Right Margin"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:345
+msgid "Enter button right margin in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:350
+msgid "Button Top Margin"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:354
+msgid "Enter button top margin in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:359
+msgid "Button Bottom Margin"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:363
+msgid "Enter button bottom margin in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:377
+msgid "Button Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:384 core/vc/modules/bpt_pricing_table.php:259
+#: core/vc/modules/bpt_pricing_table.php:578
+msgid "Customize"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:388 core/vc/modules/bpt_counter.php:391
+#: core/vc/modules/bpt_flip_box.php:66 core/vc/modules/bpt_flip_box.php:145
+#: core/vc/modules/bpt_ico_progress.php:31 core/vc/modules/bpt_info_box.php:524
+#: core/vc/modules/bpt_info_box.php:668 core/vc/modules/bpt_pricing_table.php:263
+#: core/vc/modules/bpt_pricing_table.php:582 core/vc/modules/bpt_team.php:466
+#: core/vc/modules/bpt_video_popup.php:96
+msgid "Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:389 core/vc/modules/bpt_counter.php:392
+#: core/vc/modules/bpt_ico_progress.php:32 core/vc/modules/bpt_info_box.php:525
+#: core/vc/modules/bpt_info_box.php:669 core/vc/modules/bpt_pricing_table.php:264
+#: core/vc/modules/bpt_pricing_table.php:583 core/vc/modules/bpt_team.php:467
+#: core/vc/modules/bpt_video_popup.php:97
+msgid "Gradient"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:396 core/vc/modules/bpt_button.php:409
+#: core/vc/modules/bpt_coins_list.php:92 core/vc/modules/bpt_countdown.php:179
+#: core/vc/modules/bpt_custom_text.php:36 core/vc/modules/bpt_message_box.php:277
+#: core/vc/modules/bpt_pricing_table.php:271
+#: core/vc/modules/bpt_pricing_table.php:284
+msgid "Text Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:412 core/vc/modules/bpt_pricing_table.php:287
+msgid "Select custom text color for button."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:425 core/vc/modules/bpt_pricing_table.php:300
+msgid "Hover Text Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:428 core/vc/modules/bpt_pricing_table.php:303
+msgid "Select custom text color for hover button."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:453 core/vc/modules/bpt_pricing_table.php:328
+#: core/vc/modules/bpt_pricing_table.php:604
+msgid "Background"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:456 core/vc/modules/bpt_pricing_table.php:331
+msgid "Select custom background for button."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:469 core/vc/modules/bpt_pricing_table.php:344
+msgid "Hover Background"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:472 core/vc/modules/bpt_pricing_table.php:347
+msgid "Select custom background for hover button."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:484 core/vc/modules/bpt_pricing_table.php:359
+#: core/vc/modules/bpt_pricing_table.php:619
+msgid "Background Gradient Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:497 core/vc/modules/bpt_button.php:539
+#: core/vc/modules/bpt_button.php:625 core/vc/modules/bpt_button.php:667
+#: core/vc/modules/bpt_pricing_table.php:372
+#: core/vc/modules/bpt_pricing_table.php:414
+#: core/vc/modules/bpt_pricing_table.php:500
+#: core/vc/modules/bpt_pricing_table.php:542
+#: core/vc/modules/bpt_pricing_table.php:632
+msgid "Start Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:512 core/vc/modules/bpt_button.php:554
+#: core/vc/modules/bpt_button.php:640 core/vc/modules/bpt_button.php:682
+#: core/vc/modules/bpt_pricing_table.php:387
+#: core/vc/modules/bpt_pricing_table.php:429
+#: core/vc/modules/bpt_pricing_table.php:515
+#: core/vc/modules/bpt_pricing_table.php:557
+#: core/vc/modules/bpt_pricing_table.php:647
+msgid "End Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:526 core/vc/modules/bpt_pricing_table.php:401
+msgid "Background Gradient Hover Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:568 core/vc/modules/bpt_button.php:581
+#: core/vc/modules/bpt_counter.php:348 core/vc/modules/bpt_info_box.php:480
+#: core/vc/modules/bpt_pricing_table.php:443
+#: core/vc/modules/bpt_pricing_table.php:456
+msgid "Border Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:584 core/vc/modules/bpt_pricing_table.php:459
+msgid "Select custom border color for button."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:597 core/vc/modules/bpt_pricing_table.php:472
+msgid "Hover Border Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:600 core/vc/modules/bpt_pricing_table.php:475
+msgid "Select custom border color for hover button."
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:612 core/vc/modules/bpt_pricing_table.php:487
+msgid "Border Gradient Color"
+msgstr ""
+
+#: core/vc/modules/bpt_button.php:654 core/vc/modules/bpt_pricing_table.php:529
+msgid "Border Gradient Hover Color"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:11
+msgid "Display carousel"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:21 core/vc/modules/bpt_team.php:33
+msgid "Items Per Line"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:25
+#: core/vc/modules/bpt_time_line_horizontal.php:77
+msgid "1"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:26 core/vc/modules/bpt_team.php:67
+#: core/vc/modules/bpt_time_line_horizontal.php:78
+msgid "2"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:27
+#: core/vc/modules/bpt_time_line_horizontal.php:79
+msgid "3"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:28 core/vc/modules/bpt_team.php:68
+#: core/vc/modules/bpt_time_line_horizontal.php:80
+msgid "4"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:29
+#: core/vc/modules/bpt_time_line_horizontal.php:81
+msgid "5"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:30 core/vc/modules/bpt_team.php:69
+#: core/vc/modules/bpt_time_line_horizontal.php:82
+msgid "6"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:35
+msgid "Autoplay carousel"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:43
+msgid "Slider speed"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:46
+msgid "Enter autoplay time in milliseconds."
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:54
+#: core/vc/modules/bpt_time_line_horizontal.php:90
+msgid "Single slide to scroll"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:60 core/vc/modules/bpt_team.php:166
+msgid "Multiple Items"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:66
+msgid "Adaptive Height"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:131 core/vc/modules/bpt_testimonials.php:230
+#: core/vc/modules/bpt_time_line_horizontal.php:171
+msgid "Pagination Aligning"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:172
+msgid "Prev/Next Buttons"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:179
+msgid "Add Prev/Next buttons"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:186
+msgid "Custom Buttons Color"
+msgstr ""
+
+#: core/vc/modules/bpt_carousel.php:197
+msgid "Prev/Next Buttons Color"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:8
+msgid "Clients"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:14
+msgid "Display Clients"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:24 core/vc/modules/bpt_image_layers.php:31
+#: core/vc/modules/bpt_testimonials.php:72
+msgid "Thumbnail"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:30
+msgid "Hover Thumbnail"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:33
+msgid "Work only with Exchange Images animation."
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:37
+msgid "Add Link"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:45
+msgid "Add link to client image."
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:55
+msgid "Clients Grid"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:58 core/vc/modules/bpt_testimonials.php:40
+msgid "One Column"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:59 core/vc/modules/bpt_testimonials.php:41
+msgid "Two Columns"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:60 core/vc/modules/bpt_testimonials.php:42
+msgid "Three Columns"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:61 core/vc/modules/bpt_testimonials.php:43
+msgid "Four Columns"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:62
+msgid "Five Columns"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:63
+msgid "Six Columns"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:70
+msgid "Clients Animation for each Image"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:73
+msgid "Zoom"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:74
+msgid "Opacity"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:75
+msgid "Grayscale"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:76
+msgid "Contrast"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:77
+msgid "Blur"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:78
+msgid "Invert"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:79
+msgid "Exchange Images"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:93
+msgid "Add Carousel for Clients Items"
+msgstr ""
+
+#: core/vc/modules/bpt_clients.php:100 core/vc/modules/bpt_team.php:136
+#: core/vc/modules/bpt_testimonials.php:138
+msgid "Use Carousel"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:20 core/vc/modules/bpt_coins_list.php:77
+#: core/vc/modules/bpt_coins_list.php:80
+msgid "Coins List"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:26
+msgid "Coin List"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:35
+msgid "Scrolling Line"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:38
+msgid "Table"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:41
+msgid "Big Lable"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:47
+msgid "Show Coin Logo"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:53
+msgid "Show Changes 1h"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:59
+msgid "Show Changes 24h"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:65
+msgid "Show Changes 7d"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:71
+msgid "Show Capitalization"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:85
+msgid "Custom Style"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:95 core/vc/modules/bpt_message_box.php:280
+msgid "Select text color"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:106
+msgid "Lable Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:109
+msgid "Enter custom Font Size of lable."
+msgstr ""
+
+#: core/vc/modules/bpt_coins_list.php:123
+msgid "Select background color."
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:12 core/vc/modules/bpt_countdown.php:18
+msgid "Countdown"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:22
+msgid "Countdown Date:"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:27 core/vc/templates/bpt_countdown.php:85
+msgid "Year"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:29
+msgid "Enter year EX.: 2018"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:34 core/vc/templates/bpt_countdown.php:86
+msgid "Month"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:36
+msgid "Enter month EX.: 08"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:41 core/vc/templates/bpt_countdown.php:88
+msgid "Day"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:43
+msgid "Enter day EX.: 20"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:48 core/vc/templates/bpt_countdown.php:81
+msgid "Hours"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:50
+msgid "Enter hours EX.: 13"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:55 core/vc/templates/bpt_countdown.php:82
+msgid "Minutes"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:57
+msgid "Enter min. EX.: 24"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:62
+msgid "Countdown Hide:"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:67
+msgid "Hide Days?"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:73
+msgid "Hide Hours?"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:79
+msgid "Hide Minutes?"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:85
+msgid "Hide Seconds?"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:91
+msgid "Custom font family for a countdown?"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:119
+msgid "Medium"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:121
+msgid "Extra Large"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:129
+msgid "Custom Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:131
+msgid "Enter font-size in pixels"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:141
+msgid "Custom Number Weight"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:143 core/vc/modules/bpt_countdown.php:151
+msgid "Enter font-weight in pixels"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:149
+msgid "Custom Text Weight"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:157
+msgid "Align"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:170
+msgid "Number Color"
+msgstr ""
+
+#: core/vc/modules/bpt_countdown.php:188
+msgid "Points Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:10 core/vc/modules/bpt_counter.php:16
+msgid "Counter"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:20
+msgid "Counter Title"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:26
+msgid "Counter Value Prefix"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:27
+msgid "Enter prefix before counter number"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:33
+msgid "Counter Value"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:34
+msgid "Enter number without any special character"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:41
+msgid "Counter Value Suffix"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:42
+msgid "Enter suffix after counter number"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:48
+msgid "Counter Type"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:56 core/vc/modules/bpt_info_box.php:37
+msgid "Bordered"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:59 core/vc/modules/bpt_info_box.php:40
+msgid "Fill"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:65
+msgid "Counter Layout"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:79 core/vc/modules/bpt_info_box.php:63
+msgid "Top Left"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:82 core/vc/modules/bpt_info_box.php:66
+msgid "Top Right"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:131 core/vc/modules/bpt_info_box.php:190
+#: core/vc/modules/bpt_pricing_table.php:93
+msgid "Fontawesome"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:132 core/vc/modules/bpt_info_box.php:191
+#: core/vc/modules/bpt_pricing_table.php:94
+msgid "Flaticon"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:193 core/vc/modules/bpt_info_box.php:253
+#: core/vc/modules/bpt_pricing_table.php:155
+msgid "Custom Image Width"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:195 core/vc/modules/bpt_counter.php:208
+#: core/vc/modules/bpt_info_box.php:255 core/vc/modules/bpt_info_box.php:268
+#: core/vc/modules/bpt_pricing_table.php:157
+#: core/vc/modules/bpt_pricing_table.php:170
+msgid "Enter image size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:206 core/vc/modules/bpt_info_box.php:266
+#: core/vc/modules/bpt_pricing_table.php:168
+msgid "Custom Image Height"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:219 core/vc/modules/bpt_info_box.php:279
+#: core/vc/modules/bpt_pricing_table.php:181
+msgid "Custom Icon Size"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:221 core/vc/modules/bpt_info_box.php:281
+#: core/vc/modules/bpt_pricing_table.php:183
+msgid "Enter Icon size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:231 core/vc/modules/bpt_info_box.php:291
+#: core/vc/modules/bpt_pricing_table.php:193
+msgid "Use Custom Icon Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:258 core/vc/modules/bpt_info_box.php:318
+#: core/vc/modules/bpt_soc_icons.php:112
+msgid "Icon Hover Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:271 core/vc/modules/bpt_info_box.php:382
+msgid "For The Types with Icon Background"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:273 core/vc/modules/bpt_counter.php:282
+#: core/vc/modules/bpt_counter.php:291 core/vc/modules/bpt_counter.php:300
+#: core/vc/modules/bpt_counter.php:312 core/vc/modules/bpt_counter.php:325
+#: core/vc/modules/bpt_counter.php:338 core/vc/modules/bpt_counter.php:356
+#: core/vc/modules/bpt_counter.php:369 core/vc/modules/bpt_counter.php:377
+#: core/vc/modules/bpt_counter.php:398 core/vc/modules/bpt_counter.php:411
+#: core/vc/modules/bpt_counter.php:424 core/vc/modules/bpt_counter.php:437
+#: core/vc/modules/bpt_counter.php:450 core/vc/modules/bpt_counter.php:462
+#: core/vc/modules/bpt_counter.php:474 core/vc/modules/bpt_info_box.php:384
+#: core/vc/modules/bpt_info_box.php:393 core/vc/modules/bpt_info_box.php:402
+#: core/vc/modules/bpt_info_box.php:411 core/vc/modules/bpt_info_box.php:419
+#: core/vc/modules/bpt_info_box.php:432 core/vc/modules/bpt_info_box.php:444
+#: core/vc/modules/bpt_info_box.php:457 core/vc/modules/bpt_info_box.php:470
+#: core/vc/modules/bpt_info_box.php:488 core/vc/modules/bpt_info_box.php:502
+#: core/vc/modules/bpt_info_box.php:510 core/vc/modules/bpt_info_box.php:531
+#: core/vc/modules/bpt_info_box.php:544 core/vc/modules/bpt_info_box.php:558
+#: core/vc/modules/bpt_info_box.php:571 core/vc/modules/bpt_info_box.php:584
+#: core/vc/modules/bpt_info_box.php:597 core/vc/modules/bpt_info_box.php:610
+msgid "Background Icon"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:279 core/vc/modules/bpt_info_box.php:390
+msgid "Enter Background Width"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:281 core/vc/modules/bpt_info_box.php:392
+#: core/vc/modules/bpt_testimonials.php:106
+msgid "Custom width in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:288 core/vc/modules/bpt_info_box.php:399
+msgid "Enter Background Height"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:290 core/vc/modules/bpt_info_box.php:401
+#: core/vc/modules/bpt_testimonials.php:115
+msgid "Custom height in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:297 core/vc/modules/bpt_info_box.php:429
+msgid "Enter Border Radius"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:299 core/vc/modules/bpt_info_box.php:431
+#: core/vc/modules/bpt_testimonials.php:124
+msgid "Custom radius in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:310 core/vc/modules/bpt_info_box.php:442
+msgid "Border Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:322 core/vc/modules/bpt_info_box.php:454
+msgid "Border Width"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:324 core/vc/modules/bpt_info_box.php:456
+msgid "Enter border width in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:335 core/vc/modules/bpt_info_box.php:467
+msgid "Use Custom Border Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:351 core/vc/modules/bpt_info_box.php:483
+msgid "Select border color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:362 core/vc/modules/bpt_info_box.php:494
+msgid "Border Hover Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:364 core/vc/modules/bpt_info_box.php:497
+msgid "Select border hover color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:375 core/vc/modules/bpt_info_box.php:508
+#: core/vc/modules/bpt_team.php:450
+msgid "Background Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:387 core/vc/modules/bpt_ico_progress.php:27
+#: core/vc/modules/bpt_info_box.php:520 core/vc/modules/bpt_info_box.php:664
+#: core/vc/modules/bpt_team.php:462 core/vc/modules/bpt_video_popup.php:92
+msgid "Background Customize Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:406 core/vc/modules/bpt_ico_progress.php:41
+#: core/vc/modules/bpt_info_box.php:539 core/vc/modules/bpt_info_box.php:683
+#: core/vc/modules/bpt_team.php:481 core/vc/modules/bpt_video_popup.php:111
+msgid "Select background color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:417 core/vc/modules/bpt_info_box.php:550
+#: core/vc/modules/bpt_info_box.php:694 core/vc/modules/bpt_soc_icons.php:134
+#: core/vc/modules/bpt_team.php:492
+msgid "Background Hover Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:419 core/vc/modules/bpt_info_box.php:553
+#: core/vc/modules/bpt_info_box.php:697 core/vc/modules/bpt_team.php:495
+msgid "Select background hover color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:430 core/vc/modules/bpt_ico_progress.php:50
+#: core/vc/modules/bpt_info_box.php:564 core/vc/modules/bpt_info_box.php:708
+#: core/vc/modules/bpt_team.php:506 core/vc/modules/bpt_video_popup.php:122
+msgid "Background Start Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:443 core/vc/modules/bpt_ico_progress.php:62
+#: core/vc/modules/bpt_info_box.php:577 core/vc/modules/bpt_info_box.php:721
+#: core/vc/modules/bpt_team.php:519 core/vc/modules/bpt_video_popup.php:135
+msgid "Background End Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:456 core/vc/modules/bpt_info_box.php:590
+#: core/vc/modules/bpt_info_box.php:734 core/vc/modules/bpt_team.php:532
+msgid "Background Hover Start Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:468 core/vc/modules/bpt_info_box.php:603
+#: core/vc/modules/bpt_info_box.php:747 core/vc/modules/bpt_team.php:545
+msgid "Background Hover End Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:480 core/vc/modules/bpt_double_headings.php:63
+#: core/vc/modules/bpt_info_box.php:760 core/vc/modules/bpt_message_box.php:85
+#: core/vc/modules/bpt_pricing_table.php:685
+msgid "Title Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:482 core/vc/modules/bpt_counter.php:499
+#: core/vc/modules/bpt_counter.php:514 core/vc/modules/bpt_counter.php:525
+#: core/vc/modules/bpt_counter.php:534 core/vc/modules/bpt_counter.php:550
+#: core/vc/modules/bpt_counter.php:558 core/vc/modules/bpt_counter.php:572
+#: core/vc/modules/bpt_counter.php:580 core/vc/modules/bpt_counter.php:594
+#: core/vc/modules/bpt_counter.php:605 core/vc/modules/bpt_counter.php:614
+#: core/vc/modules/bpt_counter.php:630 core/vc/modules/bpt_counter.php:638
+#: core/vc/modules/bpt_counter.php:652 core/vc/modules/bpt_custom_text.php:38
+#: core/vc/modules/bpt_custom_text.php:50 core/vc/modules/bpt_custom_text.php:59
+#: core/vc/modules/bpt_custom_text.php:66 core/vc/modules/bpt_custom_text.php:73
+#: core/vc/modules/bpt_custom_text.php:85 core/vc/modules/bpt_custom_text.php:97
+#: core/vc/modules/bpt_custom_text.php:109 core/vc/modules/bpt_custom_text.php:125
+#: core/vc/modules/bpt_double_headings.php:65
+#: core/vc/modules/bpt_double_headings.php:72
+#: core/vc/modules/bpt_double_headings.php:84
+#: core/vc/modules/bpt_double_headings.php:93
+#: core/vc/modules/bpt_double_headings.php:101
+#: core/vc/modules/bpt_double_headings.php:108
+#: core/vc/modules/bpt_double_headings.php:115
+#: core/vc/modules/bpt_double_headings.php:127
+#: core/vc/modules/bpt_double_headings.php:139
+#: core/vc/modules/bpt_double_headings.php:151
+#: core/vc/modules/bpt_double_headings.php:167
+#: core/vc/modules/bpt_double_headings.php:174
+#: core/vc/modules/bpt_double_headings.php:181
+#: core/vc/modules/bpt_double_headings.php:193
+#: core/vc/modules/bpt_double_headings.php:202
+#: core/vc/modules/bpt_double_headings.php:210
+#: core/vc/modules/bpt_double_headings.php:218
+#: core/vc/modules/bpt_double_headings.php:234 core/vc/modules/bpt_info_box.php:762
+#: core/vc/modules/bpt_info_box.php:779 core/vc/modules/bpt_info_box.php:790
+#: core/vc/modules/bpt_info_box.php:800 core/vc/modules/bpt_info_box.php:809
+#: core/vc/modules/bpt_info_box.php:825 core/vc/modules/bpt_info_box.php:833
+#: core/vc/modules/bpt_info_box.php:847 core/vc/modules/bpt_info_box.php:855
+#: core/vc/modules/bpt_info_box.php:872 core/vc/modules/bpt_info_box.php:883
+#: core/vc/modules/bpt_info_box.php:892 core/vc/modules/bpt_info_box.php:908
+#: core/vc/modules/bpt_info_box.php:916 core/vc/modules/bpt_info_box.php:930
+#: core/vc/modules/bpt_info_box.php:938 core/vc/modules/bpt_info_box.php:955
+#: core/vc/modules/bpt_info_box.php:966 core/vc/modules/bpt_info_box.php:975
+#: core/vc/modules/bpt_info_box.php:991 core/vc/modules/bpt_info_box.php:999
+#: core/vc/modules/bpt_info_box.php:1013 core/vc/modules/bpt_info_box.php:1021
+#: core/vc/modules/bpt_info_box.php:1035 core/vc/modules/bpt_info_box.php:1048
+#: core/vc/modules/bpt_info_box.php:1068 core/vc/modules/bpt_info_box.php:1076
+#: core/vc/modules/bpt_info_box.php:1094 core/vc/modules/bpt_info_box.php:1108
+#: core/vc/modules/bpt_video_popup.php:78 core/vc/modules/bpt_video_popup.php:86
+#: core/vc/modules/bpt_video_popup.php:103 core/vc/modules/bpt_video_popup.php:116
+#: core/vc/modules/bpt_video_popup.php:129 core/vc/modules/bpt_video_popup.php:142
+#: core/vc/modules/bpt_video_popup.php:149 core/vc/modules/bpt_video_popup.php:157
+#: core/vc/modules/bpt_video_popup.php:170 core/vc/modules/bpt_video_popup.php:186
+#: core/vc/modules/bpt_video_popup.php:195
+msgid "Styling"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:487
+msgid "Counter Title Tag"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:490 core/vc/modules/bpt_info_box.php:771
+#: core/vc/modules/bpt_info_box.php:864 core/vc/modules/bpt_info_box.php:947
+#: core/vc/modules/bpt_message_box.php:99 core/vc/modules/bpt_message_box.php:202
+#: core/vc/modules/bpt_testimonials.php:413
+#: core/vc/modules/bpt_testimonials.php:497
+#: core/vc/modules/bpt_testimonials.php:580
+msgid "Div"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:496 core/vc/modules/bpt_info_box.php:770
+#: core/vc/modules/bpt_info_box.php:863 core/vc/modules/bpt_info_box.php:946
+#: core/vc/modules/bpt_message_box.php:100 core/vc/modules/bpt_message_box.php:203
+#: core/vc/modules/bpt_testimonials.php:414
+#: core/vc/modules/bpt_testimonials.php:496
+#: core/vc/modules/bpt_testimonials.php:579
+msgid "Span"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:500
+msgid "Choose your tag for counter title"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:505
+msgid "Counter Title Weight"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:509 core/vc/modules/bpt_counter.php:589
+msgid "Regular"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:510 core/vc/modules/bpt_counter.php:590
+msgid "SemiBold"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:511 core/vc/modules/bpt_counter.php:591
+msgid "Bold"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:515
+msgid "Choose your Weight for counter title"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:521 core/vc/modules/bpt_double_headings.php:80
+#: core/vc/modules/bpt_info_box.php:786 core/vc/modules/bpt_message_box.php:119
+#: core/vc/modules/bpt_pricing_table.php:693
+msgid "Title Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:524
+msgid "Enter Counter title font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:531
+msgid "Custom font family for counter title"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:555 core/vc/modules/bpt_info_box.php:830
+#: core/vc/modules/bpt_message_box.php:161
+#: core/vc/modules/bpt_pricing_table.php:737 core/vc/modules/bpt_team.php:566
+msgid "Use Custom Title Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:564 core/vc/modules/bpt_double_headings.php:70
+#: core/vc/modules/bpt_flip_box.php:115 core/vc/modules/bpt_flip_box.php:187
+#: core/vc/modules/bpt_info_box.php:839 core/vc/modules/bpt_message_box.php:174
+#: core/vc/modules/bpt_pricing_table.php:746 core/vc/modules/bpt_team.php:574
+msgid "Title Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:567 core/vc/modules/bpt_info_box.php:842
+#: core/vc/modules/bpt_message_box.php:177
+#: core/vc/modules/bpt_pricing_table.php:749
+msgid "Select title color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:578
+msgid "Counter Value Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:585
+msgid "Counter Value Weight"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:595
+msgid "Choose your Weight for counter value"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:601
+msgid "Counter Value Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:604
+msgid "Enter Counter counter value font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:611
+msgid "Custom font family for counter value"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:635
+msgid "Use Custom Counter Value Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:644
+msgid "Counter Value Color"
+msgstr ""
+
+#: core/vc/modules/bpt_counter.php:647
+msgid "Select counter value color"
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:11 core/vc/modules/bpt_custom_text.php:17
+msgid "Custom Text"
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:23 core/vc/modules/bpt_pricing_table.php:221
+msgid "Content."
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:42
+msgid "Choose color for text."
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:46
+msgid "Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:49 core/vc/modules/bpt_custom_text.php:72
+#: core/vc/modules/bpt_custom_text.php:84 core/vc/modules/bpt_custom_text.php:96
+#: core/vc/modules/bpt_double_headings.php:83
+#: core/vc/modules/bpt_double_headings.php:114
+#: core/vc/modules/bpt_double_headings.php:126
+#: core/vc/modules/bpt_double_headings.php:138
+#: core/vc/modules/bpt_double_headings.php:192
+msgid "Enter font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:55
+msgid "Line Height"
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:58
+#: core/vc/modules/bpt_double_headings.php:92
+#: core/vc/modules/bpt_double_headings.php:201
+msgid "Enter line height in %."
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:64
+msgid "Set Resonsive Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:70
+msgid "Font Size for small Desktops"
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:82
+msgid "Font Size for Tablets"
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:94
+msgid "Font Size for Mobile"
+msgstr ""
+
+#: core/vc/modules/bpt_custom_text.php:106 core/vc/modules/bpt_message_box.php:236
+msgid "Custom font family for text"
+msgstr ""
+
+#: core/vc/modules/bpt_demo_item.php:10 core/vc/modules/bpt_demo_item.php:16
+msgid "Demo Item"
+msgstr ""
+
+#: core/vc/modules/bpt_demo_item.php:26 core/vc/modules/bpt_double_headings.php:29
+msgid "Subtitle"
+msgstr ""
+
+#: core/vc/modules/bpt_demo_item.php:38 core/vc/templates/bpt_demo_item.php:50
+msgid "Coming Soon"
+msgstr ""
+
+#: core/vc/modules/bpt_demo_item.php:43 core/vc/modules/bpt_pricing_table.php:236
+msgid "Add Button"
+msgstr ""
+
+#: core/vc/modules/bpt_demo_item.php:52
+msgid "Button Title"
+msgstr ""
+
+#: core/vc/modules/bpt_demo_item.php:63
+msgid "Add link to image."
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:14
+#: core/vc/modules/bpt_double_headings.php:20
+msgid "Double Headings"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:45
+msgid "Subtitle Position"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:76
+msgid "Choose color for title."
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:89
+msgid "Title Line Height"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:98 core/vc/modules/bpt_info_box.php:796
+#: core/vc/modules/bpt_pricing_table.php:703
+msgid "Title Font Weight"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:106
+msgid "Set Title Resonsive Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:112
+msgid "Small Desktops"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:136
+msgid "Mobile"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:148
+#: core/vc/modules/bpt_message_box.php:133
+msgid "Custom font family for title"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:172 core/vc/modules/bpt_info_box.php:853
+msgid "Subtitle Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:179 core/vc/modules/bpt_info_box.php:922
+msgid "Subtitle Color"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:185
+msgid "Choose color for subtitle."
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:189 core/vc/modules/bpt_info_box.php:879
+msgid "Subtitle Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:198
+msgid "Subtitle Line Height"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:207
+msgid "Subtitle Font Weight"
+msgstr ""
+
+#: core/vc/modules/bpt_double_headings.php:215
+msgid "Custom font family for subtitle"
+msgstr ""
+
+#: core/vc/modules/bpt_earth.php:10
+msgid "Earth"
+msgstr ""
+
+#: core/vc/modules/bpt_earth.php:16
+msgid "Earth moving"
+msgstr ""
+
+#: core/vc/modules/bpt_earth.php:28
+msgid "Sphere Width"
+msgstr ""
+
+#: core/vc/modules/bpt_earth.php:31
+msgid "Enter size of sphere in px."
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:13
+msgid "Flip Box"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:19
+msgid "Add Flip Box"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:24
+msgid "Flip Direction"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:27
+msgid "Flip to Right"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:28
+msgid "Flip to Left"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:29
+msgid "Flip to Top"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:30
+msgid "Flip to Bottom"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:36
+msgid "Custom Flip Box Height"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:39
+msgid "Enter custom flip box height in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:43 core/vc/modules/bpt_info_box.php:638
+#: core/vc/modules/bpt_team.php:85
+msgid "Add Shadow"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:57
+msgid "Front Side Background"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:59 core/vc/modules/bpt_flip_box.php:69
+#: core/vc/modules/bpt_flip_box.php:80 core/vc/modules/bpt_flip_box.php:91
+#: core/vc/modules/bpt_flip_box.php:97 core/vc/modules/bpt_flip_box.php:105
+#: core/vc/modules/bpt_flip_box.php:111 core/vc/modules/bpt_flip_box.php:118
+#: core/vc/modules/bpt_flip_box.php:124 core/vc/modules/bpt_flip_box.php:131
+msgid "Front Side"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:84 core/vc/modules/bpt_flip_box.php:163
+msgid "Background Image"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:95
+msgid "Front Side Content"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:102
+msgid "Logo Image"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:128 core/vc/modules/bpt_flip_box.php:200
+msgid "Description Color"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:136
+msgid "Back Side Background"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:138 core/vc/modules/bpt_flip_box.php:148
+#: core/vc/modules/bpt_flip_box.php:159 core/vc/modules/bpt_flip_box.php:170
+#: core/vc/modules/bpt_flip_box.php:176 core/vc/modules/bpt_flip_box.php:183
+#: core/vc/modules/bpt_flip_box.php:190 core/vc/modules/bpt_flip_box.php:196
+#: core/vc/modules/bpt_flip_box.php:203 core/vc/modules/bpt_flip_box.php:209
+#: core/vc/modules/bpt_flip_box.php:216 core/vc/modules/bpt_flip_box.php:224
+#: core/vc/modules/bpt_flip_box.php:236 core/vc/modules/bpt_flip_box.php:248
+#: core/vc/modules/bpt_flip_box.php:258 core/vc/modules/bpt_flip_box.php:276
+#: core/vc/modules/bpt_flip_box.php:287
+msgid "Back Side"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:174
+msgid "Back Side Content"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:207
+msgid "Back Side Button"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:214 core/vc/modules/bpt_info_box.php:114
+msgid "Add Read More Button"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:221 core/vc/modules/bpt_info_box.php:1086
+msgid "Button Color"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:233 core/vc/modules/bpt_info_box.php:121
+msgid "Read More Button Text"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:235 core/vc/modules/bpt_info_box.php:123
+#: core/vc/templates/bpt_info_box.php:20 templates/post/post-image.php:42
+#: templates/post/post-medium_img.php:42 templates/post/post-news_post.php:42
+#: templates/post/post-standard.php:42 templates/post/post-tiny_img.php:42
+msgid "Read More"
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:247 core/vc/modules/bpt_info_box.php:135
+msgid "Add link to read more button."
+msgstr ""
+
+#: core/vc/modules/bpt_flip_box.php:256
+msgid "Add Icon to the Button"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:9
+msgid "Ico Progress"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:11
+msgid "Display Ico Progress Module"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:21
+msgid "Background Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:74
+msgid "Ico Paddings"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:80
+msgid "Ico Left Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:83
+msgid "Enter Ico left padding in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:88
+msgid "Ico Right Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:91
+msgid "Enter Ico right padding in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:96
+msgid "Ico Top Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:99
+msgid "Enter Ico top padding in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:104
+msgid "Ico Bottom Padding"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress.php:107
+msgid "Enter Ico bottom padding in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:10
+msgid "Ico Progress Bar"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:16
+msgid "Display Ico Progress Bar"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:20
+msgid "Max Value"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:26
+msgid "Max Value Label"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:32
+msgid "Completed"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:38
+msgid "Completed Label"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:44
+msgid "Units"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:47
+msgid "Enter measurement units (Example: %, px, points, etc.)"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:51
+msgid "Max Ico Progress Bar Width"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:53
+msgid "Enter max width in pixels"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:65
+msgid "Ico Progress Bar Points"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:67
+#: core/vc/modules/bpt_ico_progress_bar.php:74
+msgid "Points"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:73
+msgid "Enter values for graph - point label and point value."
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:77
+msgid "Soft Cap"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:81
+msgid "Hard Cap"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:88
+msgid "Point Label"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:94
+msgid "Point Value"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:96
+msgid "Enter value in percentage"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:103
+msgid "Bar Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:110
+msgid "Custom Bar Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:117
+msgid "Bacground Color"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:129
+msgid "Comleted Color"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:141
+msgid "Text Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:148
+msgid "Custom Text Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:155
+msgid "Values Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_ico_progress_bar.php:167
+msgid "Labels Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:8
+msgid "Image Layers"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:14
+msgid "Display Image Layers"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:19
+msgid "Layers Settings"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:27
+msgid "Enter values for graph"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:36
+msgid "Top Offset"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:39 core/vc/modules/bpt_image_layers.php:46
+msgid "Enter offset in %, for example -100% or 100%"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:43
+msgid "Left Offset"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:50
+msgid "Image Animation"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:54
+msgid "Fade In"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:55
+msgid "Slide Up"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:56
+msgid "Slide Down"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:57
+msgid "Slide Left"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:58
+msgid "Slide Right"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:59
+msgid "Slide Big Up"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:60
+msgid "Slide Big Down"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:61
+msgid "Slide Big Left"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:62 core/vc/modules/bpt_image_layers.php:63
+msgid "Slide Big Right"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:64
+msgid "Flip Horizontally"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:65
+msgid "Flip Vertically"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:66
+msgid "Zoom In"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:71
+msgid "Image z-index"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:81
+msgid "Enter Interval Images Appearing"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:84
+msgid "Enter interval in milliseconds"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:88
+msgid "Enter Transition Speed"
+msgstr ""
+
+#: core/vc/modules/bpt_image_layers.php:91
+msgid "Enter transition speed in milliseconds"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:16 core/vc/modules/bpt_info_box.php:22
+msgid "Info Box"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:26
+msgid "Info Box Type"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:34
+msgid "Full Size"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:43
+msgid "Tile"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:49
+msgid "Info Box Layout"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:94
+msgid "Info Box Title"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:101
+msgid "Info Box Subtitle"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:108
+msgid "Info Box Text"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:144
+msgid "Custom Top Offset"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:155
+msgid "Button Top Offset"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:163
+msgid "Add top offset to read more button in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:332
+msgid "Icon Number"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:343
+msgid "Add Number"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:353
+msgid "Enter Icon Number"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:365
+msgid "Number Position"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:368
+msgid "Left Top Corner"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:369
+msgid "Right Top Corner"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:370
+msgid "Left Bottom Corner"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:371
+msgid "Right Bottom Corner"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:408
+msgid "Enter Bottom Offset"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:410
+msgid "Custom offset in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:416
+msgid "Enter Side Offset"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:418
+msgid "It works only with layout left or right"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:616
+msgid "Customize Tile Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:618 core/vc/modules/bpt_info_box.php:629
+#: core/vc/modules/bpt_info_box.php:641 core/vc/modules/bpt_info_box.php:658
+#: core/vc/modules/bpt_info_box.php:675 core/vc/modules/bpt_info_box.php:688
+#: core/vc/modules/bpt_info_box.php:702 core/vc/modules/bpt_info_box.php:715
+#: core/vc/modules/bpt_info_box.php:728 core/vc/modules/bpt_info_box.php:741
+#: core/vc/modules/bpt_info_box.php:754
+msgid "Tile Background"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:627 core/vc/modules/bpt_soc_icons.php:88
+msgid "Custom Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:651
+msgid "Tile Hover Content"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:767 core/vc/modules/bpt_message_box.php:96
+msgid "Title Tag"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:780
+msgid "Choose your tag for info box title"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:789
+msgid "Enter Info Box title font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:799
+msgid "Enter Info Box title font-weight."
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:806
+msgid "Custom font family for info box title"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:860
+msgid "Subtitle Tag"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:873
+msgid "Choose your tag for info box subtitle"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:882
+msgid "Enter Info Box subtitle font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:889
+msgid "Custom font family for info box subtitle"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:913
+msgid "Use Custom Subtitle Color"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:925
+msgid "Select subtitle color"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:936
+msgid "Content Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:943
+msgid "Content Tag"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:956
+msgid "Choose your tag for info box content"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:965
+msgid "Enter Info Box content font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:972
+msgid "Custom font family for info box content"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:1005
+msgid "Content Color"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:1008
+msgid "Select content color"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:1019
+msgid "Button Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:1034
+msgid "Enter Info Box button font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:1045
+msgid "Custom font family for info box button"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:1073
+msgid "Use Custom Button Color"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:1089
+msgid "Select button color"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:1100
+msgid "Button Hover Color"
+msgstr ""
+
+#: core/vc/modules/bpt_info_box.php:1103
+msgid "Select button hover color"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:12 core/vc/modules/bpt_message_box.php:18
+msgid "Message Box"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:22
+msgid "Message Type"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:25
+msgid "Informational"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:26
+msgid "Success"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:27
+msgid "Warning"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:28
+msgid "Error"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:51
+msgid "Message Color"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:72
+msgid "Closable?"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:109
+msgid "Choose your tag for title"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:122
+#: core/vc/modules/bpt_pricing_table.php:696
+msgid "Enter title font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:188
+msgid "Text Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:199
+msgid "Text Tag"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:212
+msgid "Choose your tag for text"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:222
+msgid "Text Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:225
+msgid "Enter text font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_message_box.php:264
+msgid "Use Custom Text Color"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:11
+msgid "Pricing Table"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:17
+msgid "Display Pricing Table"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:22
+msgid "Pricing Table Title"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:28
+msgid "Currency"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:34 woocommerce/cart/cart.php:35
+msgid "Price"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:41
+msgid "Descriptions"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:47
+msgid "Use Recommended"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:53
+msgid "Recommended Text"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:229
+msgid "Description Text"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:244
+msgid "Button Text"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:246
+msgid "Choose Plan"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:252
+msgid "Button Link"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:571
+msgid "Header Styling"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:573
+#: core/vc/modules/bpt_pricing_table.php:586
+#: core/vc/modules/bpt_pricing_table.php:593
+#: core/vc/modules/bpt_pricing_table.php:613
+#: core/vc/modules/bpt_pricing_table.php:621
+#: core/vc/modules/bpt_pricing_table.php:640
+#: core/vc/modules/bpt_pricing_table.php:654
+#: core/vc/modules/bpt_pricing_table.php:663
+#: core/vc/modules/bpt_pricing_table.php:680
+msgid "Header Background"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:591
+msgid "Header Background Color"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:607
+msgid "Select custom background for header."
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:661
+msgid "Background Header Image"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:706
+msgid "Enter font-weight."
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:713
+msgid "Custom font family for pricing table title"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:760
+msgid "Price Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:768
+msgid "Price Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:771
+msgid "Enter price font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:777
+msgid "Use Custom Price Color"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:786
+msgid "Price Color"
+msgstr ""
+
+#: core/vc/modules/bpt_pricing_table.php:789
+msgid "Select price color"
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:10
+msgid "Social Icons"
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:16
+msgid "Display Social Icons"
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:22
+msgid "Enter values for graph - value, title and color."
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:27 functions.php:214
+msgid "Facebook"
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:38 functions.php:228
+msgid "Twitter"
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:49 functions.php:207
+msgid "Instagram"
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:94
+msgid "Open in New Tab"
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:149
+msgid "Custom icon font size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:156
+msgid "Custom width,height,line-height size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:161
+msgid "Border Radius Size"
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:163
+msgid "Custom border radius size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:168
+msgid "Icons Position"
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:176
+msgid "Set alignment icons."
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:180
+msgid "Icons Gap"
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:182
+msgid "Custom icon gap width in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_soc_icons.php:187
+msgid "Add Icons Background"
+msgstr ""
+
+#: core/vc/modules/bpt_spacing.php:22
+msgid "Enter empty space height"
+msgstr ""
+
+#: core/vc/modules/bpt_spacing.php:29
+msgid "Set Resonsive Empty Space Height"
+msgstr ""
+
+#: core/vc/modules/bpt_spacing.php:34
+msgid "Height for small Desktops"
+msgstr ""
+
+#: core/vc/modules/bpt_spacing.php:36 core/vc/modules/bpt_spacing.php:47
+#: core/vc/modules/bpt_spacing.php:58
+msgid "Enter height in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_spacing.php:45
+msgid "Height for Tablets"
+msgstr ""
+
+#: core/vc/modules/bpt_spacing.php:56
+msgid "Height for Mobile"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:14
+msgid "Display team members"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:20
+msgid "Team Items"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:42
+msgid "Five"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:48
+msgid "Team Info Alignment"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:61
+msgid "Grid Gap"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:66
+msgid "0"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:70
+msgid "10"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:71
+msgid "20"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:72
+msgid "30"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:78
+msgid "Add Single Link"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:92
+msgid "Add Grayscale Filter"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:98
+msgid "Hide Meta"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:104
+msgid "Hide Title"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:110
+msgid "Hide Department"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:116
+msgid "Hide Social Icons"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:129
+msgid "Add Carousel for Team Items"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:177
+msgid "Scroll Items"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:273
+msgid "Arrows Controls"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:284
+msgid "Add Arrows control"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:295
+msgid "Custom Arrows Color"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:306
+msgid "Arrows Color"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:558
+msgid "Title Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:586
+msgid "Title Hover Color"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:599
+msgid "Department Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:607 core/vc/modules/bpt_team.php:648
+msgid "Use Custom Color"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:615
+msgid "Department Color"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:627
+msgid "Department Hover Color"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:640
+msgid "Social Icons Colors"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:656
+msgid "Social Icons Color"
+msgstr ""
+
+#: core/vc/modules/bpt_team.php:668
+msgid "Social Icons Hover Color"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:10
+msgid "Testimonials"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:16
+msgid "Display Testimonials"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:20
+msgid "Testimonials Type"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:28
+msgid "Author Top"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:31
+msgid "Author Bottom"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:37
+msgid "Testimonials Grid"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:68 core/vc/modules/bpt_testimonials.php:98
+#: core/vc/modules/bpt_testimonials.php:107
+#: core/vc/modules/bpt_testimonials.php:116
+#: core/vc/modules/bpt_testimonials.php:125
+msgid "Items"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:77
+msgid "Quote"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:82
+msgid "Author Name"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:88
+msgid "Author Status"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:96
+msgid "Custom Image Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:104
+msgid "Enter Image Width"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:113
+msgid "Enter Image Height"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:122
+msgid "Enter Image Radius"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:131
+msgid "Add Carousel for Testimonials Items"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:403
+msgid "Quote Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:410
+msgid "Quote Tag"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:423
+msgid "Choose your tag for quote"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:429
+msgid "Quote Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:432
+msgid "Enter quote font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:439
+msgid "Custom font family for quote"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:463
+msgid "Use Custom Quote Color"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:472
+msgid "Quote Color"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:475
+msgid "Select quote color"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:486
+msgid "Author Name Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:493
+msgid "Author Name Tag"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:506
+msgid "Choose your tag for author name"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:512
+msgid "Author Name Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:515
+msgid "Enter author name font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:522
+msgid "Custom font family for author name"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:546
+msgid "Use Custom Author Name Color"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:555
+msgid "Author Name Color"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:558
+msgid "Select author name color"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:569
+msgid "Author Status Styles"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:576
+msgid "Author Status Tag"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:589
+msgid "Choose your tag for author status"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:595
+msgid "Author Status Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:598
+msgid "Enter author status font-size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:605
+msgid "Custom font family for author status"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:629
+msgid "Use Custom Author Status Color"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:638
+msgid "Author Status Color"
+msgstr ""
+
+#: core/vc/modules/bpt_testimonials.php:641
+msgid "Select author status color"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_horizontal.php:10
+msgid "Time Line Horizontal"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_horizontal.php:16
+msgid "Display Time Line Horizontal"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_horizontal.php:20
+#: core/vc/modules/bpt_time_line_vertical.php:20
+msgid "Time Line Items Content"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_horizontal.php:22
+#: core/vc/modules/bpt_time_line_vertical.php:22
+msgid "Enter values for graph - title, description, date and color."
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_horizontal.php:26
+#: core/vc/modules/bpt_time_line_vertical.php:37
+msgid "Date"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_horizontal.php:36
+msgid "Circle Color"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_horizontal.php:45
+#: core/vc/modules/bpt_time_line_vertical.php:57
+msgid "Add Appear Animation"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_horizontal.php:52
+msgid "Time Line Main Color"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_horizontal.php:67
+msgid "Carousel for Time Line Items"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_horizontal.php:74
+msgid "Items to Show"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_vertical.php:10
+msgid "Time Line Vertical"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_vertical.php:16
+msgid "Display Time Line Vertical"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_vertical.php:42
+msgid "Main Color"
+msgstr ""
+
+#: core/vc/modules/bpt_time_line_vertical.php:49
+msgid "Active Item"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:13
+msgid "Video Popup"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:14
+msgid "Video Popup Widget"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:22
+msgid "Enter title."
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:26
+msgid "Title Position"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:38
+msgid "Video Popup Button Alignment"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:50
+msgid "Always Pulse Animation on Button."
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:55
+msgid "Background Image Video"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:57
+msgid "Select video background image."
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:61
+msgid "Video Link"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:63
+msgid "Enter video link from youtube or vimeo."
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:75
+msgid "Title color"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:83
+msgid "Button color"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:147
+msgid "Custom Button Size"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:154
+msgid "Button Size"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:156
+msgid "Enter button size in pixels."
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:167
+msgid "Custom font family for Video Popup title?"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:191
+msgid "Video Popup Title Font Size"
+msgstr ""
+
+#: core/vc/modules/bpt_video_popup.php:194
+msgid "Enter Video Popup Title font-size in pixels."
+msgstr ""
+
+#: core/vc/templates/bpt_countdown.php:77
+msgid "Years"
+msgstr ""
+
+#: core/vc/templates/bpt_countdown.php:78
+msgid "Months"
+msgstr ""
+
+#: core/vc/templates/bpt_countdown.php:79
+msgid "Weeks"
+msgstr ""
+
+#: core/vc/templates/bpt_countdown.php:80
+msgid "Days"
+msgstr ""
+
+#: core/vc/templates/bpt_countdown.php:83
+msgid "Seconds"
+msgstr ""
+
+#: core/vc/templates/bpt_countdown.php:87
+msgid "Week"
+msgstr ""
+
+#: core/vc/templates/bpt_countdown.php:89
+msgid "Hour"
+msgstr ""
+
+#: core/vc/templates/bpt_countdown.php:90
+msgid "Minute"
+msgstr ""
+
+#: core/vc/templates/bpt_countdown.php:91
+msgid "Second"
+msgstr ""
+
+#: core/widgets/author.php:11
+msgid "Author Said"
+msgstr ""
+
+#: core/widgets/author.php:12 core/widgets/banner.php:12
+msgid "Widget "
+msgstr ""
+
+#: core/widgets/author.php:127 core/widgets/banner.php:106
+#: core/widgets/banner.php:113
+msgid "Upload"
+msgstr ""
+
+#: core/widgets/author.php:131
+msgid "Facebook:"
+msgstr ""
+
+#: core/widgets/author.php:136
+msgid "Instagram:"
+msgstr ""
+
+#: core/widgets/author.php:141
+msgid "Twitter:"
+msgstr ""
+
+#: core/widgets/author.php:146
+msgid "Linkedin:"
+msgstr ""
+
+#: core/widgets/banner.php:11
+msgid "Banner"
+msgstr ""
+
+#: core/widgets/banner.php:127
+msgid "Button link:"
+msgstr ""
+
+#: core/widgets/flickr.php:6
+msgid "Flickr (current theme)"
+msgstr ""
+
+#: core/widgets/flickr.php:46
+msgid "Title: "
+msgstr ""
+
+#: core/widgets/flickr.php:50
+msgid "Flickr ID:"
+msgstr ""
+
+#: core/widgets/flickr.php:54 core/widgets/posts.php:119
+msgid "Number:"
+msgstr ""
+
+#: core/widgets/posts.php:7
+msgid "Posts (current theme)"
+msgstr ""
+
+#: core/widgets/posts.php:105
+msgid "Recent Posts"
+msgstr ""
+
+#: core/widgets/posts.php:114
+msgid "Title:"
+msgstr ""
+
+#: core/widgets/posts.php:125
+msgid "Show post content:"
+msgstr ""
+
+#: functions.php:136
+msgid "Dropcap"
+msgstr ""
+
+#: functions.php:137
+msgid "Highlighter"
+msgstr ""
+
+#: functions.php:138
+msgid "Font Weight"
+msgstr ""
+
+#: functions.php:140
+msgid "Lightest (100)"
+msgstr ""
+
+#: functions.php:141
+msgid "Lighter (200)"
+msgstr ""
+
+#: functions.php:142
+msgid "Light (300)"
+msgstr ""
+
+#: functions.php:143
+msgid "Normal (400)"
+msgstr ""
+
+#: functions.php:144
+msgid "Medium (500)"
+msgstr ""
+
+#: functions.php:145
+msgid "Semi-Bold (600)"
+msgstr ""
+
+#: functions.php:146
+msgid "Bold (700)"
+msgstr ""
+
+#: functions.php:147
+msgid "Bolder (800)"
+msgstr ""
+
+#: functions.php:148
+msgid "Extra Bold (900)"
+msgstr ""
+
+#: functions.php:151
+msgid "List Style"
+msgstr ""
+
+#: functions.php:152
+msgid "Dash"
+msgstr ""
+
+#: functions.php:203
+msgid "Extra profile information"
+msgstr ""
+
+#: functions.php:210
+msgid "Please enter your instagram url."
+msgstr ""
+
+#: functions.php:217
+msgid "Please enter your facebook url."
+msgstr ""
+
+#: functions.php:221
+msgid "Linkedin"
+msgstr ""
+
+#: functions.php:224
+msgid "Please enter your linkedin url."
+msgstr ""
+
+#: functions.php:231
+msgid "Please enter your twitter url."
+msgstr ""
+
+#: image.php:63
+msgid "Published on"
+msgstr ""
+
+#: image.php:63
+msgid "in"
+msgstr ""
+
+#: image.php:80
+msgid "Link to full-size image"
+msgstr ""
+
+#: image.php:81
+msgid "Full resolution"
+msgstr ""
+
+#: image.php:97
+msgid "Pages:"
+msgstr ""
+
+#: image.php:99
+msgid "Back"
+msgstr ""
+
+#: index.php:55 page.php:66 single.php:177 template-full-width.php:70
+msgid "Password Protected"
+msgstr ""
+
+#: index.php:56 page.php:67 template-full-width.php:71
+msgid ""
+"This content is password protected. Please enter your password below to continue."
+msgstr ""
+
+#: page.php:33 single-team.php:54 template-full-width.php:37
+msgid "Read more!"
+msgstr ""
+
+#: page.php:34 template-full-width.php:38 templates/post/post-1.php:54
+msgid "Pages"
+msgstr ""
+
+#: search.php:62
+msgid "Oops!"
+msgstr ""
+
+#: search.php:62
+msgid "Not Found!"
+msgstr ""
+
+#: search.php:63
+msgid "Apologies, but we were unable to find what you were looking for."
+msgstr ""
+
+#: single.php:62
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:75
+msgid "Next Post"
+msgstr ""
+
+#: templates/breadcrumbs.php:25
+msgid "Home"
+msgstr ""
+
+#: templates/breadcrumbs.php:49
+msgid "Search for"
+msgstr ""
+
+#: templates/breadcrumbs.php:127
+msgid "Tag"
+msgstr ""
+
+#: templates/breadcrumbs.php:132
+msgid "Author"
+msgstr ""
+
+#: templates/breadcrumbs.php:135 templates/header/section-page_title.php:116
+msgid "Error 404"
+msgstr ""
+
+#: templates/header/section-header.php:739
+msgid "View your shopping cart"
+msgstr ""
+
+#: templates/header/section-page_title.php:108
+msgid " Tag"
+msgstr ""
+
+#: templates/header/section-page_title.php:112
+msgid "Author:"
+msgstr ""
+
+#: templates/header/section-page_title.php:139
+msgid "BLOG"
+msgstr ""
+
+#: templates/header/section-page_title.php:146
+msgid "No Posts"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/global/quantity-input.php:33
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:76
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:113
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:132
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:30
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/single-product/related.php:29
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:208
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:236
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:236
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:237
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:245
+msgid "Email"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:247
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:253
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:257
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:258
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:259
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:260
+msgid "Good"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:261
+msgid "Average"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:262
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:263
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/woocommerce-init.php:267
+msgid "Your review"
+msgstr ""

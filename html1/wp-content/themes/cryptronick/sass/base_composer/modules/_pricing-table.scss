@@ -1,0 +1,91 @@
+/*-PricingTable-*/
+.cryptronick_module_pricing_plan{
+	text-align: center;
+	max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    .pricing_plan_wrap{
+    	transform: translateY(0);
+		transition: all 0.5s;
+		background: #f8f9fd;
+   		border-radius: 10px;
+    }
+    &.recommended{
+    	margin-bottom: -30px;
+    	.pricing_plan_wrap{
+    		background: #ffffff;
+    		transform: translateY(-30px);
+    	}
+    }
+	.pricing_header{
+		padding: 22px 30px 20px;
+	    border-top-left-radius: 10px;
+	    border-top-right-radius: 10px;
+	    text-align: left;
+	    color: #ffffff;
+	    position: relative;
+	    z-index: 1;
+	    background-size: cover;
+		.pricing_icon_wrapper{
+			position: absolute;
+			z-index: 1;
+			right: 30px;
+			top: 50%;
+    		transform: translateY(-50%);
+			font-size: 60px;
+			height: 1em;
+		    line-height: 1em;
+		}
+		.pricing_title{
+		    font-size: 24px;
+		    font-weight: 500;
+		    line-height: 1;
+		    margin-bottom: 8px;
+		    color: inherit;
+		}
+		.pricing_price_wrap > *{
+			display: inline-block;
+		}
+		.pricing_cur{
+			margin-right: 3px;
+		}
+	}
+	.pricing_content{
+		padding: 35px 30px 10px;
+		font-size: 18px;
+		ul li{
+			line-height: 2.4;
+		}
+	}
+	.pricing_footer{
+		font-size: 14px;
+		border-top: 1px solid #eeeeee;
+		padding: 37px 30px 20px;
+		.cryptronick_module_button{
+			margin-top: 30px;
+			display: block;
+		}
+	}
+	.pricing_recommend{
+		margin-bottom: 10px;
+	}
+	.pricing_recommend-icon{
+		font-size: 26px;
+		color: #4ce2af;
+		margin-top: 10px;
+	}
+	.pricing_recommend-text{
+		text-transform: uppercase;
+		font-size: 12px;
+		color: #a6abb1;
+		font-weight: 400;
+		margin-top: 7px;
+	}
+	// &:hover{
+	// 	.pricing_plan_wrap{
+	// 		transform: translateY(-10px);
+	// 	}
+	// }
+}

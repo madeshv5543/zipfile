@@ -1,0 +1,25 @@
+/* Map */
+#map-canvas {
+	width: 100%;
+	position: relative;
+	padding-bottom: 25.4%;
+}
+
+#map-canvas > div {
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+#map-canvas img {
+	max-width: none;
+	max-height:none;
+}
+
+@media only screen and (max-width: 768px) {
+	#map-canvas {
+		padding-bottom: 44%;
+	}
+}

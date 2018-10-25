@@ -1,0 +1,75 @@
+/* Stripe Img */
+
+.stripe_item {
+    position: relative;
+    z-index: 1;
+    float: left;
+    height: 400px;
+    white-space: nowrap;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+.stripe_item:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+    margin-left: -3px;
+}
+.stripe_item:after{
+    content: '';
+    direction: block;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.stripe_item:hover:after {
+    opacity: 0.8;
+}
+.stripe_item-wrapper {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    white-space: normal;
+    padding-right: 10.3%;
+    padding-left: 10.3%;
+    max-width: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s;
+}
+.stripe_item:hover .stripe_item-wrapper {
+    opacity: 1;
+    transform: translateY(0);
+    opacity: all 0.3s;
+}
+.cryptronick_stripe-link {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .stripe_item {
+        width: 100% !important;
+        height: auto !important;
+        padding: 100px 20px;
+    }
+}
+
+/* ! Stripe Img */

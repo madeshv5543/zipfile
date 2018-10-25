@@ -1,0 +1,21 @@
+/* C O N T E N T   A R E A */
+.main_wrapper {
+	padding:40px 0 40px 0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.bpt-page-title + .site_wrapper > .main_wrapper{
+	padding-top: 0;
+}
+.main_wrapper.like_fullscreen_type {
+	padding:0;
+}
+.site_wrapper {
+	position:relative;
+	z-index:0;
+	min-height: 50vh;
+}
+.row.sidebar_left .content-container{
+	float: right;
+}

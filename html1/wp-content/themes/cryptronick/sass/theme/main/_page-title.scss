@@ -1,0 +1,116 @@
+/* Page Title */
+.bpt-page-title{
+	display: table;
+    width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    box-sizing: border-box;
+    background-repeat: repeat;
+}
+.bpt-page-title__inner{
+	display: table-row;
+	vertical-align: middle;
+}
+.bpt-page-title__inner:before,
+.bpt-page-title__inner:after{
+	content: '';
+	display: table-cell;
+}
+.bpt-page-title .container{
+	display: table-cell;
+	vertical-align: middle;
+}
+.bpt-page-title.bpt-page-title_vert_align_top .container{
+	vertical-align: top;
+}
+.bpt-page-title.bpt-page-title_vert_align_bottom .container{
+	vertical-align: bottom;
+}
+.bpt-page-title__content{
+	display: table;
+	width: 100%;
+}
+.bpt-page-title__content .page_title,
+.bpt-page-title__content .cryptronick_breadcrumb{
+	display: table-cell;
+	vertical-align: middle;
+}
+.bpt-page-title__content .page_title{
+	width: 100%;
+}
+.bpt-page-title__content .page_title h1{
+	color: inherit;
+}
+.bpt-page-title.bpt-page-title_horiz_align_center .page_sub_title{
+	font-size: 22px;
+	line-height: 1.2;
+	font-weight: 400;
+	opacity: 0.8;
+}
+.bpt-page-title__content .cryptronick_breadcrumb a{
+	color: inherit;
+    font-weight: 300;
+    opacity: 0.7;
+    &:hover{
+    	opacity: 1;
+    }
+}
+.bpt-page-title__content .breadcrumbs{
+	white-space: nowrap;
+}
+.breadcrumbs .divider{
+	color: inherit;
+	opacity: 0.7;
+	margin: 0 2px;
+	vertical-align: middle;
+}
+.breadcrumbs .divider:last-child {
+	display: none;
+}
+.bpt-page-title.bpt-page-title_horiz_align_right .bpt-page-title__content{
+	direction: rtl;
+}
+.bpt-page-title.bpt-page-title_horiz_align_center .page_title,
+.bpt-page-title.bpt-page-title_horiz_align_center .cryptronick_breadcrumb,
+.bpt-page-title.bpt-page-title_horiz_align_center .page_sub_title{
+	display: table-row;
+	text-align: center;
+}
+.bpt-page-title.bpt-page-title_horiz_align_center .page_title + .page_sub_title div{
+	padding-top: 20px;
+}
+.bpt-page-title.bpt-page-title_horiz_align_center .page_sub_title + .cryptronick_breadcrumb > div{
+	padding-top: 13px;
+}
+
+.bpt-page-title.bpt-page-title_small_header .bpt-page-title__content .page_title > h1{
+	font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.bpt-page-title.bpt-page-title_small_header.bpt-page-title_horiz_align_center .page_sub_title{
+	font-size: 16px;
+}
+.bpt-page-title.bpt-page-title_small_header .bpt-page-title__content .cryptronick_breadcrumb{
+	font-size: 12px;
+	font-weight: 400;
+}
+@media only screen and (max-width: 768px) {
+	.bpt-page-title__content .page_title, 
+	.bpt-page-title__content .cryptronick_breadcrumb{
+		display: block;
+	}
+	.bpt-page-title__content .page_title + .cryptronick_breadcrumb{
+		padding-top: 5px;
+	}
+	.bpt-page-title__content .page_title h1 {
+	    font-size: 26px;
+	    line-height: 140%;
+	}
+	.bpt-page-title__content .breadcrumbs{
+		white-space: normal;
+	}
+}
+
+/* end Page Title */

@@ -1,0 +1,43 @@
+/*-Progress bar-*/
+.vc_row .vc_progress_bar .vc_single_bar{
+    margin: 52px 0 20px 0;
+    height: 5px;
+    background-color: #f2f6fd;
+    box-shadow: none;
+    border-radius: 10px;
+    &:first-child{
+        margin-top: 36px;
+    }
+    .vc_label{
+        text-shadow: none !important;
+        font-size: 12px;
+        font-weight: 500;
+        position: absolute;
+        text-transform: uppercase;
+        top: -34px;
+        left: 0;
+        padding: 0;
+        width: 100%;
+        .vc_label_units{
+            float: right;
+        }
+    }
+    .vc_bar{
+        height: 5px;
+        border-radius: 10px;
+        &:before{
+            content: '';
+            position: absolute;
+            z-index: 1;
+            width: 17px;
+            height: 17px;
+            right: -8px;
+            top: -6px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            box-shadow: 0 0 18px 0 rgba(0,69,182,0.16);
+        }     
+    }
+}
+
+/*!-Progress bar-*/

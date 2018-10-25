@@ -1,0 +1,10 @@
+2018-09-24T21:44:11+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to RWMB_Core::fix_page_template() must be an instance of WP_Post, instance of stdClass given, called in /var/www/html/aytos/wp-includes/class-wp-hook.php on line 286 and defined in /var/www/html/aytos/wp-content/plugins/cryptronick-core/includes/meta-box/inc/core.php:108
+Stack trace:
+#0 /var/www/html/aytos/wp-includes/class-wp-hook.php(286): RWMB_Core->fix_page_template(Object(stdClass))
+#1 /var/www/html/aytos/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/aytos/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/aytos/wp-admin/edit-form-advanced.php(724): do_action('edit_page_form', Object(stdClass))
+#4 /var/www/html/aytos/wp-admin/post-new.php(76): include('/var/www/html/a...')
+#5 {main}
+  thrown
+

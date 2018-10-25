@@ -1,0 +1,252 @@
+/* Navigation Toggle */
+.mobile-navigation-toggle {
+	display: none;
+	cursor: pointer;
+	transition-property: opacity, -webkit-filter;
+	transition-property: opacity, filter;
+	transition-property: opacity, filter, -webkit-filter;
+	transition-duration: 0.15s;
+	transition-timing-function: linear;
+	overflow: visible;
+	height: 24px;
+	position: relative;
+	vertical-align: middle;
+	height: 100%;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+.toggle-inner,
+.toggle-inner:before,
+.toggle-inner:after {
+	background-color: #ffffff;
+}
+.mobile-navigation-toggle:hover {
+	opacity: 0.8;
+}
+.toggle-box {
+	width: 30px;
+	height: 24px;
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+}
+.toggle-inner {
+	display: block;
+	top: 50%;
+	margin-top: -1px;
+}
+.toggle-inner,
+.toggle-inner:before,
+.toggle-inner:after {
+	width: 30px;
+	height: 2px;
+	border-radius: 2px;
+	position: absolute;
+	transition-property: -webkit-transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform;
+	transition-duration: 0.15s;
+	transition-timing-function: ease;
+}
+.toggle-inner:before,
+.toggle-inner:after {
+	content: "";
+	display: block;
+}
+.toggle-inner:before {
+	top: -10px;
+}
+.toggle-inner:after {
+	bottom: -10px;
+}
+
+.bpt-logotype-container.mobile_logo_enable .mobile_logo{
+	display: none;
+}
+
+.mobile-navigation-toggle:before{
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	height: 100%;
+	width: 0;
+}
+.mobile-navigation-toggle .toggle-inner {
+	transition-duration: 0.1s;
+	transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.mobile-navigation-toggle .toggle-inner:before {
+	transition: top 0.1s 0.14s ease, opacity 0.1s ease;
+}
+.mobile-navigation-toggle .toggle-inner:after {
+	transition: bottom 0.1s 0.14s ease, -webkit-transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	transition: bottom 0.1s 0.14s ease, transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	transition: bottom 0.1s 0.14s ease, transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.mobile-navigation-toggle.is-active .toggle-inner {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	transition-delay: 0.14s;
+	transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.mobile-navigation-toggle.is-active .toggle-inner:before {
+	top: 0;
+	opacity: 0;
+	transition: top 0.1s ease, opacity 0.1s 0.14s ease;
+}
+.mobile-navigation-toggle.is-active .toggle-inner:after {
+	bottom: 0;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	transition: bottom 0.1s ease, -webkit-transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+	transition: bottom 0.1s ease, transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+	transition: bottom 0.1s ease, transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.mobile_menu_container{
+	line-height: 0;
+}
+.mobile_menu_container .main-menu{
+	display: none;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+}
+.mobile_menu_container .main-menu>ul>li>a,
+.mobile_menu_container .main-menu>div>ul>li>a{
+	padding: 0;
+	width: 100%;
+}
+.mobile_menu_container .main-menu>ul.mobile_view_on,
+.mobile_menu_container .main-menu>div>ul.mobile_view_on{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: left;
+	padding: 20px;
+}
+.mobile_menu_container .main-menu ul.mobile_view_on li{
+	display: block;
+	float: none;
+	height: auto;
+	padding: 0;
+}
+.mobile_menu_container .main-menu ul.mobile_view_on li a{
+	padding: 10px 0 10px 0;
+}
+.mobile_menu_container .main-menu .mobile_sitcher{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	z-index: 1;
+	cursor: pointer;
+}
+.mobile_menu_container .main-menu ul li ul li.menu-item-has-children:after, 
+.mobile_menu_container .main-menu > ul > li.menu-item-has-children > a:after{
+	display: none;
+}
+.mobile_menu_container .main-menu .mobile_sitcher:before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    position: absolute;
+    bottom: 50%;
+    bottom: calc(50% - 4px);
+    right: 18px;
+    opacity: 0.7;
+    -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.mobile_menu_container .main-menu .mobile_sitcher.is-active:before{
+	transform: rotate(225deg);
+	-webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+}
+
+.mobile_menu_container .main-menu ul li ul{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 0;
+	padding-left: 15px;
+	opacity: 1;
+	visibility: visible;
+	box-sizing: border-box;
+	transition: all 0ms;
+    -webkit-transition: 0ms;
+    background-color: transparent;
+    color:inherit;
+}
+.mobile_menu_container .main-menu > ul > li > a span:before{
+	display: none;
+}
+.mobile_menu_container .main-menu ul li ul li.menu-item-has-children > a:after, 
+.mobile_menu_container .main-menu > ul > li.menu-item-has-children > a:after{
+	display: none;
+}
+
+.mobile_menu_container .main-menu ul li ul.sub-menu{
+	box-shadow: none;
+	margin-top: 6px;
+}
+
+.mobile_menu_container .main-menu ul li ul ul{
+	left: 0 !important;
+	top: 0;
+	margin: 0;
+}
+.mobile_menu_container .main-menu ul li ul li:hover > a{
+	transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+}
+
+
+@media only screen and (max-width: 1200px) {
+	.bpt-theme-header .bpt-sticky-header{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.bottom_header  .header_bar{
+		display: none;
+	}
+	.vc_row.empty_space{
+		padding: 0 !important;
+	}
+	.vc_row.empty_margin_space,
+	.empty_margin_space > .vc_column-inner,
+	.vc_column.empty_margin_space{
+		margin: 0 !important;
+	}
+	.bpt-theme-header.header_over_bg{
+		position: relative;
+	}
+	.bpt-page-title{
+		padding-top: 20px!important;
+		height: 180px !important;
+	}
+}

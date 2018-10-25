@@ -1,0 +1,37 @@
+/* cryptronick_module_custom_text */
+.cryptronick_module_custom_text p{
+    margin-bottom: 0;
+}
+.cryptronick_module_custom_text *:not(.fa){
+    color: inherit;
+    line-height: inherit;
+    font-size: inherit;
+}
+.cryptronick_module_custom_text.custom_font > *:not(.fa){
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+.cryptronick_module_custom_text a:hover {
+    color: inherit !important;
+}
+@media only screen and (min-width: 1200px) {
+    .cryptronick_custom_text_font_desctop{
+        font-size: inherit !important;
+        line-height: inherit !important;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .cryptronick_custom_text_font_tablet{
+        font-size: inherit !important;
+        line-height: inherit !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .cryptronick_custom_text_font_mobile{
+        font-size: inherit !important;
+        line-height: inherit !important;
+    }
+}
+
+/* end cryptronick_module_custom_text */

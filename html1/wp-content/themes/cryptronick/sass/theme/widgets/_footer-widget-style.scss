@@ -1,0 +1,22 @@
+/* footer widget style */
+.footer_top-area .widget_nav_menu .menu .menu-item {
+    padding: 0 0 5px 0;
+}
+.footer_top-area .widget_nav_menu .menu .menu-item:hover, 
+.footer_top-area .widget_nav_menu .menu .menu-item.current-menu-item{
+	padding-left: 0;
+}
+.footer_top-area .widget_nav_menu .menu .menu-item:before, 
+.footer_top-area .widget_nav_menu .menu .menu-item.current-menu-item:before{
+	display: none;
+}
+.footer_top-area .widget_nav_menu .menu .menu-item .menu-item{
+	padding-left: 10px;
+}
+.footer_top-area .widget_nav_menu .menu .menu-item .sub-menu{
+	padding-top: 5px;
+}
+.footer_top-area .widget_nav_menu .menu .menu-item  + .menu-item{
+	border-top: none;
+}
+/* end footer widget style  */

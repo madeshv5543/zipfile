@@ -1,0 +1,159 @@
+/*-clients-*/
+.cryptronick_module_clients{
+	text-align: center;
+	.clients_image{
+		float: left;
+		padding: 10px 0;
+	}
+	&.items-1{
+		.clients_image{
+			width: 100%;
+			&:nth-child(2){
+				clear: left;
+			}
+			&:nth-child(n+3){
+				clear: left;
+			}
+		}
+	}
+	&.items-2{
+		.clients_image{
+			width: 50%;
+			&:nth-child(3){
+				clear: left;
+			}
+			&:nth-child(2n+5){
+				clear: left;
+			}
+		}
+	}
+	&.items-3{
+		.clients_image{
+			width: 33.33333%;
+			&:nth-child(4){
+				clear: left;
+			}
+			&:nth-child(3n+7){
+				clear: left;
+			}
+		}
+	}
+	&.items-4{
+		.clients_image{
+			width: 25%;
+			&:nth-child(5){
+				clear: left;
+			}
+			&:nth-child(4n+9){
+				clear: left;
+			}
+		}
+	}
+	&.items-5{
+		.clients_image{
+			width: 20%;
+			&:nth-child(6){
+				clear: left;
+			}
+			&:nth-child(5n+11){
+				clear: left;
+			}
+		}
+	}
+	&.items-6{
+		.clients_image{
+			width: 16.66666%;
+			&:nth-child(7){
+				clear: left;
+			}
+			&:nth-child(6n+13){
+				clear: left;
+			}
+		}
+	}
+	img{
+		transition: all 0.3s;
+	}
+	&.item_anim-zoom{
+		.clients_image{
+			img{
+				transform: scale(0.95);
+			}
+		}
+		.clients_image:hover{
+			img{
+				transform: scale(1);
+			}
+		}
+	}
+	&.item_anim-opacity{
+		.clients_image{
+			img{
+				opacity: 0.5;
+			}
+		}
+		.clients_image:hover{
+			img{
+				opacity: 1;
+			}
+		}
+	}
+	&.item_anim-grayscale{
+		.clients_image{
+			img{
+				filter: grayscale(100%);
+				opacity: 0.2;
+			}
+		}
+		.clients_image:hover{
+			img{
+				filter: grayscale(0);
+				opacity: 1;
+			}
+		}
+	}
+	&.item_anim-contrast{
+		.clients_image:hover{
+			img{
+				filter: contrast(300%);
+			}
+		}
+	}
+	&.item_anim-blur{
+		.clients_image:hover{
+			img{
+				filter: blur(1px);
+			}
+		}
+	}
+	&.item_anim-invert{
+		.clients_image:hover{
+			img{
+				filter: invert(100%);
+			}
+		}
+	}
+	&.item_anim-ex_images{
+		.clients_image > a,
+		.clients_image > div{
+			position: relative;
+			z-index: 1;
+			display: inline-block;
+		}
+		.hover_image{
+			position: absolute;
+			z-index: 1;
+			left: 0;
+			top: 0;
+			opacity: 0;
+		}
+		.clients_image:hover{
+			.hover_image{
+				opacity: 1;
+			}
+			.main_image{
+				opacity: 0;
+			}
+		}
+	}
+}

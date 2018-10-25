@@ -1,0 +1,70 @@
+2018-10-10T19:16:24+00:00 CRITICAL Uncaught Error: Class 'ZipArchive' not found in /var/www/html/wp-content/plugins/download-theme/download-theme.php:80
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): dtwap_download('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(156): do_action('admin_init')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown
+
+2018-10-10T19:16:27+00:00 CRITICAL Uncaught Error: Class 'ZipArchive' not found in /var/www/html/wp-content/plugins/download-theme/download-theme.php:80
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): dtwap_download('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(156): do_action('admin_init')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown
+
+2018-10-10T19:17:14+00:00 CRITICAL Uncaught Error: Class 'ZipArchive' not found in /var/www/html/wp-content/plugins/download-theme/download-theme.php:80
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): dtwap_download('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(156): do_action('admin_init')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown
+
+2018-10-10T19:17:33+00:00 CRITICAL Uncaught Error: Class 'ZipArchive' not found in /var/www/html/wp-content/plugins/download-theme/download-theme.php:80
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): dtwap_download('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(156): do_action('admin_init')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown
+
+2018-10-10T19:17:36+00:00 CRITICAL Uncaught Error: Class 'ZipArchive' not found in /var/www/html/wp-content/plugins/download-theme/download-theme.php:80
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): dtwap_download('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(156): do_action('admin_init')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown
+
+2018-10-10T19:19:10+00:00 CRITICAL Uncaught Error: Class 'ZipArchive' not found in /var/www/html/wp-content/plugins/download-theme/download-theme.php:80
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): dtwap_download('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(156): do_action('admin_init')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown
+
+2018-10-10T19:21:44+00:00 CRITICAL Uncaught Error: Class 'ZipArchive' not found in /var/www/html/wp-content/plugins/download-theme/download-theme.php:80
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): dtwap_download('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(156): do_action('admin_init')
+#4 /var/www/html/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown
+

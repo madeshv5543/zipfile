@@ -1,0 +1,181 @@
+
+/* Default listing */
+dl {
+  margin-bottom: 20px;
+}
+
+dl dt {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+dl dd {
+  margin: 0 0 20px 0;
+}
+
+.main_wrapper ul li,
+.footer ul li{
+	padding-left: 20px;
+	padding-bottom: 5px;
+	list-style:none;
+	position: relative;
+	z-index: 1;
+}
+.footer ul li:last-child{
+	padding-bottom: 0;
+}
+.footer ul li li{
+	padding-left: 10px;
+}
+.footer ul li{
+	padding-left: 0;
+}
+.footer ul{
+	padding-left: 0;
+}
+.main_wrapper ul li:before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    line-height: 1;
+    font-size: 1em;
+    vertical-align: middle;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: block;
+    left: 2px;
+    top: 10px;
+}
+.main_wrapper ul.cryptronick_dash li:before{
+	content:"";
+	width:10px;
+	height: 2px;
+	border-radius: 0;
+}
+.main_wrapper ul.no-list-style li{
+	padding: 0;
+}
+.main_wrapper ul.no-list-style li:before{
+	display: none;
+}
+
+
+.main_wrapper ul.cryptronick_list_check li,
+.main_wrapper ul.cryptronick_list_check_circle li,
+.main_wrapper ul.cryptronick_list_check_square li,
+.main_wrapper ul.cryptronick_list_angle_right li,
+.main_wrapper ul.cryptronick_list_plus li,
+.main_wrapper ul.cryptronick_list_times li{
+	padding: 0 0 8px 0px;
+    list-style: none;
+}
+.main_wrapper ul.cryptronick_list_check li:before,
+.main_wrapper ul.cryptronick_list_check_circle li:before,
+.main_wrapper ul.cryptronick_list_check_square li:before,
+.main_wrapper ul.cryptronick_list_angle_right li:before,
+.main_wrapper ul.cryptronick_list_plus li:before,
+.main_wrapper ul.cryptronick_list_times li:before{
+	content: "\f00c";
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 1em;
+	line-height: 1em;
+	margin-right: 14px;
+	vertical-align: baseline;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.main_wrapper ul.cryptronick_list_check_circle li:before{
+	content: "\f05d";
+}
+.main_wrapper ul.cryptronick_list_check_square li:before{
+	content: "\f046";
+}
+.main_wrapper ul.cryptronick_list_angle_right li:before{
+	content: "\f105";
+}
+.main_wrapper ul.cryptronick_list_plus li:before{
+	content: "\f067";
+}
+.main_wrapper ul.cryptronick_list_times li:before{
+	content: "\f00d";
+}
+.main_wrapper ul.flaticon_check li{
+	padding-left: 25px;
+	&:before{
+	    content: "\f10c";
+	    font-family: flaticon;
+	    width: 0;
+	    height: 0;
+	    top: 5px;
+	    font-size: 14px;
+	}
+}
+
+.main_wrapper ol {
+	margin:0 0 18px 0;
+	padding:0 0 0 17px;
+	list-style: none; counter-reset: li
+}
+.main_wrapper ol li{
+	counter-increment: li
+}
+.main_wrapper li ol{
+	margin-bottom: 0;
+}
+
+.main_wrapper ol > li {
+	position:relative;
+	padding:0 0 5px 8px;
+}
+.main_wrapper ol.commentlist .comment{
+	padding: 0;
+}
+.main_wrapper ol.commentlist .comment-respond{
+	margin-top: 30px;
+} 
+.main_wrapper ol > li:before,
+.main_wrapper ul ol > li:before{
+	content: "."counter(li); 
+	font-size: inherit;
+    display: inline-block; 
+    width: 1em;
+    line-height: inherit;
+    margin-left: -1.5em;
+    margin-right: 0.5em; 
+    text-align: right; 
+    direction: rtl;
+}
+.main_wrapper ul ol > li:before {
+	top: 0;
+	background-color: transparent;
+}
+
+.main_wrapper ul > li:last-child,
+.main_wrapper ol > li:last-child {
+	padding-bottom:0;
+}
+.contentarea ul {
+	margin:0 0 18px 0;
+	padding:0 0 0 16px;
+}
+.contentarea ul > li ul,
+.contentarea ul > li ol,
+.contentarea ol > li ul,
+.contentarea ol > li ol {
+	margin-bottom:0;
+}
+.contentarea ol ol,
+.contentarea ol ul,
+.contentarea ul ol,
+.contentarea ul ul {
+	padding-bottom:0;
+}
+
+.typo_list ol,
+.typo_list ul,
+.typo_list li:last-child {
+	padding-bottom:0;
+}

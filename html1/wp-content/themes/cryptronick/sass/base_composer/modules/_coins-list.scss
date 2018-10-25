@@ -1,0 +1,374 @@
+.bpt-currency-stripe{
+	font-size: 12px;
+	.bpt-currency-stripe_scrolling {
+		width: 100%;
+    	white-space: nowrap;
+    	text-align: center;
+    	overflow: hidden;
+    	.bpt-currency-stripe_image-wrapper {
+    		width: 2.5em;
+    		img {
+    			width: 100%;
+    			margin: 0;
+    		}
+    	}
+    	.bpt-currency-stripe_name {
+    		font-weight: 500;
+    	}
+		.bpt-currency-stripe_item {
+			display: inline-block;
+			padding: 5px 14px 5px 0;
+			margin: 0 14px 0 0;
+			box-sizing: border-box;
+			border-right: 1px solid rgba(255, 255, 255, 0.15);
+			&>*{
+				display: inline-block;
+				vertical-align: middle;
+				padding: 0 4px;
+			}
+			.bpt-currency-stripe_change {
+				&.up {
+					color: #46e1ac;
+					&:before{
+						content: "";
+					    display: inline-block;
+					    vertical-align: middle;
+					    margin: 0px 4px 0 0;
+					    width: 4px;
+					    height: 4px;
+					    border-width: 1px 1px 0 0;
+					    transform: rotate(-45deg);
+					    border-style: solid;
+						border-color: inherit;
+					}
+				}
+				&.down {
+					color: #f50c58;
+					&:before{
+						content: "";
+					    display: inline-block;
+					    vertical-align: middle;
+					    margin: -4px 4px 0 0;
+					    width: 4px;
+					    height: 4px;
+					    border-width: 1px 1px 0 0;
+					    transform: rotate(135deg);
+					    border-style: solid;
+						border-color: inherit;
+					}
+				}
+			}
+		}
+	}
+	// Style big lable
+	&_big-lable {
+		line-height: 1;
+		.bpt-currency-stripe_item {
+			padding: 0.7em;
+			border-radius: 10px;
+			box-shadow: 0 2px 4px -1px rgba(0,0,0,.2),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12);
+			overflow: hidden;
+			transition: all 0.3s;
+			img {
+	    		margin: 0;
+	    	}
+			&:hover {
+				box-shadow: 0 4px 5px -2px rgba(0,0,0,.2),0 7px 10px 1px rgba(0,0,0,.14),0 2px 16px 1px rgba(0,0,0,.12);
+			}
+			& + .bpt-currency-stripe_item {
+				margin-top: 20px;
+			}
+		}
+		.bpt-currency-stripe_image-wrapper {
+			padding-bottom: 0.4em;
+		}
+		.bpt-currency-stripe_body-changes + .bpt-currency-stripe_market-price{
+			border-top: 1px solid;
+			border-color: inherit;
+		}
+		.bpt-currency-stripe_body-changes,
+		.bpt-currency-stripe_market-price {
+			display: flex;
+			&>div[class*="bpt-currency-stripe"]{
+				flex: 1;
+				text-align: center;
+				padding: 0.7em 0;
+			}
+		}
+		.bpt-currency-stripe_market-price {
+			&>div[class*="bpt-currency-stripe"]{
+				padding: 0.7em 0 0 0;
+			}
+		}
+		.bpt-currency-stripe_item-head{
+			text-align: center;
+		}
+		.bpt-currency-stripe_name {
+			&__short,
+			&__long{
+				display: inline-block;
+			}
+			&__short{
+				font-size: 1.6em;
+				line-height: 1;
+				font-weight: 500;
+			}
+			&__long{
+				font-size: 1em;
+				line-height: 1;
+			}
+		}
+		.bpt-currency-stripe_change__lable {
+		    display: block;
+		    font-weight: 500;
+		    opacity: 0.7;
+		    font-size: 0.6em;
+		    line-height: 1.7;
+		}
+		.up {
+			.bpt-currency-stripe_change__percent {
+				&:before{
+					color: #46e1ac;
+					content: "";
+				    display: inline-block;
+				    vertical-align: middle;
+				    margin: -3px 4px 0 -6px;
+				    //width: 4px;
+				    //height: 4px;
+				    //border-width: 1px 1px 0 0;
+
+				    border-left: 6px solid transparent;
+  					border-right: 6px solid transparent;
+  					border-bottom: 6px solid #46e1ac;
+				    //transform: rotate(-45deg);
+				    //border-style: solid;
+					//border-color: inherit;
+				}
+			}
+		}
+		.down {
+			.bpt-currency-stripe_change__percent {
+				&:before{
+					content: "";
+				    display: inline-block;
+				    vertical-align: middle;
+				    margin: -3px 4px 0 -6px;
+				    border-left: 6px solid transparent;
+  					border-right: 6px solid transparent;
+  					border-top: 6px solid #f50c58;
+				}
+			}
+		}
+		
+	}
+
+}
+
+
+// Table styles
+.bpt-currency-stripe_table {
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    text-transform: none;
+    vertical-align: baseline;
+    //box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+    display: table;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0 10px 10px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 100%;
+    transition: all 0.3s;
+    .bpt-currency-stripe_image-wrapper {
+    	display: inline-block;
+    	vertical-align: middle;
+    	margin-right: 5px;
+    	img {
+    		display: block;
+    		width: 24px;
+    		margin: 0;
+    	}
+    }
+    .up {
+		.bpt-currency-stripe_change__percent {
+			&:before{
+				color: #46e1ac;
+				content: "";
+			    display: inline-block;
+			    vertical-align: middle;
+			    margin: -3px 4px 0 -6px;
+			    border-left: 6px solid transparent;
+					border-right: 6px solid transparent;
+					border-bottom: 6px solid #46e1ac;
+			}
+		}
+	}
+	.down {
+		.bpt-currency-stripe_change__percent {
+			&:before{
+				content: "";
+			    display: inline-block;
+			    vertical-align: middle;
+			    margin: -3px 4px 0 -6px;
+			    border-left: 6px solid transparent;
+					border-right: 6px solid transparent;
+					border-top: 6px solid #f50c58;
+			}
+		}
+	}
+}
+
+.bpt-currency-stripe_table:hover {
+    box-shadow: 0px 20px 50px 0px rgba(0, 69, 182, 0.12);
+}
+
+.bpt-currency-stripe_table thead {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: none;
+    vertical-align: baseline;
+    box-shadow: none;
+}
+
+.bpt-currency-stripe_table thead tr {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: none;
+    vertical-align: baseline;
+    box-shadow: none;
+}
+
+.bpt-currency-stripe_table thead tr th {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: none;
+    vertical-align: baseline;
+    box-shadow: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.bpt-currency-stripe_table thead tr th:first-child {
+    text-align: left;
+    width: 40%;
+}
+
+.bpt-currency-stripe_table thead tr th {
+    text-align: right;
+    width: 30%;
+    padding: 3px 0;
+}
+
+.bpt-currency-stripe_table tbody {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: none;
+    vertical-align: baseline;
+    box-shadow: none;
+}
+
+.bpt-currency-stripe_table tbody tr {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: none;
+    vertical-align: baseline;
+    box-shadow: none;
+}
+
+.bpt-currency-stripe_table tbody tr td {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 3px 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: none;
+    vertical-align: baseline;
+    box-shadow: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.bpt-currency-stripe_table tbody tr td:first-child,
+.bpt-currency-stripe_table .bpt-currency-stripe_table-row td:first-child {
+    text-align: left;
+    width: 40%;
+}
+
+.bpt-currency-stripe_table tbody td {
+    text-align: right;
+    width: 30%;
+}
+
+.bpt-currency-stripe_table tbody:hover tr:not(:hover) {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='1');
+    filter: blur(1px);
+}
+
+@media screen and (max-width: 480px) {
+    .bpt-currency-stripe_table {
+        width: 100%;
+    }
+
+    .bpt-currency-stripe_table thead {
+        display: none;
+    }
+
+    .bpt-currency-stripe_table tbody {
+        pointer-events: none;
+    }
+
+    .bpt-currency-stripe_table tbody tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .bpt-currency-stripe_table tbody tr td {
+        padding-right: 10px;
+    }
+
+    .bpt-currency-stripe_table tbody tr td:first-child, .bpt-currency-stripe_table tbody tr td, .bpt-currency-stripe_table tbody tr td {
+        text-align: left;
+        width: 100%;
+        display: inline;
+    }
+}
+.widget .btcwdgt {
+	margin: 0 !important;
+}

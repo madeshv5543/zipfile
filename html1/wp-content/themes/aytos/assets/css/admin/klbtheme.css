@@ -1,0 +1,19 @@
+header.header_wrap.fixed-top {
+    top: 32px;
+}
+
+.type-radio-image img[alt="Dual Sidebar"],
+.type-radio-image img[alt="Left Dual Sidebar"],
+.type-radio-image img[alt="Right Dual Sidebar"] {
+    display: none;
+}
+
+.appearance_page_ot-theme-options .wp-picker-container input.hide-color-picker.wp-color-picker {
+    display: block;
+}
+
+@media screen and (max-width: 480px){
+header.header_wrap.fixed-top.nav-fixed {
+    top: 0;
+}
+}

@@ -1,0 +1,32 @@
+/* vc_round_chart */
+.vc_chart.vc_round-chart{
+	background-size: 0;
+	.wpb_wrapper{
+		background-image: inherit;
+		background-repeat: no-repeat;
+    	background-position: center;
+		canvas{
+			display: block;
+		}
+	}
+}
+.vc_chart.vc_round-chart[data-vc-legend="1"]{
+	background-size: 0;
+	.wpb_wrapper{
+		background-image: inherit;
+		background-size: inherit;
+		.vc_chart-with-legend{
+			background-image: inherit;
+			background-position: inherit;
+			background-repeat: inherit;
+		}
+	}
+	.vc_chart-legend{
+		li{
+			padding-left: 10px;
+			&:before{
+				display: none;
+			}
+		}
+	}
+}

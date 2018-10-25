@@ -1,0 +1,55 @@
+/* ico progress bar */
+.cryptronick_module_ico_progress{
+	margin-left: auto;
+	margin-right: auto;
+	.progress_bar_wrap{
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		height: 12px;
+		background: #1b3452;
+		border-radius: 10px;
+	}
+	.progress_completed{
+		position: absolute;
+		z-index: 1;
+		left: 2px;
+		top: 2px;
+		background: #90ff98;
+		height: 8px;
+		border-radius: 10px;
+		transition: all 0.8s;
+		width: 0;
+		max-width: calc(100% - 4px);
+	}
+	.progress_value_wrap{
+		font-size: 12px;
+		margin-top: 5px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.progress_value_completed,
+	.progress_value_max{
+		span{
+			font-weight: 500;
+			margin-left: 3px;
+		}
+	}
+	.progress_point{
+		position: absolute;
+		z-index: 2;
+		top: -30px;
+		font-size: 12px;
+		transform: translateX(-50%);
+		&:before{
+			content: '';
+			position: absolute;
+			z-index: 1;
+			left: 50%;
+			top: 20px;
+			width: 1px;
+			height: 22px;
+			background: #ffffff;
+		}
+	}
+}

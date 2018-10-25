@@ -1,0 +1,142 @@
+/*-cryptronick_module_button-*/
+.cryptronick_module_button{
+    position: relative;
+    z-index: 20;
+    a{
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #fff;
+        border-width: 1px;
+        border-style: solid;
+        white-space: nowrap;
+        &:hover{
+            background: #fff;
+        }
+    }
+    &.button_alignment_inline{
+        display: inline-block;
+        vertical-align: top;       
+    }
+    &.button_alignment_left {
+        text-align: left;
+    }
+    &.button_alignment_right {
+        text-align: right;
+    }
+    &.button_alignment_center {
+        text-align: center;
+    }
+    &.button_alignment_block a {
+        display: block;
+        text-align: center;
+    }
+    .button_size_large {
+        padding: 14px 40px;
+        font-size: 16px;
+    }
+    .button_size_normal {
+        padding: 9px 32px;
+    }
+    .button_size_small {
+        padding: 8px 26px;
+        font-size: 14px;
+    }
+    .button_size_mini {
+        padding: 6px 20px;
+        font-size: 13px;
+    }
+    .cryptronick_button_icon{
+        font-size: 15px;
+    }
+    &.button_icon_right .cryptronick_button_icon {
+        padding-left: 10px;
+    }
+    &.button_icon_left .cryptronick_button_icon {
+        padding-right: 10px;
+    }
+}
+// button gradient styles
+.cryptronick_module_button.button_gradient{
+    a{
+        position: relative;
+        z-index: 1;
+        border: 0 !important;
+        &:before,
+        &:after,
+        .button_border_gradient:before,
+        .button_border_gradient:after{
+            content: '';
+            position: absolute;
+            z-index: -2;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            transition: all 0.4s;
+            border-radius: inherit;
+        }
+        .button_border_gradient,
+        .button_border_gradient{
+            border-radius: inherit;
+        }
+        &:before,
+        &:after{
+            z-index: -1;
+        }
+    }
+    .button_size_large {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .button_size_normal {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .button_size_small {
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+    .button_size_mini {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+.cryptronick_module_button.button_gradient{
+    a{
+        &:before,
+        .button_border_gradient:before{
+            opacity: 1;
+            visibility: visible;
+        }
+        &:after,
+        .button_border_gradient:after{
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+    a:hover{
+        &:before,
+        .button_border_gradient:before{
+            opacity: 0;
+            visibility: hidden;
+        }
+        &:after,
+        .button_border_gradient:after{
+            opacity: 1;
+            visibility: visible;
+        }
+
+    }
+}
+.tp-caption {
+    .cryptronick_module_button {
+        a {
+            transition: all 0.3s !important;
+        }
+    }
+}
+// \button gradient styles

@@ -1,0 +1,69 @@
+/* vc tabs */
+.wpb-js-composer .vc_row .vc_general.vc_tta-tabs{
+    .vc_tta-tabs-list{
+        display: flex;
+        justify-content: center;
+        .vc_tta-tab{ 
+            font-size: 22px;
+            font-weight: 400;
+            text-align: center;
+            margin-bottom: 4px;
+            width: 100%;
+            &>a{
+                border-width: 0;
+                padding: 0 0 12px;
+                border-bottom: 2px dotted #e8e8e8 !important;
+                &:after{
+                    display: none !important;
+                }
+                &:before{
+                    content: '';
+                    width: 6px;
+                    height: 6px !important;
+                    position: absolute;
+                    z-index: 1;
+                    left: 50%;
+                    bottom: -1px;
+                    top: initial !important;
+                    transform: translate(-50%, 50%);
+                    background: #bfc5d0;
+                    border-radius: 50%;
+                }
+            }
+            &.vc_active{
+                color: #ffffff; 
+                    &>a{
+                    &:before{
+                        width: 8px;
+                        height: 8px !important;
+                    }
+                }  
+            }
+            &:before{
+                display: none;
+            }
+        }
+    }
+    .vc_tta-panel-body{
+        background: transparent;
+    }
+    &.vc_tta-tabs-position-top,
+    &.vc_tta-tabs-position-bottom{
+        .vc_tta-tab:not(:last-child) > a{
+            margin-right: 2px;
+        }
+        .vc_tta-panel-body{
+            padding: 26px 0 10px;
+            border-bottom: 0;
+        }
+    }
+    &.vc_tta-tabs-position-left,
+    &.vc_tta-tabs-position-right{
+        .vc_tta-tab:not(:last-child) > a{
+            margin-bottom: 5px;
+        }
+        .vc_tta-panel-body{
+            padding: 0 10px 0 30px;
+        }
+    }
+}

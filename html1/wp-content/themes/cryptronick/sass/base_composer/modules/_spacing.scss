@@ -1,0 +1,40 @@
+/* cryptronick_spacing */
+.cryptronick_spacing.responsive{
+    .cryptronick_spacing-height{
+        display: none;
+    }
+    .cryptronick_spacing-height_default{
+        display: block;
+    }
+}
+@media only screen and (max-width:1199px) {
+    .cryptronick_spacing.responsive{
+        .cryptronick_spacing-height{
+            display: none;
+        }
+        .cryptronick_spacing-height_desctop{
+            display: block;
+        }
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .cryptronick_spacing.responsive{
+        .cryptronick_spacing-height{
+            display: none;
+        }
+        .cryptronick_spacing-height_tablet{
+            display: block;
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    .cryptronick_spacing.responsive{
+        .cryptronick_spacing-height{
+            display: none;
+        }
+        .cryptronick_spacing-height_mobile{
+            display: block;
+        }
+    }
+}
+/* end cryptronick_spacing */

@@ -1,0 +1,33 @@
+/* vc_pie_chart */
+.wpb_heading.wpb_pie_chart_heading {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.vc_pie_chart.color-white .wpb_pie_chart_heading,
+.vc_pie_chart.color-white .vc_pie_chart_value{
+    color: #ffffff;
+}
+body .vc_pie_chart{
+    .vc_pie_chart_value{
+        font-size: 36px;
+        font-weight: 400;
+        z-index: 3;
+    }
+    .vc_pie_chart_back {
+        border: 5px solid #eeeeee !important;
+        opacity: 1 !important;
+        width: calc(100% - 1.5px) !important;
+        height: calc(100% - 1.5px) !important;
+        top: 0.5px;
+        left: 0.5px;
+    }
+    &.color-white .vc_pie_chart_back{
+        border-color: rgba(255,255,255,0.1) !important;
+    }
+    canvas{
+        display: block;
+    }
+}
+/* end vc_pie_chart */

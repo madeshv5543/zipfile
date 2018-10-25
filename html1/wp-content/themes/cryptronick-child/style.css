@@ -1,0 +1,137 @@
+/*
+Theme Name: Cryptronick Child
+Author: BlendPixels
+Author URI: http://bpthemes.net
+Description: -
+Version: 1.0
+Template: cryptronick
+*/
+
+/*
+@media only screen and (max-width:767px){
+	.main_wrapper {
+    padding: 75px 0 40px 0 !important;
+	}
+}
+@media only screen and (max-width:991px) and (min-width:768px){
+	.main_wrapper {
+    padding: 175px 0 40px 0 !important;
+	}
+}
+*/
+
+#mc-embedded-subscribe {
+    background: linear-gradient(90deg, #000020, #000020);
+    border: 1px solid #555;
+}
+#mc-embedded-subscribe:hover {
+    background: linear-gradient(90deg, #14464a, #2ac8ae);
+}
+.position_right_middle .main_menu_container.main-menu > ul > li > a > span {
+    color: #fff;
+}
+
+.left-top-potential {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.left-bottom-potential {
+    border-right: 1px solid #ddd;
+}
+.right-top-potential {
+    border-bottom: 1px solid #ddd;
+}
+.bottom-curved-row {
+    border-bottom-right-radius: 50% 10%;
+    border-bottom-left-radius: 50% 10%;
+}
+.border-right {
+	border-right : 1px solid #ddd;
+}
+
+
+/** custom css */
+
+body, html{
+	overflow-x : hidden;
+}
+#mc-embedded-subscribe {
+   background: #042627;
+   border: 1px solid #fff;
+}
+#mc-embedded-subscribe:hover {
+    background: #fff;
+	color: #042627 !important;
+}
+.position_right_middle .main_menu_container.main-menu > ul > li > a > span {
+    color: #fff;
+}
+
+.left-top-potential {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.left-bottom-potential {
+    border-right: 1px solid #ddd;
+}
+.right-top-potential {
+    border-bottom: 1px solid #ddd;
+}
+.bottom-curved-row {
+    border-bottom-right-radius: 50% 10%;
+    border-bottom-left-radius: 50% 10%;
+}
+.border-right {
+	border-right : 1px solid #ddd;
+}
+
+.infobox_title {
+    padding-top: 20px;
+}
+
+/* ------- The Main Menu Dots Off ------- */
+.main-menu > ul > li > a span:before {
+    display: none !important;
+}
+
+/* -------- Back to top - button ---------- */
+
+#back_to_top {
+	border-color: #2AC8AE !important;
+	color: #2AC8AE !important;
+}
+
+#back_to_top:hover {
+	background-color: #2AC8AE !important;
+	border-color: #fff !important;
+	color: #fff !important;
+}
+
+/* --------- FAQ Page colors --------- */
+
+.page-id-793 .bg-gradient-blue{
+    background: linear-gradient(90deg, #042527, #042527);
+}
+
+.page-id-793 .bg-gradient-darkblue {
+    background: linear-gradient(90deg, #042527, #042527);
+}
+
+
+.page-id-793 .main_wrapper {
+    padding: 0;
+}
+
+/**Mobile only Menu**/
+
+.mobile-only {
+	display: none !important;
+}
+.main-menu > ul > li:hover > a > span, .main-menu > ul > li:hover > a::after, .main-menu ul li ul .menu-item a:hover, .main-menu ul li ul .menu-item.current-menu-item > a, .main-menu ul li.menu-item.current-menu-ancestor > a, .main-menu ul li.menu-item.current-menu-item > a {
+	color:#ffffff !important;
+}
+@media only screen and (max-width:768px){
+	.mobile-only {
+	display: block !important;
+	}
+}

@@ -1,0 +1,124 @@
+/*
+Theme Name: Aytos ChildTheme   
+Description: Child Theme for Aytos
+Template: aytos
+Version: 1.0
+*/
+@import url("../aytos/style.css");
+
+/*CUSTOM CSS*/
+body {
+    color: #000000;
+}
+.team_img img {
+    width: 81%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #ddd;
+    border: 1px solid #ddd;
+}
+.shape, .rounded_shape {
+	display: none;
+}
+.box_inner h4 {
+	color: #000000;
+}
+.v_light .banner_text p {
+    font-size: 21px;
+}
+.btn:hover span, header a:hover, .navbar-nav li a.active, .v_light header a:hover, .v_light .navbar-nav li a.active, .banner_text h1 span, .box_inner i, .social_single_team li a, .contact_detail span, .footer_menu li a:hover, .footer_link a:hover, .blog_title a:hover, .v_blue .blog_title a:hover, .v_dark .blog_title a:hover, .v_dark_light .blog_title a:hover, .blog_meta li a:hover, .v_blue .blog_meta li a:hover, .v_dark .blog_meta li a:hover, .v_dark_light .blog_meta li a:hover, .blog_content a:hover, .v_blue .blog_content a:hover, .v_dark .blog_content a:hover, .v_dark_light .blog_content a:hover, .widget_category li a:hover, .widget_archive li a:hover, .widget-post-content a:hover, .tags li a:hover, .v_blue .widget_category li a:hover, .v_blue .widget_archive li a:hover, .v_blue .widget-post-content h6 a:hover, .v_blue .tags li a:hover, .v_dark .widget_category li a:hover, .v_dark .widget_archive li a:hover, .v_dark .widget-post-content h6 a:hover, .v_dark .tags li a:hover, .v_dark_light .widget_category li a:hover, .v_dark_light .widget_archive li a:hover, .v_dark_light .widget-post-content h6 a:hover, .v_dark_light .tags li a:hover, .meta_data a:hover, .comment-reply:hover, .v_blue .meta_data a:hover, .v_blue .comment-reply:hover, .v_dark .meta_data a:hover, .v_dark .comment-reply:hover, .v_dark_light .meta_data a:hover, .v_dark_light .comment-reply:hover, .forgot_pass:hover, .authorize_form a:hover, .v_blue .forgot_pass:hover, .v_blue .authorize_form .form-group span a:hover, .v_dark .forgot_pass:hover, .v_dark .authorize_form .form-group span a:hover, .v_dark_light .forgot_pass:hover, .v_dark_light .authorize_form .form-group span a:hover{
+	color: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #ac1700;
+}
+p {
+    color: #000000;
+ }
+.v_light .btn-border {
+    color: #ac1700;
+}
+.v_light .banner_text p, .v_light .progress .progress_label, .v_light .contact_detail p {
+    color: #000000;
+}
+.v_light .title_light span, .v_light .title_dark span {
+    color: #000000;
+}
+.v_light .banner_text h1, .v_light .banner_text h3 {
+    color: #000000;
+}
+.v_light .pr_box h6 {
+    color: #ac1700;
+}
+.tk_counter, second {
+    color: #ac1700;
+}
+.tk_text {
+	color: #000000;
+}
+.v_light .tk_counter_inner {
+    border: 1px solid #ac1700;
+}
+.v_light header a {
+    color: #000000;
+}
+.benefit_box {
+    background-color: #ac1700;
+}
+.v_light .form_field input, .v_light .form_field textarea {
+    border-color: #000000;
+    color: #000000;
+}
+.v_light .contact_info li i {
+    color: #ac1700;
+}
+.wpcf7-form input[type="submit"]{
+	color: #fff;
+}
+.v_light .footer_social li a {
+    border: 2px solid #ac1700;
+    color: #000000;
+}
+.mfp-bg {
+    background: #ac1700;
+    opacity: 0.8;
+}
+.faq_content .gradient_box {
+    background: -webkit-linear-gradient(left, rgba(172, 23, 0,1) 41%,rgba(0,0,0,0.8) 99%) !important;
+    background: linear-gradient(to right, rgba(172, 23, 0,1) 41%,rgba(0,0,0,0.8) 99%) !important;
+}
+.btn, button, .btn-default, .gradient_box, .roadmap.gradient_box:before, .roadmap.gradient_box:before, .roadmap_icon.icon_gradient_box::before, .newsletter_form .outline_input, .progress-bar, .wpcf7-form input[type="submit"]{
+    background: rgba(172, 23, 1);
+}
+.btn-default::before, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active:focus, .btn-default:active:hover, .btn-default.active, .btn-default:active, .btn-default.focus:active, .btn-default:focus, .btn.active:not(:disabled):not(.disabled), .btn:active:not(:disabled):not(.disabled), .social_team a::before, .wpcf7-form input[type="submit"]:hover {
+    background: rgba(0,0,0,1);
+}
+
+.btn:hover span, header a:hover, .navbar-nav li a.active, .v_light header a:hover, .v_light .navbar-nav li a.active, .banner_text h1 span, .box_inner i, .social_single_team li a, .contact_detail span, .footer_menu li a:hover, .footer_link a:hover, .blog_title a:hover, .v_blue .blog_title a:hover, .v_dark .blog_title a:hover, .v_dark_light .blog_title a:hover, .blog_meta li a:hover, .v_blue .blog_meta li a:hover, .v_dark .blog_meta li a:hover, .v_dark_light .blog_meta li a:hover, .blog_content a:hover, .v_blue .blog_content a:hover, .v_dark .blog_content a:hover, .v_dark_light .blog_content a:hover, .widget_category li a:hover, .widget_archive li a:hover, .widget-post-content a:hover, .tags li a:hover, .v_blue .widget_category li a:hover, .v_blue .widget_archive li a:hover, .v_blue .widget-post-content h6 a:hover, .v_blue .tags li a:hover, .v_dark .widget_category li a:hover, .v_dark .widget_archive li a:hover, .v_dark .widget-post-content h6 a:hover, .v_dark .tags li a:hover, .v_dark_light .widget_category li a:hover, .v_dark_light .widget_archive li a:hover, .v_dark_light .widget-post-content h6 a:hover, .v_dark_light .tags li a:hover, .meta_data a:hover, .comment-reply:hover, .v_blue .meta_data a:hover, .v_blue .comment-reply:hover, .v_dark .meta_data a:hover, .v_dark .comment-reply:hover, .v_dark_light .meta_data a:hover, .v_dark_light .comment-reply:hover, .forgot_pass:hover, .authorize_form a:hover, .v_blue .forgot_pass:hover, .v_blue .authorize_form .form-group span a:hover, .v_dark .forgot_pass:hover, .v_dark .authorize_form .form-group span a:hover, .v_dark_light .forgot_pass:hover, .v_dark_light .authorize_form .form-group span a:hover{
+	color: #ac1700;
+}
+.btn span {
+    color: #000000;
+}
+.team_info, .roadmap_inner, .roadmap::before, .roadmap_inner::before, .roadmap_inner::after, .roadmap .owl-nav i, .roadmap_icon::before, .social_team a, .footer_social li a:hover, .v_light .roadmap_inner::before, .v_light .roadmap_inner::after, .v_light .roadmap::before, .v_light .roadmap_inner, .v_light .roadmap .owl-nav i, .v_light .team_info, .v_light .footer_social li a:hover{
+	background-color: #ac1700;
+}
+.roadmap .owl-nav .disabled i {
+    color: #9FB3D7;
+}
+.bottom_footer {
+    background-color: #222222;
+}
+
+/*Placeholder*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000000 !important ;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:  #000000 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color:  #000000 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color:  #000000 !important;
+}

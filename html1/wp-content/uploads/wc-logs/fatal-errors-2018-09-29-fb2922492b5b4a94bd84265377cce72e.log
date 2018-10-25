@@ -1,0 +1,4 @@
+2018-09-29T05:11:44+00:00 CRITICAL imagecreatefromstring(): gd-jpeg: JPEG library reports unrecoverable error: Bogus Huffman table definition
+
+2018-09-29T05:12:35+00:00 CRITICAL imagecreatefromstring(): gd-jpeg: JPEG library reports unrecoverable error: Bogus Huffman table definition
+

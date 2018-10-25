@@ -1,0 +1,107 @@
+// /*-Accordion-*/
+.wpb-js-composer .vc_row .vc_tta.vc_general {
+    .vc_tta-panel{
+        margin-bottom: -1px;
+        &.vc_active{
+            .vc_tta-panel-heading{
+                background: #ffffff;
+                border-bottom-color: transparent;
+            }
+        }
+    }
+    .vc_tta-panel-heading{
+        border-color: #eeeeee;
+        border-radius: 0;
+        border-width: 1px;
+        border-left-width: 0;
+        border-right-width: 0;
+        margin: 0 !important;
+        background: #fcfdfe;
+    }
+    .vc_tta-panel-body{
+        padding: 0px 30px 23px;
+        border-width: 1px;
+        background: #ffffff;
+        border-bottom: 1px solid #eeeeee;
+    }
+    .vc_tta-panel-title{
+        &>a{
+            padding: 10px 30px;
+            span{
+                font-size: 20px;
+                line-height: 38px;
+                font-weight: 400;
+            }
+            .vc_tta-controls-icon{
+                color: inherit;
+            }
+            .vc_tta-controls-icon-chevron:before{
+                right: 3px;
+                top: 3px;
+            }
+        }
+        &.vc_tta-controls-icon-position-right{
+            .vc_tta-controls-icon{
+                right: 30px;
+            }
+        }
+        &.vc_tta-controls-icon-position-left{
+            .vc_tta-controls-icon{
+                left: 30px;
+            }
+        }
+    }
+    &.vc_tta-style-dark{
+        .vc_tta-panel-body{
+            background: transparent;
+            color: #e2e2e2;
+            border-bottom-color: #2b2f52;
+        }
+        .vc_tta-panel.vc_active{ 
+            position: relative;
+            z-index: 1;
+            .vc_tta-panel-heading{
+                background: transparent;
+            }
+            .vc_tta-panel-title{
+                &:before{
+                    opacity: 0;
+                }
+            }
+            &:before{
+                content: '';
+                position: absolute;
+                z-index: -1;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: rgba(255,255,255,0.1);
+            }
+        }
+        .vc_tta-panel-heading{
+            background: transparent;
+            border-color: #2b2f52;
+        }
+        .vc_tta-panel-title{
+            position: relative;
+            z-index: 1;
+            &>a{
+                span,
+                .vc_tta-controls-icon{
+                    color: #ffffff;
+                }
+            }
+            &:before{
+                content: '';
+                position: absolute;
+                z-index: -1;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: rgba(255,255,255,0.05);
+            }
+        }
+    }
+}

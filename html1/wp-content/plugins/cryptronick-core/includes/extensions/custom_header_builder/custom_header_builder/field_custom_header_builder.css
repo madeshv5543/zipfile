@@ -1,0 +1,125 @@
+.redux-container-custom_header_builder ul {
+    background: #F9F9F9;
+    border: 1px solid #E3E3E3;
+    min-height: 40px;
+    padding: 10px 10px 0;
+    width: 145px;
+    float: left;
+    margin: 0 15px 0 0;
+    position: relative;
+}
+
+.redux-container-custom_header_builder .edit_column{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+.redux-container-custom_header_builder .edit_column a{
+    color:#fff;
+}
+.bpt_header_row{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.redux-container-custom_header_builder ul.filled {
+    opacity: .7;
+    filter: alpha(opacity=70);
+    background: #efecec;
+}
+.redux-container-custom_header_builder ul li {
+    border: 1px solid #4a98cd;
+    cursor: move;
+    margin-bottom: 10px !important;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px !important;
+    background:#5cabe1;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color:#fff;
+    margin-right: 5px;
+}
+.redux-container-custom_header_builder ul li:hover{
+    background:#4a98cd;
+}
+
+.redux-container-custom_header_builder .sortee.ui-sortable-helper{
+    background:#5cabe1 !important;
+}
+
+
+#bottom_header_layout_items h3{
+  width: 100%;
+  text-transform: capitalize;
+}
+.bpt_header_items{
+    margin-bottom: 20px;
+}
+
+.redux-container-custom_header_builder ul li h3 {
+    margin: 0 0 10px;
+    text-align: center;
+    color: #777;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.redux-container-custom_header_builder ul li.placeholder {
+    height: 40px;
+}
+.wp-customizer .redux-container-custom_header_builder ul {
+    width: 85%;
+    margin: 0 0 5px 0;
+}
+.bpt_header_row{
+	clear:both;
+	margin-bottom: 20px;
+}
+.bpt_header_row:after,.bpt_header_items:after{
+	content: '';
+	clear: both;
+	height: 0;
+	display: block;
+}
+.bpt_header_row > ul{
+	width: calc(33% - 20px);
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+
+.bpt_header_items > ul{
+    width: 100%;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    background: #ffffff;
+    min-height: 110px;
+    box-sizing: border-box;
+    margin:0;
+}
+
+.select2-drop{
+    z-index: 105001;
+}
+
+.redux-container-custom_header_builder .bpt_header_row ul{
+    border: 1px dashed #E3E3E3;
+}

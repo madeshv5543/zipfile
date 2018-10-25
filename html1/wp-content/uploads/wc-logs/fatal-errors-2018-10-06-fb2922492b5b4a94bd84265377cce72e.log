@@ -1,0 +1,5 @@
+2018-10-06T22:54:20+00:00 CRITICAL imagecreatefromstring(): gd-png: fatal libpng error: incorrect data check
+
+
+2018-10-06T22:55:23+00:00 CRITICAL imagecreatefromstring(): gd-jpeg: JPEG library reports unrecoverable error: Bogus Huffman table definition
+

@@ -1,0 +1,170 @@
+// /*-Toggle-*/
+.vc_row .vc_toggle{
+    &.vc_toggle_active{
+        .vc_toggle_title{
+            background: #ffffff;
+            border-bottom-color: transparent;
+        }
+    }
+    margin-bottom: -1px;
+    .vc_toggle_title{
+        padding: 10px 30px;
+        border: 1px solid #eeeeee;
+        background: #fcfdfe;
+        border-left-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 0;
+        transition: all 0.4s;
+        h4{
+            font-size: 20px;
+            line-height: 38px;
+            font-weight: 400;
+        }
+    }
+    .vc_toggle_content{
+        margin: 0;
+        padding: 0 30px 23px;
+        border: 1px solid transparent;
+        background: #ffffff;
+        border-bottom: 1px solid #eeeeee;
+        p:last-child{
+            margin-bottom: 0;
+        }
+    }
+    &.vc_toggle_dark{
+        .vc_toggle_content{
+            background: rgba(255,255,255,0.05);
+            border-bottom-color: #2b2f52;
+            color: #e2e2e2;
+            transition: background 0.4s;
+        }
+        .vc_toggle_title{
+            background: rgba(255,255,255,0.05);
+            border-color: #2b2f52;
+            h4,
+            i{
+                color: #ffffff;
+            }
+        }
+        &.vc_toggle_active{
+            .vc_toggle_title{
+                border-bottom-color: transparent;
+                background: rgba(255, 255, 255, 0.1);
+            }
+            .vc_toggle_content{
+                background: rgba(255,255,255,0.1);
+            }
+        }
+    }
+    .vc_toggle_icon{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+        height: 12px;
+        width: 12px;
+    }
+    &.vc_toggle_color_chevron{
+        .vc_toggle_icon{
+            &:before{
+                content: '';
+                display: block;
+                position: absolute;
+                box-sizing: border-box;
+                left: 2px;
+                right: 3px;
+                top: 3px;
+                bottom: 2px;
+                border-style: solid;
+                border-width: 0 2px 2px 0;
+                transform: rotate(45deg) translate(-25%,-25%);
+                transition: all .2s ease-in-out;
+            }
+        }
+        &.vc_toggle_active{
+            .vc_toggle_icon{
+                &:before{
+                    transform: rotate(225deg) translate(-25%,-25%);
+                }
+            }
+        }
+    }
+    &.vc_toggle_color_plus{
+        .vc_toggle_icon{
+            &:before,
+            &:after{
+                content: '';
+                display: block;
+                position: absolute;
+                box-sizing: border-box;
+                border-style: solid;
+                transition: all .2s ease-in-out;
+            }
+            &:before{
+                left: 0;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                border-width: 2px 0 0;
+            }
+            &:after{
+                left: 50%;
+                bottom: 0;
+                top: 0;
+                transform: translateX(-50%);
+                border-width: 0 0 0 2px;
+            }
+        }
+        &.vc_toggle_active{
+            .vc_toggle_icon{
+                &:after{
+                    transform: rotate(90deg);
+                }
+            }
+        }
+    }
+    &.vc_toggle_color_triangle{
+        .vc_toggle_icon{
+            &:before{
+                content: '';
+                display: block;
+                position: absolute;
+                box-sizing: border-box;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                border-style: solid;
+                border-width: 6px;
+                border-bottom-color: transparent!important;
+                border-right-color: transparent!important;
+                border-left-color: transparent!important;
+                transform: translateY(25%);
+                transition: all .2s ease-in-out;
+            }
+        }
+        &.vc_toggle_active{
+            .vc_toggle_icon{
+                &:before{
+                    transform: rotate(180deg) translateY(25%);
+                }
+            }
+        }
+    }
+    &.vc_toggle_size_right{
+        .vc_toggle_title{
+            padding-right: 50px;
+        }
+        .vc_toggle_icon{
+            right: 30px;
+        }
+    }
+    &.vc_toggle_size_left{
+        .vc_toggle_title{
+            padding-left: 50px;
+        }
+        .vc_toggle_icon{
+            left: 30px;
+        }
+    }
+}

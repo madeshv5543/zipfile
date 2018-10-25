@@ -1,0 +1,19 @@
+/* Text Widget */
+.textwidget p {
+	text-align: left;
+}
+
+.textwidget img {
+	margin: 0 auto 25px auto;
+	vertical-align: top;
+	max-width: 100%;
+}
+
+.textwidget img.rounded {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.textwidget a img {
+	margin: 0 auto;
+}

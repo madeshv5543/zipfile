@@ -1,0 +1,35 @@
+.search_result_form,
+.post-password-form {
+	max-width: 500px;
+	padding: 0 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search_result_form .search_text,
+.post-password-form input[type=password] {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.post-password-form input[type=password]{
+	margin-top: 5px;
+}
+.format-standard .blog-post_content .post-password-form input[type=password], 
+.format-audio .blog-post_content .post-password-form input[type=password], 
+.format-quote .blog-post_content .post-password-form input[type=password], 
+.format-link .blog-post_content .post-password-form input[type=password],
+.format-standard .blog-post_content pre, 
+.format-audio .blog-post_content pre, 
+.format-quote .blog-post_content pre, 
+.format-link .blog-post_content pre{
+	background: #ffffff;
+}
+.format-standard .blog-post_content .post-password-form, 
+.format-audio .blog-post_content .post-password-form, 
+.format-quote .blog-post_content .post-password-form, 
+.format-link .blog-post_content .post-password-form{
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 0;
+}
